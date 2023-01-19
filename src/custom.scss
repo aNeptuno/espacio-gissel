@@ -22,5 +22,13 @@ $navbar-light-active-color:         $gissel-color;
     border: none !important;
 }
 
+.navbar {
+    background-color: #FFFFFF;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
 //import bootstrap style at the bottom
 @import '~bootstrap/scss/bootstrap.scss';

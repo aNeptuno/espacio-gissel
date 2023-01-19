@@ -9,27 +9,31 @@ import {
   NavLink,
 } from "react-router-dom";
 
-
+import logoImg from "./logo-gissel-color.png";
 
 function NavbarComponent() {
 
   return (
-        <Navbar bg="light" expand="lg">
-          <Container>
-            <Navbar.Brand>Espacio Gissel</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link as={NavLink} to="/" >Inicio</Nav.Link>
-                <Nav.Link as={NavLink} to="/Conoceme" >Conoceme</Nav.Link>
-                <Nav.Link as={NavLink} to="/NoMatch" >Masajes</Nav.Link>
-                <Nav.Link as={NavLink} to="/NoMatch" >Terapias</Nav.Link>
-                <Nav.Link as={NavLink} to="/NoMatch" >Testimonios</Nav.Link>
-                <Nav.Link as={NavLink} to="/Contacto" >Contacto</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
+        <div className='container'>
+          <Navbar  expand="lg">
+            <Container>
+              <Navbar.Brand>
+                <img src={logoImg} alt="Espacio Gissel Logo" width="60px"/>
+              </Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
+                  <Nav.Link as={NavLink} to="/">Inicio</Nav.Link>
+                  <Nav.Link as={NavLink} to="/Conoceme" >Conoceme</Nav.Link>
+                  <Nav.Link as={NavLink} to="/NoMatch" >Masajes</Nav.Link>
+                  <Nav.Link as={NavLink} to="/NoMatch" >Terapias</Nav.Link>
+                  <Nav.Link as={NavLink} to="/NoMatch" >Testimonios</Nav.Link>
+                  <Nav.Link as={NavLink} to="/Contacto" >Contacto</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
+        </div>
   );
 }
 
