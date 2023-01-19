@@ -1,0 +1,26 @@
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.nav-link {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-size: 20px !important;
+}
+
+
+//create variables
+$gissel-color : #11BAAA;
+
+//change variables
+$navbar-light-color:                #AAB4B3;
+$navbar-light-hover-color:          $gissel-color;
+$navbar-light-active-color:         $gissel-color;
+
+.navbar-toggler {
+    border: none !important;
+}
+
+//import bootstrap style at the bottom
+@import '~bootstrap/scss/bootstrap.scss';
