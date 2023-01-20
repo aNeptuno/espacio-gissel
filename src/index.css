@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #F9F6EE;
@@ -12,11 +13,32 @@ body {
 
 .title {
   font-family: 'Kaushan Script', cursive;
-  font-size: 40px;
+  font-size: 35px;
+  color: #11BAAA;
 }
 
 .text {
   font-family: 'Bellefair', serif;
   font-size: 20px;
 }
+
+.subtitle {
+  font-family: 'Bellefair', serif;
+  font-size: 25px;
+  color: #11BAAA;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.p-top-0 {
+  padding-top: 0;
+}
+
+.about-img {
+  width: 50%;
+}
+
+
 

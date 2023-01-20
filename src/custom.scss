@@ -6,7 +6,8 @@
 
 .nav-link {
     font-family: 'Nunito Sans', sans-serif !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
+    padding: 10px !important;
 }
 
 
@@ -24,11 +25,18 @@ $navbar-light-active-color:         $gissel-color;
 
 .navbar {
     background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 !important;
 }
 
 .navbar-collapse {
     flex-grow: 0 !important;
 }
+
+nav .container {
+    padding: 0 25px !important;
+}
+
 
 //import bootstrap style at the bottom
 @import '~bootstrap/scss/bootstrap.scss';

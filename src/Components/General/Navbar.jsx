@@ -15,10 +15,10 @@ function NavbarComponent() {
 
   return (
         <div className='container'>
-          <Navbar  expand="lg">
+          <Navbar expand="lg">
             <Container>
               <Navbar.Brand>
-                <img src={logoImg} alt="Espacio Gissel Logo" width="60px"/>
+                <img src={logoImg} alt="Espacio Gissel Logo" width="70px"/>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
