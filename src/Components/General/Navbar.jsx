@@ -2,23 +2,31 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import {
-  BrowserRouter,
-  Routes, 
-  Route,
-  NavLink,
-} from "react-router-dom";
+import {useState, useEffect } from 'react';
+
+import { NavLink } from "react-router-dom";
 
 import logoImg from "./logo-gissel-color.png";
 
 function NavbarComponent() {
+
+  /* const [sticky, setSticky] = useState(false);
+  useEffect(()=>{
+    const handleScroll = () => {
+      setSticky(window.scrollY > 200)
+    }
+    window.addEventListener('scroll',handleScroll)
+    return () => window.removeEventListener('scroll',handleScroll);
+  }) */
 
   return (
         <div className='container'>
           <Navbar expand="lg">
             <Container>
               <Navbar.Brand>
-                <img src={logoImg} alt="Espacio Gissel Logo" width="70px"/>
+                <Nav.Link as={NavLink} to="/">
+                  <img src={logoImg} alt="Espacio Gissel Logo" width="70px"/>
+                </Nav.Link>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">

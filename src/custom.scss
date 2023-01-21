@@ -19,6 +19,9 @@ $navbar-light-color:                #AAB4B3;
 $navbar-light-hover-color:          $gissel-color;
 $navbar-light-active-color:         $gissel-color;
 
+$primary: $gissel-color;
+$btn-font-family: 'Nunito Sans', sans-serif;
+
 .navbar-toggler {
     border: none !important;
 }
@@ -27,6 +30,7 @@ $navbar-light-active-color:         $gissel-color;
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 0 !important;
+    margin: auto;
 }
 
 .navbar-collapse {
@@ -37,6 +41,15 @@ nav .container {
     padding: 0 25px !important;
 }
 
+.navbar-brand .nav-link {
+    padding: 0 !important;
+}
+
+.navbar-shadow {
+    height: 80px;
+    display: block;
+    background-color: #F9F6EE;
+}
 
 //import bootstrap style at the bottom
 @import '~bootstrap/scss/bootstrap.scss';
