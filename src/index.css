@@ -9,6 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFFFFF;
+  overflow-x: hidden;
 }
 
 .title {
@@ -45,9 +46,33 @@ body {
   width: 50%;
 }
 
-.header {
-  background-color: #F9F6EE;
+.about-text {
+  position: relative;
 }
 
+.header {
+  background-color: #F9F6EE;
+  position: relative;
+  min-height: 700px;
+}
 
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index:1000;
+}
 
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(256% + 1.3px);
+  height: 186px;
+}
+
+.wave .shape-fill {
+  fill: #FFFFFF;
+}

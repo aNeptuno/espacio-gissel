@@ -64,6 +64,10 @@ nav .container {
     padding: 0 !important;
 }
 
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    padding-right: calc(var(--bs-gutter-x) * 1) !important;
+    padding-left: calc(var(--bs-gutter-x) * 1) !important;
+}
 
 
 //import bootstrap style at the bottom
