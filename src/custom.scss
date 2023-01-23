@@ -22,8 +22,27 @@ $navbar-light-active-color:         $gissel-color;
 $primary: $gissel-color;
 $btn-font-family: 'Nunito Sans', sans-serif;
 
+.btn-primary { 
+    color: #FFFFFF !important;
+}
+
+.btn-secondary { 
+    color: #AAB4B3 !important;
+}
+
+.btn {
+    font-size: 14px !important;
+    letter-spacing: 1px;
+    --bs-btn-padding-y: 10px !important;
+    --bs-btn-padding-x: 2.5em !important;
+}
+
 .navbar-toggler {
     border: none !important;
+}
+
+.navbar-toggler-icon {
+    color: $gissel-color !important;
 }
 
 .navbar {
@@ -45,11 +64,7 @@ nav .container {
     padding: 0 !important;
 }
 
-.navbar-shadow {
-    height: 80px;
-    display: block;
-    background-color: #F9F6EE;
-}
+
 
 //import bootstrap style at the bottom
 @import '~bootstrap/scss/bootstrap.scss';

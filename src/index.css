@@ -8,7 +8,7 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F9F6EE;
+  background-color: #FFFFFF;
 }
 
 .title {
@@ -19,7 +19,7 @@ body {
 
 .text {
   font-family: 'Bellefair', serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .subtitle {
@@ -37,11 +37,17 @@ body {
   padding-top: 0;
 }
 
+.p-bottom-60 {
+  padding-bottom: 60px;
+}
+
 .about-img {
   width: 50%;
 }
 
-
+.header {
+  background-color: #F9F6EE;
+}
 
 
 

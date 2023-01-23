@@ -25,7 +25,7 @@ function NavbarComponent() {
             <Container>
               <Navbar.Brand>
                 <Nav.Link as={NavLink} to="/">
-                  <img src={logoImg} alt="Espacio Gissel Logo" width="70px"/>
+                  <img src={logoImg} alt="Espacio Gissel Logo" width="65px"/>
                 </Nav.Link>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />

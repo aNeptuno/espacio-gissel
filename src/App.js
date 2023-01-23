@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './Components/General/Navbar';
-import { NavbarShadow } from './Components/General/NavbarShadow';
 import { NoMatch } from './Components/NoMatch';
 
 import { Home } from './Components/Home';
