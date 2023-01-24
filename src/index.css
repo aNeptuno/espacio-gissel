@@ -3,12 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');  /* Para los títulos (className title) */
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');       /* Para el texto (className texto) */
 
+/* GENERAL STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFFFF;
+ /*  background-color: #F5F5F5; */
+ background-color: #FFFFFF;
   overflow-x: hidden;
 }
 
@@ -42,8 +49,31 @@ body {
   padding-bottom: 60px;
 }
 
+.aboutBtns {
+  width: 200px;
+}
+
+.aboutBtns-container-1200 {
+  display: none;
+}
+
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+/* ABOUT MAIN PAGE */
 .about-img {
   width: 50%;
+}
+
+.about-img img {
+  max-width: 400px;
 }
 
 .about-text {
@@ -76,3 +106,56 @@ body {
 .wave .shape-fill {
   fill: #FFFFFF;
 }
+
+/* ABOUT MAIN PAGE */
+
+.about-cont {
+  position: relative;
+}
+
+.hand-container{
+  position: absolute;
+  top: 0;
+  right: 30%;
+}
+
+
+.hand-container .svg-inline--fa { 
+	height: 14em;
+}
+
+.btn-circle .svg-inline--fa { 
+	height: 2em;
+}
+
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 1200px) {
+  /* ABOUT MAIN PAGE */
+  .about-cont {
+    flex-direction: row-reverse !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .about-img img {
+    max-width: 350px;
+  }
+  .about-text{
+    padding-bottom: 0 !important;
+  }
+  .aboutBtns-container{
+    display:none;
+  }
+  .aboutBtns-container-1200{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+}
+
+@media (max-width: 992px) {
+ /*  HEADER */
+}
+

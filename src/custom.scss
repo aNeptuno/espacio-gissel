@@ -1,5 +1,5 @@
 
-//fonts
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
@@ -11,10 +11,10 @@
 }
 
 
-//create variables
+/* create variables */
 $gissel-color : #11BAAA;
 
-//change variables
+/* change variables */
 $navbar-light-color:                #AAB4B3;
 $navbar-light-hover-color:          $gissel-color;
 $navbar-light-active-color:         $gissel-color;
@@ -32,10 +32,15 @@ $btn-font-family: 'Nunito Sans', sans-serif;
 
 .btn {
     font-size: 14px !important;
-    letter-spacing: 1px;
+    letter-spacing: .8px;
     --bs-btn-padding-y: 10px !important;
     --bs-btn-padding-x: 2.5em !important;
 }
+
+.btn-outline-primary {
+    --bs-btn-hover-color: #FFFFFF !important;
+}
+  
 
 .navbar-toggler {
     border: none !important;
@@ -69,6 +74,12 @@ nav .container {
     padding-left: calc(var(--bs-gutter-x) * 1) !important;
 }
 
+/* @media (min-width: 768px){
+    .container, .container-sm, .container-md {
+        max-width: 800px;
+    }
+} */
 
-//import bootstrap style at the bottom
+
+/* import bootstrap style at the bottom */
 @import '~bootstrap/scss/bootstrap.scss';

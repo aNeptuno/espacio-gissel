@@ -21,12 +21,12 @@ function Header() {
                     <div className='btn-container pe-5'>
                         <Button variant="primary">SABER MÁS</Button>
                     </div>
-                <div className='btn-container pe-5'>
-                    <Button variant="outline-secondary">CONTACTO</Button>
+                    <div className='btn-container pe-5'>
+                        <Button variant="outline-secondary">CONTACTO</Button>
+                    </div>
                 </div>
-            </div>
        
-        </div>
+            </div>
 
 
             <div className="w-40">
