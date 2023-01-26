@@ -41,7 +41,7 @@ export const Terapias = () => {
                         <Button variant="primary">Leer más</Button>
                     </Card.Body>
                 </Card>
-                <Card className="col-lg-3 col-md-6 col-xs-12 m-1">
+                <Card className="col-lg-3 col-md-5 col-xs-12 m-4">
                     <Card.Body>
                         <FontAwesomeIcon icon={faWind} />
                         <Card.Title>Flores de Bach y Mediterráneo</Card.Title>
@@ -50,7 +50,7 @@ export const Terapias = () => {
                         </Card.Text>
                         <Button variant="primary">Leer más</Button>
                     </Card.Body>
-                </Card><Card className="col-lg-3 col-md-6 col-xs-12 m-1">
+                </Card><Card className="col-lg-3 col-md-5 col-xs-12 m-4">
                     <Card.Body>
                         <FontAwesomeIcon icon={faWind} />
                         <Card.Title>Flores de Bach y Mediterráneo</Card.Title>
@@ -59,7 +59,7 @@ export const Terapias = () => {
                         </Card.Text>
                         <Button variant="primary">Leer más</Button>
                     </Card.Body>
-                </Card><Card className="col-lg-3 col-md-6 col-xs-12 m-1">
+                </Card><Card className="col-lg-3 col-md-5 col-xs-12 m-4">
                     <Card.Body>
                         <FontAwesomeIcon icon={faWind} />
                         <Card.Title>Flores de Bach y Mediterráneo</Card.Title>
