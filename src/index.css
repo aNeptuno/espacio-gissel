@@ -129,6 +129,11 @@ body {
 	height: 2em;
 }
 
+.cards-container .svg-inline--fa { 
+	height: 2.2em;
+}
+
+
 
 
 /* MEDIA QUERYS */

@@ -10,7 +10,7 @@ export const Terapias = () => {
             <h1 className="title">Terapias y tratamientos <i className="fa-brands fa-github"></i></h1>
             <h2 className="text">Texto corto introductorio a los distintos tipos de terapias y tratamientos que ofrece el espacio.</h2>
 
-            <div class="row justify-content-evenly">
+            <div class="row justify-content-evenly cards-container">
                 <Card className="col-lg-3 col-md-5 col-xs-12 m-4">
                     <Card.Body>
                         <FontAwesomeIcon icon={faWind} />
