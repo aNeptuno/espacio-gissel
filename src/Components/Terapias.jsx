@@ -11,8 +11,8 @@ import { fa7 } from '@fortawesome/free-solid-svg-icons';
 export const Terapias = () => {
     return (
         <div className="container">
-            <h1 className="title">Terapias y tratamientos <i className="fa-brands fa-github"></i></h1>
-            <h2 className="text">Texto corto introductorio a los distintos tipos de terapias y tratamientos que ofrece el espacio.</h2>
+            <h1 className="title text-center pb-2 pt-2">Terapias y tratamientos</h1>
+            <h2 className="text text-center pt-3 pb-3">Texto corto introductorio a los distintos tipos de terapias y tratamientos que ofrece el espacio.</h2>
 
             <div class="row justify-content-evenly cards-container">
                 <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
@@ -45,7 +45,7 @@ export const Terapias = () => {
                         <FontAwesomeIcon icon={faHandsHoldingCircle} className="card-component icon-color" />
                         <Card.Title className="subtitle card-component">Barras de Access</Card.Title>
                         <Card.Text className="text card-component">
-                            Técnica de aplicación manual que trabaja con los pensamientos del inconsciente.
+                            Técnica de aplicación manual energética que trabaja con el inconsciente generando cambios en las emociones y pensamientos limitantes.
                         </Card.Text>
                     </Card.Body>
                     <Card.Body>

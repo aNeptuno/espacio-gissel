@@ -10,18 +10,18 @@ function Header() {
         <div className="header">
         <div className="container d-flex flex-row justify-content-between pt-5">
             <div className="w-50">
-                <h1 className="title pt-4 pb-5">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
+                <h1 className="title pt-4 pb-5 text-left">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
 
-                <p className="text p-bottom-60">
+                <p className="text p-bottom-60 text-left">
                     Las terapias de medicina holística despiertan el potencial de sanación interior, 
                     trabajan la mente, el cuerpo y el espíritu para lograr bienestar y salud.
                 </p>
 
                 <div className='d-flex flex-row'>
-                    <div className='btn-container pe-5'>
+                    <div className='btn-container'>
                         <Button variant="primary">SABER MÁS</Button>
                     </div>
-                    <div className='btn-container pe-5'>
+                    <div className='btn-container'>
                         <Button variant="outline-secondary">CONTACTO</Button>
                     </div>
                 </div>
