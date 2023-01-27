@@ -129,10 +129,19 @@ body {
 	height: 2em;
 }
 
+/* TERAPIAS */
+
 .cards-container .svg-inline--fa { 
 	height: 2.2em;
 }
 
+.icon-color{
+  color: #11BAAA;
+}
+
+.card-elem:hover {
+  color: white;
+}
 
 
 
