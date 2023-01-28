@@ -23,9 +23,9 @@ export const Terapias = () => {
                             Medicina alternativa basada en el uso de materiales aromáticos.
                         </Card.Text>
                     </Card.Body>
-                    <Card.Body>
+                    <Card.Footer>
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
-                    </Card.Body>
+                    </Card.Footer>
                 </Card>
 
                 <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
@@ -36,9 +36,9 @@ export const Terapias = () => {
                             Se utilizan esencias florales para ayudar a generar cambios en las emociones y los sentimientos.
                         </Card.Text>
                     </Card.Body>
-                    <Card.Body>
+                    <Card.Footer>
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
-                    </Card.Body>
+                    </Card.Footer>
                 </Card>
                 <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
                     <Card.Body>
@@ -48,9 +48,9 @@ export const Terapias = () => {
                             Técnica de aplicación manual energética que trabaja con el inconsciente generando cambios en las emociones y pensamientos limitantes.
                         </Card.Text>
                     </Card.Body>
-                    <Card.Body>
+                    <Card.Footer>
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
-                    </Card.Body>
+                    </Card.Footer>
                 </Card>
                 <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
                     <Card.Body>
@@ -60,9 +60,9 @@ export const Terapias = () => {
                             Resonador holistico que emplea frecuencias de alta vibración cuántica para ayudarte al equilibrio.
                         </Card.Text>
                     </Card.Body>
-                    <Card.Body>
+                    <Card.Footer>
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
-                    </Card.Body>
+                    </Card.Footer>
                 </Card>
                 <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
                     <Card.Body>
@@ -72,9 +72,9 @@ export const Terapias = () => {
                             TEXTO PLACEHOLDER
                         </Card.Text>
                     </Card.Body>
-                    <Card.Body>
+                    <Card.Footer>
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
-                    </Card.Body>
+                    </Card.Footer>
                 </Card>
                 <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
                     <Card.Body>
@@ -84,9 +84,9 @@ export const Terapias = () => {
                             TEXTO PLACEHOLDER
                         </Card.Text>
                     </Card.Body>
-                    <Card.Body>
+                    <Card.Footer>
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
-                    </Card.Body>
+                    </Card.Footer>
                 </Card>
 
                 <p className="text">
