@@ -7,6 +7,8 @@ import { NoMatch } from './Components/NoMatch';
 import { Home } from './Components/Home';
 import { About } from './Components/About';
 import { Contacto } from './Components/Contacto';
+import { Footer } from './Components/General/Footer';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Route path='/Conoceme' element={ <About />}></Route>
       <Route path='/Contacto' element={ <Contacto />}></Route>
     </Routes> 
+    <Footer />
     </>
   );
 }

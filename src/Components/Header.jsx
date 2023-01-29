@@ -5,9 +5,12 @@ import header1 from '../img/header1.png';
 import header2 from '../img/header2.jpg';
 import header3 from '../img/header3.jpg';
 
+import TsParticles from "./General/tsparticles";
+
 function Header() {
     return (
         <div className="header">
+        <TsParticles />
         <div className="container d-flex flex-row justify-content-between pt-5">
             <div className="w-50">
                 <h1 className="title pt-4 pb-5 text-left">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
