@@ -10,12 +10,13 @@ import { fa7 } from '@fortawesome/free-solid-svg-icons';
 
 export const Terapias = () => {
     return (
-        <div className="container">
+        <div className="container p-4">
             <h1 className="title text-center pb-2 pt-2">Terapias y tratamientos</h1>
             <h2 className="text text-center pt-3 pb-3">Texto corto introductorio a los distintos tipos de terapias y tratamientos que ofrece el espacio.</h2>
 
-            <div class="row justify-content-evenly cards-container">
-                <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-5 cards-container">
+            <div class="col">
+                <Card className="card-elem d-flex text-center h-100">
                     <Card.Body>
                         <FontAwesomeIcon icon={faWind} className="card-component icon-color" />
                         <Card.Title className="subtitle card-component">Aromaterapia</Card.Title>
@@ -27,8 +28,10 @@ export const Terapias = () => {
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
+                </div>
 
-                <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
+                <div class="col">
+                <Card className="card-elem text-center h-100">
                     <Card.Body>
                         <FontAwesomeIcon icon={faEyeDropper} className="card-component icon-color" />
                         <Card.Title className="subtitle card-component">Flores de Bach y Mediterráneo</Card.Title>
@@ -40,7 +43,10 @@ export const Terapias = () => {
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
-                <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
+                </div>
+
+                <div class="col">
+                <Card className="card-elem text-center h-100">
                     <Card.Body>
                         <FontAwesomeIcon icon={faHandsHoldingCircle} className="card-component icon-color" />
                         <Card.Title className="subtitle card-component">Barras de Access</Card.Title>
@@ -52,7 +58,10 @@ export const Terapias = () => {
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
-                <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
+                </div>
+
+                <div class="col">
+                <Card className="card-elem text-center h-100">
                     <Card.Body>
                         <FontAwesomeIcon icon={faWaveSquare} className="card-component icon-color" />
                         <Card.Title className="subtitle card-component">Terapia con frecuencias</Card.Title>
@@ -64,7 +73,10 @@ export const Terapias = () => {
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
-                <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
+                </div>
+
+                <div class="col">
+                <Card className="card-elem text-center h-100">
                     <Card.Body>
                         <FontAwesomeIcon icon={faMoon} className="card-component icon-color" />
                         <Card.Title className="subtitle card-component">Cartas natales</Card.Title>
@@ -76,7 +88,10 @@ export const Terapias = () => {
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
-                <Card className="card-elem col-lg-3 col-md-5 col-xs-12 m-4 text-center">
+                </div>
+
+                <div class="col">
+                <Card className="card-elem text-center h-100">
                     <Card.Body>
                         <FontAwesomeIcon icon={fa7} className="card-component icon-color" />
                         <Card.Title className="subtitle card-component">Cartas numerológicas</Card.Title>
@@ -88,16 +103,9 @@ export const Terapias = () => {
                         <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
-
-                <p className="text">
-                    AROMATERAPIA <i className="fa-solid fa-wind"></i>
-                    FLORES DE BACH <i className="fa-solid fa-eye-dropper"></i>
-                    BARRAS DE ACCESS <i className="fa-solid fa-hands-holding-circle"></i>
-                    TERAPIA CON FRECUENCIAS <i className="fa-solid fa-wave-square"></i>
-                    CARTAS NATALES <i className="fa-solid fa-moon"></i>
-                    CARTAS NUMEROLOGICAS <i className="fa-solid fa-7"></i>
-                </p>
+                </div>
             </div>
+
         </div>
     )
 }
