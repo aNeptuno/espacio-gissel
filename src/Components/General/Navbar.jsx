@@ -13,7 +13,7 @@ function NavbarComponent() {
   //Change navcolor when scrolling
   const [color, setColor] = useState(false)
   const changeColor = () => {
-    if (window.scrollY >= 72) {
+    if (window.scrollY >= 80) {
       setColor(true)
     } else {
       setColor(false)
