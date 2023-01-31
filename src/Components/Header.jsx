@@ -6,14 +6,17 @@ import header2 from '../img/header2.jpg';
 import header3 from '../img/header3.jpg';
 
 import TsParticles from "./General/tsparticles";
+import Navbar from './General/Navbar';
 
 function Header() {
     return (
         <div className="header">
+            
         <TsParticles />
-        <div className="container d-flex flex-row justify-content-between pt-5">
-            <div className="w-50">
-                <h1 className="title pt-4 pb-5 text-left">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
+        <Navbar /> 
+        <div className="container content d-flex flex-row justify-content-between pt-5">
+            <div className="w-50 z-999">
+                <h1 className="title pt-5 pb-5 text-left">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
 
                 <p className="text p-bottom-60 text-left">
                     Las terapias de medicina holística despiertan el potencial de sanación interior, 
@@ -39,7 +42,7 @@ function Header() {
                         className="d-block"
                         src={header1}
                         alt="First slide"
-                        width="500px"
+                        width="450px"
                         />
                     </Carousel.Item>
                     <Carousel.Item>

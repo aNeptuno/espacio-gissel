@@ -10,18 +10,21 @@ import logoImg from "./logo-gissel-color.png";
 
 function NavbarComponent() {
 
-  /* const [sticky, setSticky] = useState(false);
-  useEffect(()=>{
-    const handleScroll = () => {
-      setSticky(window.scrollY > 200)
+  //Change navcolor when scrolling
+  const [color, setColor] = useState(false)
+  const changeColor = () => {
+    if (window.scrollY >= 72) {
+      setColor(true)
+    } else {
+      setColor(false)
     }
-    window.addEventListener('scroll',handleScroll)
-    return () => window.removeEventListener('scroll',handleScroll);
-  }) */
+  }
+
+  window.addEventListener('scroll', changeColor);
 
   return (
         <div className='container'>
-          <Navbar fixed="top" expand="lg">
+          <Navbar fixed="top" expand="lg" className={color ? 'navbar navbar-bg' : 'navbar'}>
             <Container>
               <Navbar.Brand>
                 <Nav.Link as={NavLink} to="/">

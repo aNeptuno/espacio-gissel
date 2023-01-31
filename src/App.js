@@ -13,7 +13,7 @@ import { Footer } from './Components/General/Footer';
 function App() {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
     <WppBtn />
     <Routes>
       <Route path='/' element={ <Home />}></Route>

@@ -22,7 +22,7 @@ const TsParticles = () => {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                fullScreen: { enable: false, zIndex: 0 }, 
+                fullScreen: { enable: false, zIndex: 0 },  
                 background: {
                     color: {
                         value: "#9ed2ce", 
