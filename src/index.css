@@ -147,10 +147,29 @@ body {
   color: #11BAAA;
 }
 
+.card-footer {
+  background-color: white;
+  border-top: 0px;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
+
+.card-elem {
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
+
 .card-elem:hover {
+  background-color: #11BAAA;
+}
+
+.card-elem:hover .card-component {
   color: white;
 }
 
+.card-elem:hover .card-footer {
+  background-color: #11BAAA;
+}
 /* WPP & HEALY BTN */
 .btn-wsp {
   position: fixed;
