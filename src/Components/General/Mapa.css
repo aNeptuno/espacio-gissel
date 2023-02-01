@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  iframe {
+    display: block;
+    width: 90%;
+    max-width: 60rem;
+    height: 25em;
+    margin: 2rem auto;
+    border: 1px solid black;
+  }
+  h1, p {
+    text-align: center;
+    width: 90%;
+    max-width: 60rem;
+    margin: .5rem auto;
+    text-align: left;
+  }
+  
+  pre {
+    text-align: center;
+    width: 90%;
+    max-width: 60rem;
+    margin: 0 auto;
+    background: #eee;
+    padding: 2rem;
+    border: 1px solid #000;
+  }

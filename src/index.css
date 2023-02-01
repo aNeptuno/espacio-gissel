@@ -309,9 +309,10 @@ body {
 
 /* CONTACTO- FOOTER */
 .contacto {
-  height: 500px;
+  height: 800px;
   background-color: rgba(17, 186, 170, .8);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contacto .title {

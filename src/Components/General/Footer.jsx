@@ -4,14 +4,16 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
+import Mapa from './Mapa';
 
 function Footer () {
     return(
         <div className="contacto" id="contacto">
-            <div className="pt-3">
+            <div className="d-flex flex-row pt-5">
                 <h1 className="title">Espacio</h1>
                 <h1 className="title">Gissel</h1>
             </div>
+            <Mapa />
             <div className='contacto-info'>
                 <p>
                     <FontAwesomeIcon icon={faWhatsapp} color="#ffffff"/> 
