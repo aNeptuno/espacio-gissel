@@ -2,9 +2,10 @@
 
 import Header  from './Header';
 import { Conoceme } from './Conoceme';
-import Masajes from './Masajes';
+import MasajesComponent from './MasajesComponent';
 import { Terapias } from './Terapias';
 import Testimonios from './Testimonios';
+import Footer from './General/Footer';
 
 
 export const Home = () => {
@@ -12,9 +13,10 @@ export const Home = () => {
         <div>
             <Header />
             <Conoceme />
-            <Masajes />
+            <MasajesComponent />
             <Terapias /> 
             <Testimonios />
+            <Footer />
         </div>
        
     ) 

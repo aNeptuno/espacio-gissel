@@ -38,8 +38,8 @@ function NavbarComponent() {
                 <Nav className="me-auto">
                   <Nav.Link as={NavLink} to="/">Inicio</Nav.Link>
                   <Nav.Link as={NavLink} to="/Conoceme" >Conoceme</Nav.Link>
-                  <Nav.Link as={NavLink} to="/NoMatch" >Masajes</Nav.Link>
-                  <Nav.Link as={NavLink} to="/NoMatch" >Terapias</Nav.Link>
+                  <Nav.Link as={NavLink} to="/Masajes" >Masajes</Nav.Link>
+                  <Nav.Link as={NavLink} to="/Terapias" >Terapias</Nav.Link>
                   <Nav.Link as={NavLink} to="/NoMatch" >Testimonios</Nav.Link>
                   <Nav.Link as={NavLink} to="/#contacto">Contacto</Nav.Link> 
                   {/* <Nav.Link onSelect={() => {

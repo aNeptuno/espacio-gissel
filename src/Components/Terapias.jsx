@@ -7,6 +7,7 @@ import { faHandsHoldingCircle } from '@fortawesome/free-solid-svg-icons';
 import { faWaveSquare } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { fa7 } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from "react-router-dom";
 
 export const Terapias = () => {
     return (
@@ -25,7 +26,7 @@ export const Terapias = () => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
+                        <Card.Link as={NavLink} to="/Terapias" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
                 </div>
@@ -40,7 +41,7 @@ export const Terapias = () => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
+                        <Card.Link as={NavLink} to="/Terapias" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
                 </div>
@@ -55,7 +56,7 @@ export const Terapias = () => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
+                        <Card.Link as={NavLink} to="/Terapias" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
                 </div>
@@ -70,7 +71,7 @@ export const Terapias = () => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
+                        <Card.Link as={NavLink} to="/Terapias" className='text card-component'>Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
                 </div>
@@ -85,7 +86,7 @@ export const Terapias = () => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
+                        <Card.Link className='text card-component' as={NavLink} to="/Terapias">Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
                 </div>
@@ -100,7 +101,7 @@ export const Terapias = () => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="#" className='text card-component'>Leer más</Card.Link>
+                        <Card.Link className='text card-component' as={NavLink} to="/Terapias">Leer más</Card.Link>
                     </Card.Footer>
                 </Card>
                 </div>
