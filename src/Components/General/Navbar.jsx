@@ -32,7 +32,7 @@ function NavbarComponent() {
                 </Nav.Link>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
+              <Navbar.Collapse id="basic-navbar-nav" className={color ? '' : 'navbar-collapse-bg'}>
                 <Nav className="me-auto">
                   <Nav.Link as={NavLink} to="/">Inicio</Nav.Link>
                   <Nav.Link as={NavLink} to="/Conoceme" >Conoceme</Nav.Link>

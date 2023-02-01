@@ -27,10 +27,10 @@ const TsParticles = () => {
                     color: {
                         value: "#9ed2ce", 
                     },
-                    /* image: "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%)",  */
+                    image: "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%)",  
                    /*  image: "linear-gradient(to top, #5ee7df 0%, #b490ca 100%)", */
                    /* image: "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)",  */
-                    image: "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)", /* nice */  
+                   /* image: "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)", /* nice */  
                    /* image: "linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);", */ 
                 },
                 fpsLimit: 120,

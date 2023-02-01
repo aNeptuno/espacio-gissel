@@ -15,7 +15,7 @@ function Header() {
         <TsParticles />
         <Navbar /> 
         <div className="container content d-flex flex-row justify-content-between pt-5">
-            <div className="w-50 z-999">
+            <div className="z-999">
                 <h1 className="title pt-5 pb-5 text-left">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
 
                 <p className="text p-bottom-60 text-left">
@@ -23,7 +23,7 @@ function Header() {
                     trabajan la mente, el cuerpo y el espíritu para lograr bienestar y salud.
                 </p>
 
-                <div className='d-flex flex-row'>
+                <div className='d-flex flex-row header-btns'>
                     <div className='btn-container'>
                         <Button variant="primary">SABER MÁS</Button>
                     </div>
@@ -35,33 +35,13 @@ function Header() {
             </div>
 
 
-            <div className="w-40">
-                <Carousel fade controls={false} interval={20000000}>
-                    <Carousel.Item>
-                        <img
-                        className="d-block"
-                        src={header1}
-                        alt="First slide"
-                        width="450px"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block"
-                        src={header2}
-                        alt="Second slide"
-                        width="400px"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block"
-                        src={header3}
-                        alt="Third slide"
-                        width="400px"
-                        />
-                    </Carousel.Item>
-                </Carousel>
+            <div className="z-999 header-img">
+                <img
+                    className="d-block"
+                    src={header1}
+                    alt="Logo"
+                    width="500px"
+                />
             </div>
         </div>
 
