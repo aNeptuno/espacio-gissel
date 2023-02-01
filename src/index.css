@@ -37,6 +37,19 @@ body {
   color: #11BAAA;
 }
 
+.title-orange {
+  color: rgba(236, 75, 25, .8);
+}
+
+.subtitle-orange {
+  color: rgba(236, 75, 25, .6);
+  font-family: 'Kaushan Script', cursive;
+}
+
+.text-orange {
+  color: rgb(236, 75, 25, .8);
+  font-size: 24px;
+}
 
 .p-50 {
   padding: 50px;
@@ -128,6 +141,10 @@ body {
   position: relative;
 }
 
+.about-img {
+  padding-top: 20px;
+}
+
 .hand-container{
   position: absolute;
   top: 0;
@@ -141,6 +158,76 @@ body {
 .btn-circle .svg-inline--fa { 
 	height: 2em;
 }
+
+/* MASAJES */
+
+.btn-msj {
+  width: 35px;
+  height: 35px;
+  padding: 5.5px 5px;
+  border-radius: 20px;
+  /* text-align: center; */
+}
+
+.btn-msj .svg-inline--fa { 
+	height: 1.5em;
+}
+
+.btn-msj:hover .svg-inline--fa { 
+	color: #FFFFFF;
+}
+
+
+.masajes-mainpage-welcome {
+  text-align: center;
+}
+
+.masajes-mainpage {
+  position: relative;
+}
+
+.masajes-mainpage ul {
+  list-style-type: none;
+}
+
+.masajes-mainpage li {
+  margin-bottom: 10px;
+  vertical-align: center;
+
+}
+
+.masajes-mainpage span {
+  padding-left: 15px;
+}
+
+.masajes-mainpage-content {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-around;
+  width: 80%;
+}
+.masajes-mainpage-img {
+  padding: 20px;
+}
+.masajes-mainpage-button {
+  margin: auto;
+}
+
+.masajes-mainpage-button .btn{
+  color: #FFFFFF !important;
+}
+
+.spa-container {
+  position: absolute;
+  top: 0;
+  right: 41%;
+}
+
+.spa-container .svg-inline--fa {
+  height: 10em;
+}
+
 
 /* TERAPIAS */
 
@@ -166,6 +253,7 @@ body {
 
 .card-elem:hover {
   background-color: #11BAAA;
+  cursor: pointer; 
 }
 
 .card-elem:hover .card-component {
@@ -175,6 +263,66 @@ body {
 .card-elem:hover .card-footer {
   background-color: #11BAAA;
 }
+
+.card-elem a {
+  text-decoration: none;
+}
+
+/* TESTIMONIOS */
+.testimonios-mainpage .title {
+  color: rgba(17, 186, 170, .6);
+}
+
+.testimonios-mainpage .subtitle {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.testimonios-mainpage-welcome {
+  text-align: center;
+}
+
+
+.testimonios-mainpage-img img {
+  width: 100%;
+}
+
+.testimonios-mainpage-content {
+  width: 100%;
+  height: 400px;
+  background-color: #D8FEFA;
+}
+
+/* CONTACTO- FOOTER */
+.contacto {
+  height: 500px;
+  background-color: rgba(17, 186, 170, .8);
+  text-align: center;
+}
+
+.contacto .title {
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+}
+.contacto-info .svg-inline--fa {
+  height: 1.8em;
+  margin-top: 20px;
+} 
+
+.contacto-info span {
+  color: #FFFFFF;
+  padding-left: 10px;
+}
+
+.contacto-info p {
+  height: 30px;
+}
+
+
 
 /* WPP & HEALY BTN */
 .btn-wsp {
@@ -285,6 +433,11 @@ body {
 }
 
 @media (max-width: 992px) {
+
+  /* NAVBAR */
+  .navbar-collapse-bg {
+    background-color:#ace0f9 !important;
+  }
   /*  HEADER */
   
   .header-btns {
@@ -442,3 +595,4 @@ body {
 .z-999 {
   z-index: 999;
 }
+

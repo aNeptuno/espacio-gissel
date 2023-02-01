@@ -10,9 +10,9 @@ import { fa7 } from '@fortawesome/free-solid-svg-icons';
 
 export const Terapias = () => {
     return (
-        <div className="container p-4">
-            <h1 className="title text-center pb-2 pt-2">Terapias y tratamientos</h1>
-            <h2 className="text text-center pt-3 pb-3">Texto corto introductorio a los distintos tipos de terapias y tratamientos que ofrece el espacio.</h2>
+        <div className="container p-4 pt-5 pb-5">
+            <h1 className="title text-center pb-2 pt-5">Terapias y tratamientos</h1>
+            <h2 className="text text-center pt-4 pb-4">Texto corto introductorio a los distintos tipos de terapias y tratamientos que ofrece el espacio.</h2>
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-5 cards-container">
             <div class="col">

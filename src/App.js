@@ -7,7 +7,7 @@ import { NoMatch } from './Components/NoMatch';
 import { Home } from './Components/Home';
 import { About } from './Components/About';
 import { Contacto } from './Components/Contacto';
-import { Footer } from './Components/General/Footer';
+import Footer from './Components/General/Footer';
 
 
 function App() {

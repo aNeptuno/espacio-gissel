@@ -8,6 +8,8 @@ import { NavLink } from "react-router-dom";
 
 import logoImg from "./logo-gissel-color.png";
 
+import Scroll from 'react-scroll';
+
 function NavbarComponent() {
 
   //Change navcolor when scrolling
@@ -39,7 +41,13 @@ function NavbarComponent() {
                   <Nav.Link as={NavLink} to="/NoMatch" >Masajes</Nav.Link>
                   <Nav.Link as={NavLink} to="/NoMatch" >Terapias</Nav.Link>
                   <Nav.Link as={NavLink} to="/NoMatch" >Testimonios</Nav.Link>
-                  <Nav.Link as={NavLink} to="/Contacto" >Contacto</Nav.Link>
+                  <Nav.Link as={NavLink} to="/#contacto">Contacto</Nav.Link> 
+                  {/* <Nav.Link onSelect={() => {
+                                      const anchor = document.querySelector('#contacto')
+                                      anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                                      }>CONTACTO
+                  </Nav.Link> */}
+                  
                 </Nav>
               </Navbar.Collapse>
             </Container>

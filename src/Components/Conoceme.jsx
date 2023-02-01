@@ -25,7 +25,7 @@ export const Conoceme = () => {
                         En 2006 abre su propio centro dedicado exclusivamente a la belleza, la salud y el bienestar. 
                     </p>
                     <div className="hand-container">
-                        <FontAwesomeIcon icon={faHandHoldingHeart} color="rgba(158,188,185,.1)"/>
+                        <FontAwesomeIcon icon={faHandHoldingHeart} color="rgba(158,188,185,.2)"/>
                     </div>
                 <div className="aboutBtns-container pt-0">
                     <div className='pt-3 pe-3'>

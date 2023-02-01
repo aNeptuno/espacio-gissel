@@ -1,10 +1,34 @@
 
-import TsParticles from "./tsparticles";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'; 
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
-export const Footer = () => {
+
+function Footer () {
     return(
-        <div>
+        <div className="contacto" id="contacto">
+            <div className="pt-3">
+                <h1 className="title">Espacio</h1>
+                <h1 className="title">Gissel</h1>
+            </div>
+            <div className='contacto-info'>
+                <p>
+                    <FontAwesomeIcon icon={faWhatsapp} color="#ffffff"/> 
+                    <span className='text'>094140929</span>
+                </p>
+                <p>
+                    <FontAwesomeIcon icon={faLocationDot} color="#ffffff"/>
+                    <span className='text'>Defensa 2207</span>
+                </p>
+                <p>
+                    <FontAwesomeIcon icon={faPaperPlane} color="#ffffff"/>
+                    <span className='text'>gisselarmonia@gmail.com</span>
+                </p>
+            </div>
         </div>
        
     ) 
 }
+
+export default Footer;
