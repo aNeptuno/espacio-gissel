@@ -15,7 +15,7 @@ export const Terapias = () => {
             <h1 className="title text-center pb-2 pt-5">Terapias y tratamientos</h1>
             <h2 className="text text-center pt-4 pb-4">Texto corto introductorio a los distintos tipos de terapias y tratamientos que ofrece el espacio.</h2>
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-5 cards-container">
+            <div class="row row-cols-1 row-cols-lg-3 g-5 cards-container">
                 <div class="col">
                     <Card className="card-elem d-flex text-center h-100">
                         <Card.Body>
