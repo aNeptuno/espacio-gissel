@@ -309,7 +309,6 @@ body {
 
 /* CONTACTO- FOOTER */
 .contacto {
-  height: 800px;
   background-color: rgba(17, 186, 170, .8);
   display: flex;
   flex-direction: column;
@@ -318,12 +317,16 @@ body {
 .contacto .title {
   color: #FFFFFF;
   display: inline-block;
+  text-align: center;
+  width: auto;
+  margin: 0 !important;
 }
 
 .contacto-info {
   display: flex;
   flex-direction: column;
   align-items:center;
+  margin: auto;
 }
 .contacto-info .svg-inline--fa {
   height: 1.8em;
@@ -335,11 +338,20 @@ body {
   padding-left: 10px;
 }
 
-.contacto-info p {
-  height: 30px;
+
+.contacto img {
+  width: 8em !important;
 }
 
+.contacto-welcome {
+  align-items: center;
+  margin: auto;
+  margin-bottom: 0 !important;
+}
 
+.contacto ul {
+  list-style-type: none;
+}
 
 /* WPP & HEALY BTN */
 .btn-wsp {
