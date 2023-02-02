@@ -1,16 +1,16 @@
 
 import NavbarComponent from "./General/Navbar";
 import Footer from "./General/Footer";
-
+import ComponentHeader from "./General/ComponentHeader";
 
 
 export const Masajes = () => {
     return(
         <>
+        <ComponentHeader /> 
         <NavbarComponent />
         <div>
-            <div className="container p-top-100">
-                <NavbarComponent />
+            <div className="container">
                 <h1 className="title">Masajes</h1>
                 
                 <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 

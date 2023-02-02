@@ -59,10 +59,6 @@ body {
   padding-top: 0;
 }
 
-.p-top-100 {
-  padding-top: 100px;
-}
-
 .p-bottom-60 {
   padding-bottom: 60px;
 }
@@ -667,5 +663,19 @@ body {
 
 .z-999 {
   z-index: 999;
+}
+
+.about-page-img {
+  display: inline-block;
+  width: 40% !important;
+  padding-top: 0 !important;
+}
+.about-page-img img {
+  vertical-align: unset !important;
+}
+
+.about-content-welcome {
+  display:flex;
+  align-items: center;
 }
 

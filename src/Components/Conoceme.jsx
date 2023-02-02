@@ -14,7 +14,7 @@ export const Conoceme = () => {
             <div className="d-flex flex-row mb-3 p-50 about-cont p-m-bottom-0">
 
                 <div className="about-img">
-                    <img src={about} alt="Espacio Gissel Logo" />
+                    <img src={about} alt="Espacio Gissel" />
                 </div>
 
                 <div className="d-flex flex-column p-50 p-top-0 about-text p-m-bottom-0">
