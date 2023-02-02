@@ -301,10 +301,18 @@ body {
   width: 100%;
 }
 
-.testimonios-mainpage-content {
+.testimonios-mainpage-bg {
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-color: #D8FEFA;
+}
+
+.testimonios-carousel-container {
+  height: 250px;
+  width: 60%;
+  top: 55%;
+  left: 20%;
+  background-color: white;
 }
 
 /* CONTACTO- FOOTER */
@@ -337,7 +345,6 @@ body {
   color: #FFFFFF;
   padding-left: 10px;
 }
-
 
 .contacto img {
   width: 8em !important;
