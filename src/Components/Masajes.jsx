@@ -4,8 +4,7 @@ import Footer from "./General/Footer";
 
 import bg from "../img/masajesbg1.jpg";
 
-import ScrollspyNav from "react-scrollspy-nav";
-
+import ScrollSpyTest from "./scrollspytest";
 
 export const Masajes = () => {
     return(
@@ -29,6 +28,7 @@ export const Masajes = () => {
         </div>
 
         
+        <ScrollSpyTest />
 
         <Footer />
         
