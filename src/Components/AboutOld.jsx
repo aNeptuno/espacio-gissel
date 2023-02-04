@@ -1,38 +1,21 @@
 import NavbarComponent from "./General/Navbar";
 import Footer from "./General/Footer";
+import ComponentHeader from "./General/ComponentHeader";
 
 import about from '../img/presentacion.png';
 import logo from '../img/header1.png';
 
 import { Fade, Slide } from "react-awesome-reveal";
 
-import bg from "../img/aboutbg1.jpg"
-
 export const About = () => {
     return(
         <>
+        <ComponentHeader /> 
+        <NavbarComponent /> 
         <div>
-            <div>
-                <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})`}} >
-                    <NavbarComponent />
-                    <div className="caption-left">
-                        <ul>
-                            <li>
-                                <a href="#">INICIO</a>
-                            </li>
-                            <span>/</span>
-                            <li>CONOCEME</li>
-                        </ul>
-                        <h1>CONOCEME</h1>
-                    </div>
-                </section>  
-            </div>
-        </div>
-
-        <div className="pt-5">
             <div className="container pt-5 pb-5">
                 <Slide left>
-                <h1 className="title text-center pb-3">Un poco sobre mi</h1>
+                <h1 className="title text-center pb-2">Un poco sobre mi</h1>
                 </Slide>
                 
                 <div className="about-content">
@@ -71,7 +54,7 @@ export const About = () => {
             </div>
 
             <div className="container pt-5 pb-5">
-                <h1 className="title text-center pb-3">Historia del logo</h1>
+                <h1 className="title text-center pb-2">Historia del logo</h1>
                 
                 <div className="about-content">
                     <div className="about-content-welcome pt-3">

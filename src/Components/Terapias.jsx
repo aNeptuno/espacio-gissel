@@ -82,7 +82,8 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faMoon} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Cartas natales</Card.Title>
                             <Card.Text className="text card-component">
-                                TEXTO PLACEHOLDER
+                                PLACEHOLDER: La astrología es un lenguaje que nos permite, a través de la lectura de la carta natal, 
+                                acceder a un mapa de posibilidades acerca de nuestra vida.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -97,7 +98,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={fa7} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Cartas numerológicas</Card.Title>
                             <Card.Text className="text card-component">
-                                TEXTO PLACEHOLDER
+                                Descubrí tu misión en esta vida, los karmas que cumples, tu vibración anual y los mejores meses del año para ti.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
