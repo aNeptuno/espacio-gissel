@@ -41,6 +41,8 @@ export const Masajes = () => {
                 <h2 className="subtitle orange pb-4 text-center">Experimenta las modalidades de masaje adecuadas para ti, en el momento y contexto de tu curación global</h2>
             </div>
 
+            <hr />
+
             <div className="masajes-container">
 
                 <h2 className="masajes-title text-center pb-5 pt-5 ">REFLEXOLOGIA</h2>
@@ -57,6 +59,8 @@ export const Masajes = () => {
 
                 </div>
 
+                <hr />
+
                 <h2 className="masajes-title text-center pb-5 pt-5">PIEDRAS CALIENTES</h2>
                 <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
                     <div className="msj-img">
@@ -69,6 +73,8 @@ export const Masajes = () => {
 
                 </div>
 
+                <hr />
+
                 <h2 className="masajes-title text-center pb-5 pt-5 ">DESCONTRACTURANTES</h2>
                 <div className="container d-flex flex-row pb-5 justify-content-between">
                     <div className="msj-img">
@@ -79,6 +85,8 @@ export const Masajes = () => {
                     </div>
 
                 </div>
+
+                <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">MADEROTERAPIA</h2>
                 <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
@@ -92,6 +100,8 @@ export const Masajes = () => {
 
                 </div>
 
+                <hr />
+
                 <h2 className="masajes-title text-center pb-5 pt-5">TERAPÉUTICOS</h2>
                 <div className="container d-flex flex-row pb-5 justify-content-between">
                     <div className="msj-img">
@@ -102,6 +112,8 @@ export const Masajes = () => {
                     </div>
 
                 </div>
+
+                <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">DIGITOPUNTURA</h2>
                 <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
@@ -117,6 +129,8 @@ export const Masajes = () => {
 
                 </div>
 
+                <hr />
+
                 <h2 className="masajes-title text-center pb-5 pt-5">ESTÉTICOS CON ULTRASONIDO</h2>
                 <div className="container d-flex flex-row pb-5 justify-content-between">
                     <div className="msj-img">
@@ -128,6 +142,8 @@ export const Masajes = () => {
                     </div>
 
                 </div>
+
+                <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">REAFIRMANTES CON ELECTRODOS</h2>
                 <div className="container d-flex flex-row-reverse pb-5 justify-content-between">

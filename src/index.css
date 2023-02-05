@@ -752,7 +752,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 0;
-  font-size: 1.5em;
+  font-size: 1em;
   letter-spacing: 5px;
   /* background-color: transparent;
   color: rgba(105, 105, 105, 0.6); */
@@ -781,8 +781,10 @@ body {
 
 .caption-left h1 {
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'Nunito Sans', sans-serif !important;
-  letter-spacing:2px;
+  /* font-family: 'Nunito Sans', sans-serif !important; */
+  font-family: 'Bellefair', serif !important;
+  letter-spacing: 4px;
+  font-size: 35px;
 }
 
 /* MASAJES PAGE */
