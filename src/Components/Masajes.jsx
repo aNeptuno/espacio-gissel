@@ -36,12 +36,10 @@ export const Masajes = () => {
                 </div>
             </div>
 
-            <div className="container pt-5 pb-4">
-                <h1 className="title orange pt-5 pb-4 text-center">Cada masaje es diferente</h1>
-                <h2 className="subtitle orange pb-4 text-center">Experimenta las modalidades de masaje adecuadas para ti, en el momento y contexto de tu curación global</h2>
+            <div className="container pt-5 pb-3">
+                <h1 className="title orange pt-5 pb-5 text-center">Cada masaje es diferente</h1>
+                <h2 className="subtitle orange pb-4 text-center">Experimenta las modalidades de masaje adecuadas para ti, en el momento y contexto de tu curación global.</h2>
             </div>
-
-            <hr />
 
             <div className="masajes-container">
 
