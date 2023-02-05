@@ -111,12 +111,6 @@ nav .container {
     padding-left: calc(var(--bs-gutter-x) * 1) !important;
 }
 
-/* Styles required only for the example above */
-.scrollspy-example {
-    position: relative;
-    height: 600px;
-    overflow: auto;
-  }
 
 /* import bootstrap style at the bottom */
 @import '~bootstrap/scss/bootstrap.scss';

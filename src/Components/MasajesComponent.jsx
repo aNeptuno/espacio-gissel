@@ -43,7 +43,7 @@ function Masajescomponent(){
                                 <FontAwesomeIcon icon={faCheck} color="rgb(236, 75, 25, .6)"/>
                             </Button>
                             <span>
-                            Descontracturantes
+                                Descontracturantes
                             </span>
                         </li>
                         <li className="text text-orange">

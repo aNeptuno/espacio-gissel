@@ -2,8 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 
 import header1 from '../img/header1.png';
-import header2 from '../img/header2.jpg';
-import header3 from '../img/header3.jpg';
 
 import TsParticles from "./General/tsparticles";
 import Navbar from './General/Navbar';
