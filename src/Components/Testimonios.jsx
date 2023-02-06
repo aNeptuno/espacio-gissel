@@ -33,9 +33,9 @@ function Testimonios() {
 
                 <Carousel activeIndex={index} onSelect={handleSelect} className="d-none d-md-block" interval={20000000}>
                     <Carousel.Item>
-                        <div class="row row-cols-2 g-5 cards-wrapper justify-content-end">
-                            <div class="col">
-                                <Card style={{ width: '25rem' }} className="h-100">
+                        <div class="row row-cols-2 cards-wrapper d-flex justify-content-around">
+                            <div class="col d-flex justify-content-center">
+                                <Card style={{ width: '24rem' }} className="h-100">
                                     <div class="row g-1 d-flex align-items-center">
                                         <div class="col-auto p-3">
                                             <img src={header2}
@@ -57,8 +57,8 @@ function Testimonios() {
 
 
 
-                            <div class="col">
-                                <Card style={{ width: '25rem' }} className="h-100">
+                            <div class="col d-flex justify-content-center">
+                                <Card style={{ width: '24rem' }} className="h-100">
                                     <div class="row g-1 d-flex align-items-center">
                                         <div class="col-auto p-3">
                                             <img src={header3}
@@ -80,32 +80,51 @@ function Testimonios() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
-                            className="d-block"
-                            src={header2}
-                            alt="Second slide"
-                            width="400px"
-                        />
+                        <div class="row row-cols-2 cards-wrapper d-flex justify-content-around">
+                            <div class="col d-flex justify-content-center">
+                                <Card style={{ width: '24rem' }} className="h-100">
+                                    <div class="row g-1 d-flex align-items-center">
+                                        <div class="col-auto p-3">
+                                            <img src={header2}
+                                                class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="85"
+                                                height="85" />
+                                        </div>
+                                        <div class="col ">
+                                            <Card.Title className="subtitle mx-3">Estela, paciente</Card.Title>
 
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block"
-                            src={header3}
-                            alt="Third slide"
-                            width="400px"
-                        />
+                                        </div>
+                                    </div>
+                                    <Card.Text className='p-4'>
+                                        <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
+                                        <span className="text">Elegí este espacio con Gissel porque es una persona que me transmitió y me dio una visión de todo lo que podía llegar a cambiar.
+                                            La elegí a ella porque sentí esa confianza y esa conexión, y estoy aquí, y de aquí no me voy!</span>
+                                    </Card.Text>
+                                </Card>
+                            </div>
 
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </p>
-                        </Carousel.Caption>
+
+
+                            <div class="col d-flex justify-content-center">
+                                <Card style={{ width: '24rem' }} className="h-100">
+                                    <div class="row g-1 d-flex align-items-center">
+                                        <div class="col-auto p-3">
+                                            <img src={header3}
+                                                class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="85"
+                                                height="85" />
+                                        </div>
+                                        <div class="col ">
+                                            <Card.Title className="subtitle mx-3">María, paciente</Card.Title>
+
+                                        </div>
+                                    </div>
+                                    <Card.Text className='p-4'>
+                                        <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
+                                        <span className="text">Te da más confianza, alegría, y te permite encontrar otros espacios, que no son
+                                            los convencionales, para poder desarrollarte y tener una vida más digna y alegre</span>
+                                    </Card.Text>
+                                </Card>
+                            </div>
+                        </div>
                     </Carousel.Item>
                 </Carousel>
 
