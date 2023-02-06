@@ -4,11 +4,12 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import {useState, useEffect } from 'react';
 
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom"; 
+import { HashLink } from 'react-router-hash-link';
 
 import logoImg from "./logo-gissel-color.png";
 
-import Scroll from 'react-scroll';
+
 
 function NavbarComponent() {
 
@@ -40,14 +41,8 @@ function NavbarComponent() {
                   <Nav.Link as={NavLink} to="/Conoceme" >Conoceme</Nav.Link>
                   <Nav.Link as={NavLink} to="/Masajes" >Masajes</Nav.Link>
                   <Nav.Link as={NavLink} to="/Terapias" >Terapias</Nav.Link>
-                  <Nav.Link as={NavLink} to="/NoMatch" >Testimonios</Nav.Link>
-                  <Nav.Link as={NavLink} to="/#contacto">Contacto</Nav.Link> 
-                  {/* <Nav.Link onSelect={() => {
-                                      const anchor = document.querySelector('#contacto')
-                                      anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}
-                                      }>CONTACTO
-                  </Nav.Link> */}
-                  
+                  <Nav.Link as={HashLink} to="/#Testimonios" >Testimonios</Nav.Link>
+                  <Nav.Link as={HashLink}  to="/#Contacto">Contacto</Nav.Link> 
                 </Nav>
               </Navbar.Collapse>
             </Container>

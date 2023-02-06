@@ -10,7 +10,7 @@ import Mapa from './Mapa';
 
 function Footer () {
     return(
-        <div className="contacto" id="contacto">
+        <div className="contacto" id="Contacto">
             <div className="d-flex flex-row pt-4 contacto-welcome">
                 <h1 className="title">Espacio</h1>
                 <img src={logo}  aria-label='Espacio Gissel Logo' className="footer-Logo"></img>

@@ -23,8 +23,8 @@ const Comp1 = () => {
         </div> */
         <div>
             <iframe 
-                width="600"
-                height="450"
+                width="550"
+                height="400"
                 frameBorder="0"
                 scrolling="no"
                 marginHeight="0"

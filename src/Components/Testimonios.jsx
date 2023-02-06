@@ -18,7 +18,7 @@ function Testimonios() {
     };
 
     return (
-        <div className="pt-5 position-relative">
+        <div className="pt-5 position-relative" id="Testimonios">
             <div className="d-flex flex-column testimonios-mainpage container p-4">
                 <div className='testimonios-mainpage-welcome'>
                     <h2 className="subtitle pt-4 ">Testimonios</h2>

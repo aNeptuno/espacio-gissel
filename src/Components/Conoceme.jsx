@@ -6,7 +6,8 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'; 
 import { faYoutube} from '@fortawesome/free-brands-svg-icons'; 
 import Button from 'react-bootstrap/Button';
-import { NavLink } from "react-router-dom";
+/* import { NavLink } from "react-router-dom"; */
+import { HashLink } from 'react-router-hash-link';
 
 export const Conoceme = () => {
     return(
@@ -30,7 +31,7 @@ export const Conoceme = () => {
                     </div>
                 <div className="aboutBtns-container pt-0">
                     <div className='pt-3 pe-3'>
-                        <Button variant="primary" className="aboutBtns" as={NavLink} to="/Conoceme">CONOCEME</Button>
+                        <Button variant="primary" className="aboutBtns" as={HashLink} to="/Conoceme">CONOCEME</Button>
                     </div>
                     <div className='d-flex flex-row justify-content-between pt-3 aboutBtns'>
                         <Button variant="outline-primary" className="btn-circle">
@@ -50,7 +51,7 @@ export const Conoceme = () => {
 
             <div className="aboutBtns-container-1200 p-50 pt-0">
                 <div>
-                    <Button variant="primary" className="aboutBtns">CONOCEME</Button>
+                    <Button variant="primary" className="aboutBtns" as={HashLink} to="/Conoceme">CONOCEME</Button>
                 </div>
                 <div className='d-flex flex-row justify-content-between pt-3 aboutBtns'>
                     <Button variant="outline-primary" className="btn-circle">

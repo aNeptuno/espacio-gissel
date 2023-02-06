@@ -6,8 +6,8 @@ import { faSpa } from '@fortawesome/free-solid-svg-icons';
 import Button from 'react-bootstrap/Button';
 
 import masaje from '../img/digitopuntura.jpg';
-import { NavLink } from "react-router-dom";
-
+/* import { NavLink } from "react-router-dom"; */
+import { HashLink } from 'react-router-hash-link';
 
 function Masajescomponent(){
     return (
@@ -84,7 +84,7 @@ function Masajescomponent(){
                 </div>
 
                 <div className='masajes-mainpage-button'>
-                    <Button variant="danger" as={NavLink} to="/Masajes"> LEER MÁS </Button>
+                    <Button variant="danger" as={HashLink} to="/Masajes"> LEER MÁS </Button>
                 </div>
                 
             </div>

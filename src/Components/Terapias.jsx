@@ -8,6 +8,7 @@ import { faWaveSquare } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { fa7 } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export const Terapias = () => {
     return (
@@ -26,7 +27,7 @@ export const Terapias = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Card.Link as={NavLink} to="/Terapias" className='text card-component'>Leer más</Card.Link>
+                            <Card.Link as={HashLink} to="/Terapias#Aromaterapia" className='text card-component'>Leer más</Card.Link>
                         </Card.Footer>
                     </Card>
                 </div>
@@ -41,7 +42,7 @@ export const Terapias = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Card.Link as={NavLink} to="/Terapias" className='text card-component'>Leer más</Card.Link>
+                            <Card.Link as={HashLink} to="/Terapias#Flores" className='text card-component'>Leer más</Card.Link>
                         </Card.Footer>
                     </Card>
                 </div>
@@ -56,7 +57,7 @@ export const Terapias = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Card.Link as={NavLink} to="/Terapias" className='text card-component'>Leer más</Card.Link>
+                            <Card.Link as={HashLink} to="/Terapias#Barras" className='text card-component'>Leer más</Card.Link>
                         </Card.Footer>
                     </Card>
                 </div>
@@ -71,7 +72,7 @@ export const Terapias = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Card.Link as={NavLink} to="/Terapias" className='text card-component'>Leer más</Card.Link>
+                            <Card.Link as={HashLink} to="/Terapias#Frecuencias" className='text card-component'>Leer más</Card.Link>
                         </Card.Footer>
                     </Card>
                 </div>
@@ -87,7 +88,7 @@ export const Terapias = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Card.Link className='text card-component' as={NavLink} to="/Terapias">Leer más</Card.Link>
+                            <Card.Link className='text card-component' as={HashLink} to="/Terapias#CartasNatales">Leer más</Card.Link>
                         </Card.Footer>
                     </Card>
                 </div>
@@ -102,7 +103,7 @@ export const Terapias = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Card.Link className='text card-component' as={NavLink} to="/Terapias">Leer más</Card.Link>
+                            <Card.Link className='text card-component' as={HashLink} to="/Terapias#Numerologia">Leer más</Card.Link>
                         </Card.Footer>
                     </Card>
                 </div>
