@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import {useState, useEffect } from 'react';
 
@@ -39,9 +40,25 @@ function NavbarComponent() {
                 <Nav className="me-auto">
                   <Nav.Link as={NavLink} to="/">Inicio</Nav.Link>
                   <Nav.Link as={NavLink} to="/Conoceme" >Conoceme</Nav.Link>
-                  <Nav.Link as={NavLink} to="/Masajes" >Masajes</Nav.Link>
-                  <Nav.Link as={NavLink} to="/Terapias" >Terapias</Nav.Link>
-                  <Nav.Link as={HashLink} to="/#Testimonios" >Testimonios</Nav.Link>
+                  <NavDropdown title="Masajes" id="basic-nav-dropdown">
+                    <NavDropdown.Item as={HashLink} to="/Masajes#Reflexologia">Reflexologia</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Masajes#PiedrasCalientes">Piedras Calientes</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Masajes#Descontracturantes">Descontracturantes</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Masajes#Maderoterapia">Maderoterapia</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Masajes#Terapeuticos">Terapéuticos</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Masajes#Digitopuntura">Digitopuntura</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Masajes#Esteticos">Estéticos con ultrasonido</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Masajes#Reafirmantes">Reafirmantes con electrodos</NavDropdown.Item>
+                  </NavDropdown>
+                  <NavDropdown title="Terapias" id="basic-nav-dropdown">
+                    <NavDropdown.Item as={HashLink} to="/Terapias/Aromaterapia">Aromaterapia</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Terapias/Flores">Flores de Bach y Mediterráneo</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Terapias/Barras">Barras de Access &copy</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Terapias/Frecuencias">Terapia de Frecuencias</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Terapias/CartasNatales">Cartas Natales</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Terapias/Numerologia">Cartas Numerológicas</NavDropdown.Item>
+                  </NavDropdown>
+                  <Nav.Link as={HashLink} to="/#Testimonios">Testimonios</Nav.Link>
                   <Nav.Link as={HashLink}  to="/#Contacto">Contacto</Nav.Link> 
                 </Nav>
               </Navbar.Collapse>

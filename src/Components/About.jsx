@@ -4,7 +4,7 @@ import Footer from "./General/Footer";
 import about from '../img/presentacion.png';
 import logo from '../img/header1.png';
 
-import { Fade, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 import bg from "../img/aboutbg1.jpg"
 

@@ -29,11 +29,11 @@ export const Conoceme = () => {
                     <div className="hand-container">
                         <FontAwesomeIcon icon={faHandHoldingHeart} color="rgba(158,188,185,.2)"/>
                     </div>
-                <div className="aboutBtns-container pt-0">
+                <div className="aboutBtns-container pt-0 text-center">
                     <div className='pt-3 pe-3'>
                         <Button variant="primary" className="aboutBtns" as={HashLink} to="/Conoceme">CONOCEME</Button>
                     </div>
-                    <div className='d-flex flex-row justify-content-between pt-3 aboutBtns'>
+                    <div className='d-flex flex-row justify-content-between pt-3 pe-3 aboutBtns text-center'>
                         <Button variant="outline-primary" className="btn-circle">
                             <FontAwesomeIcon icon={ faInstagram } />
                         </Button>

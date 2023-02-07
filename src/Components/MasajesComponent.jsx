@@ -21,6 +21,7 @@ function Masajescomponent(){
                     </div>
                 </div>
                 <div className='masajes-mainpage-content pt-5 '>
+                
                     <ul>
                         <li className="text text-orange">
                             <Button variant="outline-danger" className="btn-msj">

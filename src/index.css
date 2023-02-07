@@ -69,6 +69,7 @@ body {
 
 .aboutBtns {
   width: 200px;
+  margin: auto;
 }
 
 .aboutBtns-container-1200 {
@@ -511,7 +512,7 @@ body {
 
   /* NAVBAR */
   .navbar-collapse-bg {
-    background-color:#ace0f9 !important;
+    background-color:#545454 !important;
   }
   /*  HEADER */
   

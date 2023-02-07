@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
-const TsParticles = () => {
+const TsParticlesHeader = () => {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
         // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -18,7 +18,7 @@ const TsParticles = () => {
 
     return (
         <Particles
-            id="tsparticles"
+            id="tsparticlesHeader"
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
@@ -27,7 +27,7 @@ const TsParticles = () => {
                     color: {
                         value: "#9ed2ce", 
                     },
-                    image: "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%)",  
+                    image: "linear-gradient(to top, #fff1eb 0%, #ace0f9 5%)",  
                    /*  image: "linear-gradient(to top, #5ee7df 0%, #b490ca 100%)", */
                    /* image: "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)",  */
                    /* image: "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)", /* nice */  
@@ -85,7 +85,7 @@ const TsParticles = () => {
                             enable: true,
                             area: 800,
                         },
-                        value: 180,
+                        value: 160,
                     },
                     opacity: {
                         value: 0.8,
@@ -103,4 +103,4 @@ const TsParticles = () => {
     );
 };
 
-export default TsParticles;
+export default TsParticlesHeader;

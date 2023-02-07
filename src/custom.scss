@@ -79,10 +79,12 @@ $btn-font-family: 'Nunito Sans', sans-serif;
 
 .navbar-collapse {
     flex-grow: 0 !important;
+    margin-top: 10px;
+    /* border-radius: 5%; */
 }
 
 
-.show .nav-link{
+/* .show .nav-link{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
    
@@ -94,13 +96,12 @@ $btn-font-family: 'Nunito Sans', sans-serif;
 
 .show .nav-link:last-child{
     padding-bottom: 20px !important;
-}
+} */
 
 
 nav .container {
     padding: 0 25px !important;
 }
-
 
 
 .navbar-brand .nav-link {
@@ -112,6 +113,12 @@ nav .container {
     padding-left: calc(var(--bs-gutter-x) * 1) !important;
 }
 
+/* .dropdown-menu-bg {
+    --bs-dropdown-bg: #545454 !important;
+    --bs-dropdown-link-color: rgba(255, 255, 255, 0.6) !important;
+    --bs-dropdown-link-hover-color: $gissel-color !important;
+}
+ */
 
 /* import bootstrap style at the bottom */
 @import '~bootstrap/scss/bootstrap.scss';
