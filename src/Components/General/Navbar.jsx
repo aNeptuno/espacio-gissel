@@ -52,8 +52,8 @@ function NavbarComponent() {
                   </NavDropdown>
                   <NavDropdown title="Terapias" id="basic-nav-dropdown">
                     <NavDropdown.Item as={HashLink} to="/Terapias/Aromaterapia">Aromaterapia</NavDropdown.Item>
-                    <NavDropdown.Item as={HashLink} to="/Terapias/Flores">Flores de Bach y Mediterráneo</NavDropdown.Item>
-                    <NavDropdown.Item as={HashLink} to="/Terapias/Barras">Barras de Access &copy</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Terapias/Flores">Flores de Bach y Mediterráneo®</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Terapias/Barras">Barras de Access®</NavDropdown.Item>
                     <NavDropdown.Item as={HashLink} to="/Terapias/Frecuencias">Terapia de Frecuencias</NavDropdown.Item>
                     <NavDropdown.Item as={HashLink} to="/Terapias/CartasNatales">Cartas Natales</NavDropdown.Item>
                     <NavDropdown.Item as={HashLink} to="/Terapias/Numerologia">Cartas Numerológicas</NavDropdown.Item>

@@ -67,6 +67,15 @@ body {
   padding-bottom: 60px;
 }
 
+.text-right {
+  text-align: right;
+}
+
+b, strong {
+  font-weight: normal;
+  color:  #11BAAA !important;
+}
+
 .aboutBtns {
   width: 200px;
   margin: auto;
@@ -497,6 +506,16 @@ body {
   .header-img img {
     width: 380px;
   }
+
+  /* .msj-img img {
+     width: 400px; 
+    width: 100%;
+  }
+  
+  .msj-text {
+    width: 50%;
+    font-size: 22px;
+  } */
 }
 
 @media (max-width: 1070px) {
@@ -613,6 +632,33 @@ body {
   .masajes-mainpage-img img {
     width: 350px;
   }
+
+  /*MASAJES PAGE */
+  .masajes-container .flex-row {
+    flex-direction: column !important;
+    align-items: center;
+    height: 100% !important;
+  }
+
+  .msj-img {
+    /* width: 400px; */
+    width: 80% !important; 
+    /* height: 300px; */
+    margin-bottom: 30px !important;
+  }
+
+  .msj-text {
+    width: 80% !important;;
+    font-size: 22px;
+  }
+
+  .masajes-container .flex-row-reverse {
+    flex-direction: column !important;
+    align-items: center;
+    height: 100% !important;
+  }
+
+
 }
 
 @media (max-width: 768px) {
@@ -738,6 +784,21 @@ body {
   position: relative; 
 }
 
+.parallax2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex; */
+  background-color: rgba(12, 12, 12,0.4);
+  background-blend-mode: color;
+  min-height: 200px;
+
+  position: relative; 
+}
+
+
+
 .caption-left {
   padding-bottom: 40px;
   padding-left: 10%;
@@ -805,13 +866,19 @@ body {
 }
 
 .msj-img {
-  width: 400px;
-  height: 300px;
+  /* width: 400px; */
+  width: 40%; 
+  /* height: 300px; */
+  margin-bottom: 40px ;
   /* background-color: grey; */
 }
 
+.msj-img img {
+  width: 100%;
+
+}
 .msj-text {
-  width: 60%;
+  width: 55%;
   font-size: 22px;
 }
 

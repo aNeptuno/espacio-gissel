@@ -3,10 +3,12 @@ import NavbarComponent from "./General/Navbar";
 import Footer from "./General/Footer";
 
 import bg from "../img/flores.jpg"
+import bg2 from "../img/forest-parallax.jpg"
 
 import img1 from "../img/floresbach.png"
 import img2 from "../img/beneficios.jpg"
 import img3 from "../img/mediterraneo.jpg"
+import img4 from "../img/flores2.jpg"
 
 export const TerapiasFlores = () => {
     return (
@@ -34,11 +36,33 @@ export const TerapiasFlores = () => {
                 <h2 className="masajes-title text-center pb-5 pt-5 ">FLORES DE BACH</h2>
                 <div className="container d-flex flex-row pb-5 justify-content-between">
                     <div className="msj-img">
-                        <img src={img1} alt="aromaterapia" width="400px" />
+                        <img src={img4} alt="flores-gissel" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        “La curación debe emanar de nuestro interior, por medio del conocimiento y la corrección de nuestras faltas, y la armonización de nuestro Ser, para que se dé una curación correcta no debe utilizarse absolutamente nada que releve al paciente de su propia responsabilidad; por el contrario, sólo deben utilizarse aquellos recursos que lo ayuden a sobreponerse a sus defectos”.
-                        Edward Bach
+                        <q><i>La curación debe emanar de nuestro interior, por medio del conocimiento y la corrección de nuestras faltas, y la armonización de nuestro Ser, para que se dé una curación correcta no debe utilizarse absolutamente nada que releve al paciente de su propia responsabilidad;
+                            por el contrario, sólo deben utilizarse aquellos recursos que lo ayuden a sobreponerse a sus defectos</i></q>.
+                        <p className="text-right">-Edward Bach</p>
+                    </div>
+
+                </div>
+
+                <hr />
+
+                <h2 className="masajes-title text-center pb-5 pt-5">¿QUÉ SON LAS FLORES DE BACH?</h2>
+                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
+                    <div className="msj-img">
+                        <img src={img1} alt="flores" width="400px" />
+                    </div>
+                    <div className="msj-text text">
+                        La utilización de las flores con fines terapéuticos se remonta a tiempos muy remotos. Así es recogido por diferentes
+                        tradiciones como la Celta, la Taoísta, la Incaica o las del valle del Indo, entre otras. <br></br>
+                        Quien “descubre” y da la forma terapéutica moderna a las Esencias Florales, es el Dr. Edward Bach (1886-1936), médico,
+                        inmunólogo y homeópata galés. Consigue elaborar 38 Esencias Florales (conocidas como Las Flores de Bach) y estructurar un método de trabajo con ellas.
+                        Esta extraordinaria contribución de Bach ha posibilitado un “redescubrimiento” de la riqueza energética y curativa del reino vegetal.
+                        Trabajos de campo e investigación con las flores permiten en la actualidad acortar tiempos en las crisis curativas (enfermedades),
+                        posibilitando la resolución de conflictos en un tiempo más breve. <br></br>
+                        Este nuevo enfoque valora el entorno social y el equilibrio emocional de las personas como factores que intervienen en la consecución de un estado
+                        saludable individual.
                     </div>
 
                 </div>
@@ -46,20 +70,48 @@ export const TerapiasFlores = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">BENEFICIOS</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
-                    <div className="msj-img">
+                <div className="container d-flex flex-row pb-5 justify-content-between ">
+                    {/* <div className="msj-img">
                         <img src={img2} alt="aromaterapia" width="400px" />
-                    </div>
-                    <div className="msj-text text">
-                        Me gusta nombrar a las piedras calientes como lo que son: piedras volcánicas que fueron creadas hace mucho tiempo en el volcán, con todo el poder de la tierra, surgen de el choque de la  roca líquida y su enfriamiento con los iones .Al calentarla en el gabinete, estas abuelas de la tierra recuerdan su fuerza energética, sus minerales y su sabiduría.
-                        Con su calor alivian el espasmo muscular y las contracturas que están por debajo. Ademas de ser una caricia y conexión de la tierra con nosotros.
+                    </div> */}
+                    <div className="msj-text text w-100">
+                        Su actuación más evidente o evaluable es de <b>incidencia emocional</b> y por lo tanto, son de utilidad contrastada en
+                        los procesos de <b>estado de ánimo</b> asociados a todo tipo de <b>desequilibrios</b> de los seres vivos.
+                        Las esencias florales potencian las virtudes opuestas a estados emocionales disarmónicos, que causan sufrimiento (stress, miedo, incertidumbre),
+                        permitiendo <b>equilibrar y mantener una apreciación más armónica en un medio de vida cambiante como el actual.</b> Actúan en las causas profundas
+                        y sutiles de los conflictos humanos. Desde el punto de vista de la terapia floral lo importante a observar, en un proceso de enfermedad,
+                        no radica en los síntomas que la persona experimenta físicamente. La importancia está en la <b>valoración de la globalidad
+                            emocional de la persona y la relación que mantiene consigo misma y con su entorno</b>; siendo prioritario considerar que no
+                        existen enfermedades sino enfermos. Para lo cual, será fundamental tener en cuenta la apreciación subjetiva del individuo
+                        respecto a su existencia y sentimientos, esto es, valorar lo más posible la “vivencia interior” del sujeto.
                     </div>
 
-                </div>
+                </div>                
 
+                <section className="parallax2 img-p-1" style={{ backgroundImage: `url(${bg2})` }}></section>
+                    <h2 className="masajes-title text-center pb-5 pt-5 bg-white">¿CÓMO TRABAJAN LAS ESENCIAS FLORALES?</h2>
+                    <div className="container d-flex flex-row-reverse pb-5 justify-content-between bg-white">
+                        {/* <div className="msj-img">
+                            <img src={img4} alt="flores" width="400px" />
+                        </div>  */}
+                        <div className="msj-text text w-100">
+                            <p>
+                                Un aspecto importante de las esencias florales, del que se ha hablado muy poco, es respecto a la forma de acción. Los seres vivos tienen una estructura energética similar a un campo electromagnético de baja intensidad; dicho campo tiene un sistema de frecuencias complejo que, entre otras cosas, repercute en el correcto funcionamiento bioquímico así como el equilibrio biológico y psíquico. Según la interacción, más o menos conflictiva con el entorno, estas frecuencias pueden ser alteradas y afectar, dependiendo del sector del campo electromagnético, al equilibrio mental, emocional o físico. Dado que dicho campo es un conjunto de sectores intercomunicados, toda alteración de sectores de “alta frecuencia” (psiquismo, emoción) no restaurada puede extenderse a sectores de “frecuencia media o baja” (funcional, físico) y viceversa; dicho de otro modo, la conflictividad en la interacción con el entorno puede desencadenar alteraciones psicoemocionales que de no resolverse, pueden tener consecuencias somáticas; igualmente, la incapacidad de asumir las alteraciones físicas puede extender el desequilibrio a nivel psicoemocional.
+                            </p>
+                            <p>
+                                Las esencias florales superponen “frecuencias armónicas” concretas a las alteraciones de frecuencia de sectores específicos del campo electromagnético, estimulando con ello la capacidad restauradora del propio sistema energético. Las esencias florales tienen la capacidad vibracional de ayudar a restaurar especialmente los sectores de “alta frecuencia” (emocional) lo que trae como consecuencia la armonización de la personalidad con el medio y el nivel esencial o mundo interno.
+                            </p>
+
+                            <p>
+                                Cuando la persona armoniza su mundo interno, en la mayoría de los casos, los síntomas concretos remiten, se alivian o desaparecen.
+                            </p>
+                        </div>
+
+                    </div>
+                <section className="parallax2 img-p-1" style={{ backgroundImage: `url(${bg2})` }}></section>
                 <hr />
 
-                <h2 className="masajes-title text-center pb-5 pt-5 ">FLORES DEL MEDITERRÁNEO</h2>
+                <h2 className="masajes-title text-center pb-5 pt-5 ">FLORES DEL MEDITERRÁNEO ®</h2>
                 <div className="container d-flex flex-row pb-5 justify-content-between">
                     <div className="msj-img">
                         <img src={img3} alt="descontracturante" width="400px" />
@@ -70,16 +122,14 @@ export const TerapiasFlores = () => {
 
                 </div>
 
-                <hr />
-
                 <h2 className="masajes-title text-center pb-5 pt-5">BENEFICIOS</h2>
                 <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
                     <div className="msj-img">
                         <img src={img2} alt="aromaterapia" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Me gusta nombrar a las piedras calientes como lo que son: piedras volcánicas que fueron creadas hace mucho tiempo en el volcán, con todo el poder de la tierra, surgen de el choque de la  roca líquida y su enfriamiento con los iones .Al calentarla en el gabinete, estas abuelas de la tierra recuerdan su fuerza energética, sus minerales y su sabiduría.
-                        Con su calor alivian el espasmo muscular y las contracturas que están por debajo. Ademas de ser una caricia y conexión de la tierra con nosotros.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sapiente natus hic deserunt odit doloremque. 
+                        Aliquid amet aut ducimus eaque facilis numquam at? Delectus, porro. Velit aspernatur sunt dolorem aperiam.
                     </div>
 
                 </div>
@@ -87,7 +137,7 @@ export const TerapiasFlores = () => {
 
 
 
-            </div>
+            </div >
 
             <Footer />
 

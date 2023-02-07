@@ -19,9 +19,9 @@ export const TerapiasBarras = () => {
                                     <a href="/">INICIO</a>
                                 </li>
                                 <span>/</span>
-                                <li>TERAPIAS / BARRAS DE ACCESS &COPY</li>
+                                <li>TERAPIAS / BARRAS DE ACCESS ®</li>
                             </ul>
-                            <h1>BARRAS DE ACCESS &COPY</h1>
+                            <h1>BARRAS DE ACCESS ®</h1>
                         </div>
                     </section>
                 </div>
@@ -29,10 +29,10 @@ export const TerapiasBarras = () => {
 
             <div className="masajes-container pt-5 pb-5">
 
-                <h2 className="masajes-title text-center pb-5 pt-5 ">¿QUÉ SON LAS BARRAS DE ACCESS?</h2>
+                <h2 className="masajes-title text-center pb-5 pt-5 ">¿QUÉ SON LAS BARRAS DE ACCESS®?</h2>
                 <div className="container d-flex flex-row pb-5 justify-content-between">
                     <div className="msj-img">
-                        <img src={img1} alt="aromaterapia" width="400px" />
+                        <img src={img1} alt="barras" width="400px" />
                     </div>
                     <div className="msj-text text">
                         Las barras son 32 puntos en la cabeza y estos representan cosas como: tu cuerpo, dinero, sanación, creatividad, gozo, paz y calma, solo por nombrar unos pocos. Las barras son toques ligeramente suaves que dejan ir los pensamientos, sentimientos, emociones y consideraciones que hayas guardado en cualquier vida.

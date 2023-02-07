@@ -85,7 +85,11 @@ export const Masajes = () => {
                         <img src={descontracturante} alt="descontracturante" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae illum eos doloribus repellat voluptatum.
+                        Los masajes descontracturantes tienen como objetivo relajar los músculos rígidos y tensos a causa del estrés, para generar un bienestar en el cuerpo que se traduzca a su vez en un bienestar emocional.
+                        A diferencia de un masaje relajante, en este se aplican técnicas manuales de una mayor intensidad para lograr disolver las contracturas, que se producen por las malas posturas, la falta de descanso, el estrés o el sedentarismo.
+                        La eliminación de tensiones en los grupos musculares contribuyen al correcto funcionamiento muscular y articular, y ayudan a corregir aquellos desequilibrios que están causando el malestar.
+                        Estas técnicas pueden ser aplicadas en combinación con otros tipos de masajes o terapias para lograr mejores resultados con más beneficios.
+
                         <span id="Maderoterapia"></span>
                     </div>
 
@@ -160,9 +164,9 @@ export const Masajes = () => {
                         <img src={reafirmantes} alt="reafirmantes" width="400px" />
                     </div>
                     <div className="msj-text text">
-                    La electro estimulación muscular utiliza la corriente eléctrica para simular los impulsos que contraen la musculatura del organismo. En Espacio Gissel utilizamos electrodos de ondas rusas y cuadradas. 
-                    Estas te ayudan a tener una estimulación profunda del músculo con la menor sensación.
-                    <span id="Digitopuntura"></span>
+                        La electro estimulación muscular utiliza la corriente eléctrica para simular los impulsos que contraen la musculatura del organismo. En Espacio Gissel utilizamos electrodos de ondas rusas y cuadradas.
+                        Estas te ayudan a tener una estimulación profunda del músculo con la menor sensación.
+                        <span id="Digitopuntura"></span>
                     </div>
 
                 </div>
