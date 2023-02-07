@@ -4,8 +4,8 @@ import Footer from "./General/Footer";
 
 import bg from "../img/astral.jpg"
 
-import img1 from "../img/healyresonador.jpg"
-import img2 from "../img/beneficios.jpg"
+/* import img1 from "../img/healyresonador.jpg"
+import img2 from "../img/beneficios.jpg" */
 
 
 export const TerapiasCartas = () => {

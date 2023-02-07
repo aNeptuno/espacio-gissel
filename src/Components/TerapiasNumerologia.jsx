@@ -3,9 +3,9 @@ import Footer from "./General/Footer";
 
 import bg from "../img/numerologiabg.jpg"
 
-import img1 from "../img/healyresonador.jpg"
+/* import img1 from "../img/healyresonador.jpg"
 import img2 from "../img/beneficios.jpg"
-
+ */
 
 export const TerapiasNumerologia = () => {
     return (

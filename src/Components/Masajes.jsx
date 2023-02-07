@@ -25,7 +25,7 @@ export const Masajes = () => {
                         <div className="caption-left">
                             <ul>
                                 <li>
-                                    <a href="#">INICIO</a>
+                                    <a href="/">INICIO</a>
                                 </li>
                                 <span>/</span>
                                 <li>MASAJES</li>
