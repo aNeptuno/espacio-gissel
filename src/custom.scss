@@ -79,7 +79,7 @@ $btn-font-family: 'Nunito Sans', sans-serif;
 
 .navbar-collapse {
     flex-grow: 0 !important;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* border-radius: 5%; */
 }
 
@@ -119,6 +119,15 @@ nav .container {
     --bs-dropdown-link-hover-color: $gissel-color !important;
 }
  */
+
+.dropdown-item {
+    color:  #aab4b3 !important;
+    padding: .5rem 1rem !important;
+}
+.dropdown-item:hover {
+    color: $gissel-color !important;
+}
+
 
 /* import bootstrap style at the bottom */
 @import '~bootstrap/scss/bootstrap.scss';
