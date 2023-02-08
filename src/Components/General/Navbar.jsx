@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import {useState, useEffect } from 'react';
+import {useState } from 'react';
 
 import { NavLink } from "react-router-dom"; 
 import { HashLink } from 'react-router-hash-link';
@@ -28,7 +28,7 @@ function NavbarComponent() {
 
   return (
         <div className='container'>
-          <Navbar fixed="top" expand="lg" className={color ? 'navbar navbar-bg' : 'navbar'}>
+          <Navbar fixed="top" expand="lg" className={color ? 'navbar navbar-bg' : 'navbar navbar-dropdown-bg'}>
             <Container>
               <Navbar.Brand>
                 <Nav.Link as={NavLink} to="/">
@@ -38,7 +38,7 @@ function NavbarComponent() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav" className={color ? '' : 'navbar-collapse-bg'}>
                 <Nav className="me-auto">
-                  <Nav.Link as={NavLink} to="/">Inicio</Nav.Link>
+                  <Nav.Link as={NavLink} to="/" className="first">Inicio</Nav.Link>
                   <Nav.Link as={NavLink} to="/Conoceme" >Conoceme</Nav.Link>
                   <NavDropdown title="Masajes" id="basic-nav-dropdown">
                     <NavDropdown.Item as={HashLink} to="/Masajes#Reflexologia">Reflexologia</NavDropdown.Item>
@@ -59,7 +59,7 @@ function NavbarComponent() {
                     <NavDropdown.Item as={HashLink} to="/Terapias/Numerologia">Cartas Numerológicas</NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link as={HashLink} to="/#Testimonios">Testimonios</Nav.Link>
-                  <Nav.Link as={HashLink}  to="/#Contacto">Contacto</Nav.Link> 
+                  <Nav.Link as={HashLink}  to="/#Contacto" className="last">Contacto</Nav.Link> 
                 </Nav>
               </Navbar.Collapse>
             </Container>

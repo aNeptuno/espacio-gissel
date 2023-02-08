@@ -536,7 +536,8 @@ b, strong {
 
   /* NAVBAR */
   .navbar-collapse-bg {
-    background-color:#545454 !important;
+    background-color:rgba(84, 84, 84,.8) !important;
+    border-radius: 4%;
   }
   /*  HEADER */
   
