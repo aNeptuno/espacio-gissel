@@ -19,15 +19,15 @@ function Testimonios() {
 
     return (
         <div className="pt-5 position-relative" id="Testimonios">
-            <div className="d-flex flex-column testimonios-mainpage container p-4">
+            <div className="d-flex flex-column testimonios-mainpage container p-4 pb-0">
                 <div className='testimonios-mainpage-welcome'>
                     <h2 className="subtitle pt-4 ">Testimonios</h2>
                     <h1 className="title pt-2 pb-4">Palabras dulces de mis pacientes</h1>
                 </div>
             </div>
+            <section className="parallax3 img-p-1" style={{ backgroundImage: `url(${testimonios})` }} ></section>
             <div className='testimonios-mainpage-img'>
-                <img src={testimonios} alt="Testimonios" />
-                <div className="testimonios-mainpage-bg"></div>
+                    <div className="testimonios-mainpage-bg"></div>
             </div>
             <div className='testimonios-carousel-container position-absolute'>
 
