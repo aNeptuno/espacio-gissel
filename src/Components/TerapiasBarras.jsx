@@ -30,7 +30,7 @@ export const TerapiasBarras = () => {
             <div className="masajes-container pt-5 pb-5">
 
                 <h2 className="masajes-title text-center pb-5 pt-5 ">¿QUÉ SON LAS BARRAS DE ACCESS®?</h2>
-                <div className="container d-flex flex-row pb-5 justify-content-between">
+                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
                     <div className="msj-img">
                         <img src={img1} alt="barras" width="400px" />
                     </div>
@@ -48,7 +48,7 @@ export const TerapiasBarras = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">BENEFICIOS</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
+                <div className="container d-flex flex-row pb-5 justify-content-between">
                     <div className="msj-img">
                         <img src={img2} alt="aromaterapia" width="400px" />
                     </div>

@@ -37,22 +37,21 @@ export const TerapiasFrecuencias = () => {
                         <img src={img1} alt="aromaterapia" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        “La curación debe emanar de nuestro interior, por medio del conocimiento y la corrección de nuestras faltas, y la armonización de nuestro Ser, para que se dé una curación correcta no debe utilizarse absolutamente nada que releve al paciente de su propia responsabilidad; por el contrario, sólo deben utilizarse aquellos recursos que lo ayuden a sobreponerse a sus defectos”.
-                        Edward Bach
+                        El resonador Healy® es un dispositivo que utiliza programas de Frecuencia de Microcorriente Individualizada (IMF) para la armonización de su Campo Bioenergético.
                     </div>
 
                 </div>
 
                 <hr />
 
-                <h2 className="masajes-title text-center pb-5 pt-5">BENEFICIOS</h2>
+                <h2 className="masajes-title text-center pb-5 pt-5">MAS INFORMACION...</h2>
                 <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
                     <div className="msj-img">
                         <img src={img2} alt="aromaterapia" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Me gusta nombrar a las piedras calientes como lo que son: piedras volcánicas que fueron creadas hace mucho tiempo en el volcán, con todo el poder de la tierra, surgen de el choque de la  roca líquida y su enfriamiento con los iones .Al calentarla en el gabinete, estas abuelas de la tierra recuerdan su fuerza energética, sus minerales y su sabiduría.
-                        Con su calor alivian el espasmo muscular y las contracturas que están por debajo. Ademas de ser una caricia y conexión de la tierra con nosotros.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, earum est. 
+                        Quis, autem dolor voluptas itaque cum reiciendis ipsa quisquam impedit provident deleniti. Delectus temporibus non, voluptatem ipsam soluta explicabo?
                     </div>
 
                 </div>

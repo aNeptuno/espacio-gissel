@@ -539,6 +539,15 @@ b, strong {
     background-color:rgba(84, 84, 84,.8) !important;
     border-radius: 4%;
   }
+
+  .navbar-dropdown-bg .first {
+    padding-top: 20px !important;
+  }
+
+  .navbar-dropdown-bg .last {
+      padding-bottom: 20px !important;
+  }
+
   /*  HEADER */
   
   .header-btns {
@@ -664,7 +673,10 @@ b, strong {
     height: 100% !important;
   }
 
-
+  /* TERAPIAS PAGE */
+  .text-list ol{
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -905,4 +917,8 @@ b, strong {
 
 .pe-30 {
   padding-right: 30px;
+}
+
+.text-list {
+  font-size: 18px;
 }
