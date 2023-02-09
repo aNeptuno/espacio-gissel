@@ -1,0 +1,44 @@
+/* CONTACTO- FOOTER */
+.contacto {
+    background-color: rgba(17, 186, 170, .8);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacto .title {
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    margin: 0 !important;
+  }
+  
+  .contacto-info {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: auto;
+  }
+  .contacto-info .svg-inline--fa {
+    height: 1.8em;
+    margin-top: 20px;
+  } 
+  
+  .contacto-info span {
+    color: #FFFFFF;
+    padding-left: 10px;
+  }
+  
+  .contacto img {
+    width: 6.5em !important;
+  }
+  
+  .contacto-welcome {
+    align-items: center;
+    margin: auto;
+    margin-bottom: 0 !important;
+  }
+  
+  .contacto ul {
+    list-style-type: none;
+  }

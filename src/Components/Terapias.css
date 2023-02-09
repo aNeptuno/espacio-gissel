@@ -1,0 +1,40 @@
+/* TERAPIAS */
+
+.cards-container .svg-inline--fa { 
+	height: 2.2em;
+}
+
+.icon-color{
+  color: #11BAAA;
+}
+
+.card-footer {
+  background-color: white;
+  border-top: 0px;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
+
+.card-elem {
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+  box-shadow: .5px 1px 4px 2px rgba(0,0,0,.2);
+  border: none;
+}
+
+.card-elem:hover {
+  background-color: #11BAAA;
+  cursor: pointer; 
+}
+
+.card-elem:hover .card-component {
+  color: white;
+}
+
+.card-elem:hover .card-footer {
+  background-color: #11BAAA;
+}
+
+.card-elem a {
+  text-decoration: none;
+}

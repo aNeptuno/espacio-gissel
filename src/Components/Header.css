@@ -1,0 +1,35 @@
+.header {
+    /* background-color: #F9F6EE; */
+    position: relative;
+    min-height: 770px;
+  }
+  
+  .header .container {
+    z-index: 10000;
+    padding-top: 72px;
+  }
+  
+  .header .content {
+    width: 75%;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index:1000;
+  }
+  
+  .wave svg {
+    position: relative;
+    display: block;
+    width: calc(256% + 1.3px);
+    height: 186px;
+  }
+  
+  .wave .shape-fill {
+    fill: #FFFFFF;
+  }

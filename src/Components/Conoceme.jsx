@@ -1,3 +1,5 @@
+import './Conoceme.css';
+
 import about from '../img/presentacion.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

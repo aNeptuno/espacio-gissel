@@ -1,4 +1,6 @@
 
+import './Terapias.css';
+
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWind } from '@fortawesome/free-solid-svg-icons';

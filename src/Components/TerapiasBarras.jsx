@@ -1,3 +1,5 @@
+
+import './Masajes.css';
 import NavbarComponent from "./General/Navbar";
 import Footer from "./General/Footer";
 

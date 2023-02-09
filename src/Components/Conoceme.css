@@ -1,113 +1,44 @@
-/* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');      /* Nunito para los botones */
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');  /* Para los títulos (className title) */
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');       /* Para el texto (className texto) */
+/* ABOUT MAIN PAGE */
+.about-img {
+    width: 50%;
+    padding-top: 20px;
+  }
+  
+  .about-img img {
+    max-width: 400px;
+    border-radius: 10%;
+  }
+  
+  .about-text {
+    position: relative;
+  }
+  
+  .about-cont {
+    position: relative;
+  }
+  
+  
+  .hand-container{
+    position: absolute;
+    top: 0;
+    right: 30%;
+  }
+  
+  .hand-container .svg-inline--fa { 
+      height: 14em;
+  }
 
-/* GENERAL STYLES */
+  .aboutBtns {
+    width: 200px;
+    margin: auto;
+  }
+  
+  .aboutBtns-container-1200 {
+    display: none;
+  }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  /* padding-top: 72px; */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* background-color: #F5F5F5;  */
-  background-color: #FFFFFF; 
-  overflow-x: hidden;
-}
-
-.title {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 35px;
-  color: #11BAAA;
-}
-
-.text {
-  font-family: 'Bellefair', serif;
-  font-size: 22px;
-}
-
-.subtitle {
-  font-family: 'Bellefair', serif;
-  font-size: 25px;
-  color: #11BAAA;
-}
-
-.title-orange {
-  color: rgba(236, 75, 25, .8);
-}
-
-.subtitle-orange {
-  color: rgba(236, 75, 25, .6);
-  font-family: 'Kaushan Script', cursive;
-}
-
-.text-orange {
-  color: rgb(236, 75, 25, .8);
-  font-size: 24px;
-}
-
-.orange {
-  color: rgba(225, 134, 27, .8);
-}
-
-.bg-orange {
-  /* background-color: rgba(228, 187, 140, 0.2); */
-  background-color:  rgba(211, 177, 146,.1); 
-}
-
-.vh-100 {
-  height: 100vh !important;
-}
-
-.p-50 {
-  padding: 50px;
-}
-
-.p-top-0 {
-  padding-top: 0;
-}
-
-.p-bottom-60 {
-  padding-bottom: 60px;
-}
-
-.text-right {
-  text-align: right;
-}
-
-b, strong {
-  font-weight: normal;
-  color:  #11BAAA !important;
-}
-
-
-.btn-circle {
-  width: 50px;
-  height: 50px;
-  padding: 10px 10px;
-  border-radius: 25px;
-  font-size: 10px;
-  text-align: center;
-}
-
-.btn-container {
-  padding-right: 48px;
-}
-
-
-.btn-circle .svg-inline--fa { 
-	height: 2em;
-}
-
-
-
-
-/* MEDIA QUERYS */
+  
+  /* MEDIA QUERYS */
 @media (max-width: 1500px) {
   /*  HEADER */
   .header-img img {
@@ -416,164 +347,4 @@ b, strong {
   #tsparticles {
     height: 102vh !important;
   }
-}
-
-
-
-/* TS PARTICLES */
-
-#tsparticles {   /* This is the id of the div created by the Particles component */
-  height: 700px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0;
-  padding: 0;
-  z-index: 0;
-}
-
-.z-999 {
-  z-index: 999;
-}
-
-#tsparticlesHeader {
-  height: 72px;
-}
-
-
-
-
-/* HEADER OF VIEWS */
-
-.parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* display: flex; */
-  background-color: rgba(12, 12, 12,0.4);
-  background-blend-mode: color;
-  min-height: 480px;
-
-  position: relative; 
-}
-
-.parallax2 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* display: flex; */
-  background-color: rgba(12, 12, 12,0.4);
-  background-blend-mode: color;
-  min-height: 200px;
-
-  position: relative; 
-}
-
-.parallax3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(12, 12, 12,0.3);
-  background-blend-mode: color;
-  min-height: 400px;
-  position: relative; 
-}
-
-
-.caption-left {
-  padding-bottom: 40px;
-  padding-left: 10%;
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-
-  position: absolute;
-  top: 50%;
-}
-
-.caption-left ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 0;
-  font-size: 1em;
-  letter-spacing: 5px;
-  /* background-color: transparent;
-  color: rgba(105, 105, 105, 0.6); */
-  color: rgba(255, 255, 255, 0.6);
-  font-family: 'Nunito Sans', sans-serif !important;
-}
-
-.caption-left a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.4);
-}
-
-.caption-left a:hover {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.caption-left li:first-child {
-  padding-right: 10px;
-}
-
-.caption-left li:last-child {
-  padding-right: 10px;
-  padding-left: 10px;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.caption-left h1 {
-  color: rgba(255, 255, 255, 0.6);
-  /* font-family: 'Nunito Sans', sans-serif !important; */
-  font-family: 'Bellefair', serif !important;
-  letter-spacing: 4px;
-  font-size: 35px;
-}
-
-/* MASAJES PAGE */
-.masajes-title {
-  font-family: 'Bellefair', serif;
-  font-size: 28px;
-  color: #895220;
-  letter-spacing: 1px;
-}
-
-.masajes-container {
-  width: 80%;
-  margin: auto;
-}
-
-.msj-img {
-  /* width: 400px; */
-  width: 40%; 
-  /* height: 300px; */
-  margin-bottom: 40px ;
-  /* background-color: grey; */
-}
-
-.msj-img img {
-  width: 100%;
-
-}
-.msj-text {
-  width: 55%;
-  font-size: 22px;
-}
-
-.pl-30 {
-  padding-left: 30px;
-}
-
-.pe-30 {
-  padding-right: 30px;
-}
-
-.text-list {
-  font-size: 18px;
 }

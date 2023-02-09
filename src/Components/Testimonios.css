@@ -1,0 +1,53 @@
+/* TESTIMONIOS */
+.testimonios-mainpage .title {
+    color: rgba(17, 186, 170, .6);
+  }
+  
+  .testimonios-mainpage .subtitle {
+    font-family: 'Kaushan Script', cursive;
+  }
+  
+  .testimonios-mainpage-welcome {
+    text-align: center;
+  }
+  
+  
+  .testimonios-mainpage-img img {
+    width: 100%;
+    height: 28rem;
+    object-fit: cover;
+    object-position: 50% 18%;
+  }
+  
+  .testimonios-mainpage-bg {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(216, 254, 250,.8);
+  }
+  
+  .testimonios-carousel-container {
+    height: 250px;
+    width: 70%;
+    top: 54%;
+    left: 50%;
+    margin-left: -35%;
+  }
+  
+  .testimonios-carousel-container .subtitle {
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(17, 186, 170, .7);
+  }
+  
+  .testimonios-carousel-container .text {
+    font-size: 20px;
+    line-height: 0.8;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }

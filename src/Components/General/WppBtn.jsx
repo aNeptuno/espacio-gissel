@@ -1,4 +1,6 @@
 
+import './WppBtn.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'; 
 import Button from 'react-bootstrap/Button';

@@ -1,0 +1,39 @@
+/* WPP & HEALY BTN */
+.btn-wsp {
+    position: fixed;
+    z-index: 10000;
+    bottom: 30px;
+    right: 30px;
+    width: 55px;
+    height: 55px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #0df053;
+    border-color: #0df053;
+  }
+  
+  .btn-wsp:hover {
+    background-color: #FFFFFF;
+    border-color: #0df053;
+  }
+  
+  .btn-wsp:hover .svg-inline--fa { 
+      color: #0df053;
+  }
+  
+  .btn-wsp .svg-inline--fa { 
+      height: 2.4em;
+  }
+  
+  .btn-healy {
+    position: fixed;
+    z-index: 10000;
+    bottom: 30px;
+    left: 30px;
+    width: 55px;
+    height: 55px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    text-align: center;
+  }

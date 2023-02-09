@@ -1,10 +1,11 @@
 
+import './Testimonios.css';
+
 import testimonios from '../img/testimonios.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import header2 from '../img/header2.jpg';
 import header3 from '../img/header3.jpg';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';

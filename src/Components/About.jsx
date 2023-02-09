@@ -1,3 +1,5 @@
+import './About.css';
+
 import NavbarComponent from "./General/Navbar";
 import Footer from "./General/Footer";
 
@@ -89,7 +91,7 @@ export const About = () => {
                         </p>
 
                         <div className="about-page-img about-img-logo">
-                            <img src={logo} alt="Espacio Gissel Logo" width="500px"/>
+                            <img src={logo} alt="Espacio Gissel Logo"/>
                         </div>
                     </div>
 

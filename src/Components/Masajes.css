@@ -1,0 +1,74 @@
+/* MASAJES */
+
+.btn-msj {
+    width: 35px;
+    height: 35px;
+    padding: 5.5px 5px;
+    border-radius: 20px;
+    /* text-align: center; */
+  }
+  
+  .btn-msj .svg-inline--fa { 
+      height: 1.5em;
+  }
+  
+  .btn-msj:hover .svg-inline--fa { 
+      color: #FFFFFF;
+  }
+  
+  
+  .masajes-mainpage-welcome {
+    text-align: center;
+  }
+  
+  .masajes-mainpage {
+    position: relative;
+  }
+  
+  .masajes-mainpage ul {
+    list-style-type: none;
+  }
+  
+  .masajes-mainpage li {
+    margin-bottom: 10px;
+    vertical-align: center;
+  
+  }
+  
+  .masajes-mainpage span {
+    padding-left: 15px;
+  }
+  
+  .masajes-mainpage-content {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
+  }
+  .masajes-mainpage-img {
+    padding: 20px;
+  }
+  
+  .masajes-mainpage-img img {
+    border-radius: 10%;
+  }
+  
+  .masajes-mainpage-button {
+    margin: auto;
+  }
+  
+  .masajes-mainpage-button .btn{
+    color: #FFFFFF !important;
+  }
+  
+  .spa-container {
+    position: absolute;
+    top: 0;
+    right: 42%;
+  }
+  
+  .spa-container .svg-inline--fa {
+    height: 10em;
+  }
+  

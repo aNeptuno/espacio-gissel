@@ -1,4 +1,6 @@
 
+import './Footer.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'; 
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
