@@ -27,7 +27,7 @@
   .about-page-p2 {
     padding-right: 30px;
     width: 65% !important;
-}
+  }
 
 /* MEDIA QUERYS */
 @media (max-width: 1500px) {
@@ -46,15 +46,15 @@
 
   /* ABOUT PAGE */
   .about-page-img {
-    width: 50% !important;
+    width: 40% !important;
   }
 
   .about-page-p1 {
-    width: 45% !important;
+    width: 55% !important;
   }
   
   .about-page-p2 {
-    width: 45% !important;
+    width: 55% !important;
   }
 }
 
@@ -108,6 +108,33 @@
 
   .masajes-mainpage-content {
     width: 90%;
+  }
+
+  /* ABOUT PAGE */
+  .about-content-welcome {
+    flex-direction: column;
+  }
+  .welcome-2 {
+    flex-direction: column-reverse;
+  }
+  .about-page-img {
+    width: 40% !important;
+  }
+
+  .about-page-p1 {
+    width: 100% !important;
+  }
+  
+  .about-page-p2 {
+    width: 100% !important;
+  }
+
+  .about-page-p1 {
+    padding-left: 0px;
+  }
+  
+  .about-page-p2 {
+    padding-right: 0px;
   }
 }
 
@@ -281,6 +308,16 @@
   .text-list ol{
     width: 100% !important;
   }
+
+  /* ABOUT PAGE */
+  .about-page-img {
+    width: 70% !important;
+    padding-bottom: 20px;
+  }
+
+  .about-content-welcome {
+    margin: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -328,6 +365,11 @@
   }
 }
 
+@media (max-width: 575px) {
+  .about-content-welcome {
+    width: 90%; 
+  }
+}
 @media (max-width: 537px) {
   .header-img img {
     width: 320px;

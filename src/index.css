@@ -281,18 +281,6 @@ b, strong {
     right: 41%;
   }
 
-  /* ABOUT PAGE */
-  .about-page-img {
-    width: 50% !important;
-  }
-
-  .about-page-p1 {
-    width: 45% !important;
-  }
-  
-  .about-page-p2 {
-    width: 45% !important;
-  }
 }
 
 @media (max-width: 1260px) {

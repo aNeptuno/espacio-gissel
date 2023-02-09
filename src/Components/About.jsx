@@ -76,7 +76,7 @@ export const About = () => {
                 <h1 className="title text-center pb-3">Historia del logo</h1>
                 
                 <div className="about-content">
-                    <div className="about-content-welcome pt-3">
+                    <div className="about-content-welcome welcome-2 pt-3">
                         <p className="text d-inline-block about-page-p2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
                             eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
