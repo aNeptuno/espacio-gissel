@@ -28,7 +28,7 @@ function Testimonios() {
             </div>
             <section className="parallax3 img-p-1" style={{ backgroundImage: `url(${testimonios})` }} ></section>
             <div className='testimonios-mainpage-img'>
-                    <div className="testimonios-mainpage-bg"></div>
+                <div className="testimonios-mainpage-bg"></div>
             </div>
             <div className='testimonios-carousel-container position-absolute'>
 
@@ -44,14 +44,17 @@ function Testimonios() {
                                                 height="85" />
                                         </div>
                                         <div class="col ">
-                                            <Card.Title className="subtitle mx-3">Estela, paciente</Card.Title>
+                                            <Card.Title className="subtitle mx-3">Estela</Card.Title>
 
                                         </div>
                                     </div>
                                     <Card.Text className='p-4'>
                                         <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                        <span className="text">Elegí este espacio con Gissel porque es una persona que me transmitió y me dio una visión de todo lo que podía llegar a cambiar.
-                                            La elegí a ella porque sentí esa confianza y esa conexión, y estoy aquí, y de aquí no me voy!</span>
+                                        <span className="text">
+                                            Es increíble como me ha cambiado la vida, el estado de ánimo, la forma de relacionarme.
+                                            Elegí este espacio con Gissel porque es una persona que me transmitió y me dio una visión de todo lo que podía llegar a cambiar.
+                                            La elegí a ella porque sentí esa confianza y esa conexión, y estoy aquí, y de aquí no me voy!
+                                        </span>
                                     </Card.Text>
                                 </Card>
                             </div>
@@ -67,14 +70,16 @@ function Testimonios() {
                                                 height="85" />
                                         </div>
                                         <div class="col ">
-                                            <Card.Title className="subtitle mx-3">María, paciente</Card.Title>
+                                            <Card.Title className="subtitle mx-3">Elvira</Card.Title>
 
                                         </div>
                                     </div>
                                     <Card.Text className='p-4'>
                                         <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                        <span className="text">Te da más confianza, alegría, y te permite encontrar otros espacios, que no son
-                                            los convencionales, para poder desarrollarte y tener una vida más digna y alegre</span>
+                                        <span className="text">
+                                            Es una persona muy confiable, transmite mucha seguridad, tranquilidad.
+                                            Es un espacio donde hay un intercambio de energía, haciendo las cosas con el corazón, que produce un enriquecimiento personal.
+                                        </span>
                                     </Card.Text>
                                 </Card>
                             </div>
@@ -91,14 +96,16 @@ function Testimonios() {
                                                 height="85" />
                                         </div>
                                         <div class="col ">
-                                            <Card.Title className="subtitle mx-3">Estela, paciente</Card.Title>
+                                            <Card.Title className="subtitle mx-3">Magalí</Card.Title>
 
                                         </div>
                                     </div>
                                     <Card.Text className='p-4'>
                                         <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                        <span className="text">Elegí este espacio con Gissel porque es una persona que me transmitió y me dio una visión de todo lo que podía llegar a cambiar.
-                                            La elegí a ella porque sentí esa confianza y esa conexión, y estoy aquí, y de aquí no me voy!</span>
+                                        <span className="text">
+                                            Gissel maneja las herramientas que te permiten aumentar las posibilidades.
+                                            Siento que la vida nos conectó, y a partir de que nos conocimos hay un montón de cosas que en mi vida cambiaron.
+                                            Nos elegimos las dos por un montón de cosas, por su forma de ser, la sensibilidad, la seriedad, el amor que le pone a las cosas.</span>
                                     </Card.Text>
                                 </Card>
                             </div>
@@ -114,14 +121,16 @@ function Testimonios() {
                                                 height="85" />
                                         </div>
                                         <div class="col ">
-                                            <Card.Title className="subtitle mx-3">María, paciente</Card.Title>
+                                            <Card.Title className="subtitle mx-3">Lucía</Card.Title>
 
                                         </div>
                                     </div>
                                     <Card.Text className='p-4'>
                                         <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                        <span className="text">Te da más confianza, alegría, y te permite encontrar otros espacios, que no son
-                                            los convencionales, para poder desarrollarte y tener una vida más digna y alegre</span>
+                                        <span className="text">
+                                            Te da más confianza, alegría, y te permite encontrar otros espacios, que no son
+                                            los convencionales, para poder desarrollarte y tener una vida más digna y alegre
+                                        </span>
                                     </Card.Text>
                                 </Card>
                             </div>
@@ -129,39 +138,100 @@ function Testimonios() {
                     </Carousel.Item>
                 </Carousel>
 
+
                 <Carousel activeIndex={index} onSelect={handleSelect} className="d-md-none">
                     <Carousel.Item>
-                        <Card className="card-elem d-flex text-center h-100">
-                            <Card.Body>
-                                <Card.Title className="subtitle card-component">Aromaterapia</Card.Title>
-                                <Card.Text className="text card-component">
-                                    Medicina alternativa basada en el uso de materiales aromáticos.
-                                </Card.Text>
-                            </Card.Body>
+                        <Card style={{ width: '24rem' }} className="h-100">
+                            <div class="row g-1 d-flex align-items-center">
+                                <div class="col-auto p-3">
+                                    <img src={header2}
+                                        class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="85"
+                                        height="85" />
+                                </div>
+                                <div class="col ">
+                                    <Card.Title className="subtitle mx-3">Estela</Card.Title>
+
+                                </div>
+                            </div>
+                            <Card.Text className='p-4'>
+                                <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
+                                <span className="text">
+                                    Es increíble como me ha cambiado la vida, el estado de ánimo, la forma de relacionarme.
+                                    Elegí este espacio con Gissel porque es una persona que me transmitió y me dio una visión de todo lo que podía llegar a cambiar.
+                                    La elegí a ella porque sentí esa confianza y esa conexión, y estoy aquí, y de aquí no me voy!
+                                </span>
+                            </Card.Text>
                         </Card>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div class="col">
-                            <Card style={{ width: '25rem' }} className="h-100">
-                                <div class="row g-1 d-flex align-items-center">
-                                    <div class="col-auto p-3">
-                                        <img src={header2}
-                                            class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="85"
-                                            height="85" />
-                                    </div>
-                                    <div class="col ">
-                                        <Card.Title className="subtitle mx-3">Estela, paciente</Card.Title>
+                        <Card style={{ width: '24rem' }} className="h-100">
+                                    <div class="row g-1 d-flex align-items-center">
+                                        <div class="col-auto p-3">
+                                            <img src={header3}
+                                                class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="85"
+                                                height="85" />
+                                        </div>
+                                        <div class="col ">
+                                            <Card.Title className="subtitle mx-3">Elvira</Card.Title>
 
+                                        </div>
                                     </div>
-                                </div>
-                                <Card.Text className='p-4'>
-                                    <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                    <span className="text">Elegí este espacio con Gissel porque es una persona que me transmitió y me dio una visión de todo lo que podía llegar a cambiar.
-                                        La elegí a ella porque sentí esa confianza y esa conexión, y estoy aquí, y de aquí no me voy!</span>
-                                </Card.Text>
-                            </Card>
+                                    <Card.Text className='p-4'>
+                                        <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
+                                        <span className="text">
+                                            Es una persona muy confiable, transmite mucha seguridad, tranquilidad.
+                                            Es un espacio donde hay un intercambio de energía, haciendo las cosas con el corazón, que produce un enriquecimiento personal.
+                                        </span>
+                                    </Card.Text>
+                                </Card>
                         </div>
                     </Carousel.Item>
+                    <Carousel.Item>
+                    <Card style={{ width: '24rem' }} className="h-100">
+                                    <div class="row g-1 d-flex align-items-center">
+                                        <div class="col-auto p-3">
+                                            <img src={header2}
+                                                class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="85"
+                                                height="85" />
+                                        </div>
+                                        <div class="col ">
+                                            <Card.Title className="subtitle mx-3">Magalí</Card.Title>
+
+                                        </div>
+                                    </div>
+                                    <Card.Text className='p-4'>
+                                        <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
+                                        <span className="text">
+                                            Gissel maneja las herramientas que te permiten aumentar las posibilidades.
+                                            Siento que la vida nos conectó, y a partir de que nos conocimos hay un montón de cosas que en mi vida cambiaron.
+                                            Nos elegimos las dos por un montón de cosas, por su forma de ser, la sensibilidad, la seriedad, el amor que le pone a las cosas.</span>
+                                    </Card.Text>
+                                </Card>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <Card style={{ width: '24rem' }} className="h-100">
+                                    <div class="row g-1 d-flex align-items-center">
+                                        <div class="col-auto p-3">
+                                            <img src={header3}
+                                                class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="85"
+                                                height="85" />
+                                        </div>
+                                        <div class="col ">
+                                            <Card.Title className="subtitle mx-3">Lucía</Card.Title>
+
+                                        </div>
+                                    </div>
+                                    <Card.Text className='p-4'>
+                                        <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
+                                        <span className="text">
+                                            Te da más confianza, alegría, y te permite encontrar otros espacios, que no son
+                                            los convencionales, para poder desarrollarte y tener una vida más digna y alegre
+                                        </span>
+                                    </Card.Text>
+                                </Card>
+                    </Carousel.Item>
+                    
                 </Carousel>
             </div>
         </div>
