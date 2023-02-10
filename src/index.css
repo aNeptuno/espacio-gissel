@@ -282,7 +282,7 @@ b, strong {
   .spa-container {
     position: absolute;
     top: 0;
-    right: 41%;
+    right: 41% !important;
   }
 
 }
@@ -387,7 +387,6 @@ b, strong {
     font-size: 13px !important;
   }
 
-
   .header .btn-container {
     padding: 10px;
     padding-bottom: 0px;
@@ -396,9 +395,11 @@ b, strong {
   .header {
     height: 102vh !important;
   }
+
   #tsparticles {
     height: 102vh !important;
   }
+
   .header .content {
     width: 70% !important;
     flex-direction: column !important;
@@ -462,13 +463,13 @@ b, strong {
 
   /* MASAJES MAIN PAGE */
   .masajes-mainpage-content {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
     align-items: center;
     padding-top: 10px !important;
   }
 
   .spa-container {
-    right: 37%;
+    right: 37% !important;
   }
 
   .masajes-mainpage-img img {
@@ -490,7 +491,7 @@ b, strong {
   }
 
   .msj-text {
-    width: 80% !important;;
+    width: 90% !important;;
     font-size: 22px;
   }
 
@@ -508,6 +509,14 @@ b, strong {
 
 @media (max-width: 768px) {
 
+  /* GENERAL */
+  .title {
+    font-size: 33px;
+  }
+
+  .subtitle {
+    font-size: 23px;
+  }
   /* HEADER */
   .header .text {
     width: 90%;
@@ -522,15 +531,24 @@ b, strong {
     width: 350px !important;
   }
 
-  /* ABOUT */
+  /* ABOUT MAINPAGE*/
   .about-img {
     width: initial;
   }
 
+  .about-img img {
+    width: 300px;
+  }
+
   /* MASAJES MAIN PAGE */
   .spa-container {
-    right: 30%;
+    right: 30% !important;
   }
+
+  .masajes-mainpage-img img {
+    width: 300px;
+  }
+
 }
 
 @media (max-width: 670px) {
@@ -560,7 +578,7 @@ b, strong {
 @media (max-width: 540px) {
   /* HEADER & NAVBAR */
   .header-img img {
-    width: 300px !important;
+    width: 320px !important;
   }
   .header {
     height: 102vh !important;
@@ -594,7 +612,7 @@ b, strong {
 @media (max-width: 445px) {
   /* HEADER & NAVBAR */
   .header-img img {
-    width: 250px !important;
+    width: 270px !important;
   }
 }
 
@@ -604,5 +622,40 @@ b, strong {
   .navbar-img {
     width: 55px !important;
   }
+
+  /* GENERAL */
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  /* MASAJES */
+  .masajes-title {
+    font-size: 24px;
+  }
+
+  .msj-subtitle {
+    padding-bottom: 0px !important;
+  }
+
+  .spa-container {
+    right: 20% !important; 
+  }
+
+  
 }
 
+@media (max-width: 375px) { 
+  /* ABOUT */
+  .about-img img {
+    width: 260px;
+  }
+
+  /* MASAJES MAIN PAGE */
+  .masajes-mainpage-img img {
+    width: 260px;
+  }
+}

@@ -7,10 +7,10 @@ import bg from "../img/flores.jpg"
 import bg2 from "../img/forest-parallax.jpg"
 
 import img1 from "../img/floresbach.png"
-/* import img2 from "../img/beneficios.jpg" */
-import img3 from "../img/mediterraneo.jpg"
+import img3 from "../img/mediterraneo.jpg" /* esta esta buena */
 import img4 from "../img/flores2.jpg"
 import img5 from "../img/lavanda.jpg"
+import img6 from "../img/GisselFlores.jpg"
 
 export const TerapiasFlores = () => {
     return (
@@ -127,7 +127,7 @@ export const TerapiasFlores = () => {
                 <h2 className="masajes-title text-center pt-5">¿QUÉ SON LAS ESENCIAS FLORALES DEL MEDITERRÁNEO?</h2>
                 <div className="container d-flex flex-row-reverse pb-4 pt-5 justify-content-between">
                     <div className="msj-img">
-                        <img src={img3} alt="aromaterapia" width="400px" />
+                        <img src={img6} alt="aromaterapia" width="400px" />
                     </div>
                     <div className="msj-text text">
                         Las Esencias Florales del Mediterráneo o las nuevas esencias, como se denominan, surgieron en los años noventa como una alternativa nueva en el mundo de la terapéutica floral.

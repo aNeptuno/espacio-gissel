@@ -40,7 +40,7 @@ export const Masajes = () => {
             <div className="container pt-5 pb-3">
                 <span id="Reflexologia"></span>
                 <h1 className="title orange pt-5 pb-5 text-center">Cada masaje es diferente</h1>
-                <h2 className="subtitle orange pb-4 text-center">Experimenta las modalidades de masaje adecuadas para ti, en el momento y contexto de tu curación global.</h2>
+                <h2 className="subtitle orange pb-4 text-center msj-subtitle">Experimenta las modalidades de masaje adecuadas para ti, en el momento y contexto de tu curación global.</h2>
             </div>
 
             <div className="masajes-container">
@@ -86,10 +86,12 @@ export const Masajes = () => {
                         <img src={descontracturante} alt="descontracturante" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Los masajes descontracturantes tienen como objetivo relajar los músculos rígidos y tensos a causa del estrés, para generar un bienestar en el cuerpo que se traduzca a su vez en un bienestar emocional.
-                        A diferencia de un masaje relajante, en este se aplican técnicas manuales de una mayor intensidad para lograr disolver las contracturas, que se producen por las malas posturas, la falta de descanso, el estrés o el sedentarismo.
-                        La eliminación de tensiones en los grupos musculares contribuyen al correcto funcionamiento muscular y articular, y ayudan a corregir aquellos desequilibrios que están causando el malestar.
-                        Estas técnicas pueden ser aplicadas en combinación con otros tipos de masajes o terapias para lograr mejores resultados con más beneficios.
+                        Los masajes descontracturantes tienen como objetivo relajar los músculos rígidos y 
+                        tensos para aliviar esos dolores que producen molestias en el día a día. A diferencia de un 
+                        masaje relajante, en este se aplican técnicas manuales de una mayor intensidad para lograr 
+                        disolver las contracturas, que se generan por el estrés las malas posturas, la falta de descanso o el sedentarismo. 
+                        La eliminación de tensiones en los músculos contribuye al correcto funcionamiento muscular y articular, y ayuda a 
+                        corregir aquellos desequilibrios que están causando el malestar. 
 
                         <span id="Maderoterapia"></span>
                     </div>
@@ -119,7 +121,20 @@ export const Masajes = () => {
                         <img src={terapeuticos} alt="terapeuticos" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Los masajes terapéuticos consisten en la manipulación de tejidos, una técnica universal de fácil aplicación y disponibilidad que tiene finalidad terapéutica, higiénica o deportiva.
+                        Puedes acompañar un masaje cualquiera con las terapias, y así lograr mejores resultados para ti y tu bienestar físico, emocional, espiritual.
+
+                            <li>
+                                <a href="/Terapias/Aromaterapia"> Aromaterapia</a>
+                            </li> 
+                            <li>
+                                <a href="/Terapias/Flores"> Flores de Bach y del Mediterráneo®</a>
+                            </li>
+                            <li>
+                                <a href="/Terapias/Barras"> Barras de Access®</a>
+                            </li>  
+                            <li>
+                                <a href="/Terapias/Frecuencias"> Terapia de frecuencias</a>
+                            </li> 
                         <span id="Digitopuntura"></span>
                     </div>
 

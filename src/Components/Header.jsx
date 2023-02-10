@@ -8,8 +8,18 @@ import header1 from '../img/header1.png';
 import TsParticles from "./General/tsparticles";
 import Navbar from './General/Navbar';
 import { Fade } from 'react-awesome-reveal';
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
+
+    const handleClickScroll = () => {
+        const element = document.getElementById('section-1');
+        if (element) {
+          // 👇 Will scroll smoothly to the top of the next section
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
     return (
         <div className="header">
 
@@ -28,11 +38,11 @@ function Header() {
 
                         <div className='d-flex flex-row header-btns'>
 
-                            <div className='btn-container'>
+                            <div className='btn-container' onClick={handleClickScroll}>
                                 <Button variant="primary">SABER MÁS</Button>
                             </div>
                             <div className='btn-container'>
-                                <Button variant="outline-secondary">CONTACTO</Button>
+                                <Button variant="outline-secondary" as={HashLink} to="/#Contacto">CONTACTO</Button>
                             </div>
 
 
@@ -55,7 +65,7 @@ function Header() {
             </div>
 
 
-            <div class="wave">
+            <div class="wave" id="section-1">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
                 </svg>

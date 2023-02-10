@@ -55,7 +55,7 @@ export const About = () => {
                         </p>
                     </div>
 
-                    <p className="text">
+                    <p className="text about-content-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
                         eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
@@ -95,7 +95,7 @@ export const About = () => {
                         </div>
                     </div>
 
-                    <p className="text">
+                    <p className="text about-content-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
                         eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 

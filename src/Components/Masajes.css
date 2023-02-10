@@ -1,7 +1,7 @@
 
 /* MASAJES */
 
-.btn-msj {
+  .btn-msj {
     width: 35px;
     height: 35px;
     padding: 5.5px 5px;
@@ -73,3 +73,7 @@
     height: 10em;
   }
   
+
+  .msj-text a {
+    text-decoration: none;
+  }
