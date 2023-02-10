@@ -87,7 +87,7 @@ $btn-font-family: 'Nunito Sans', sans-serif;
 nav .container {
     padding: 0 25px !important;
 }
-
+ 
 
 .navbar-brand .nav-link {
     padding: 0 !important;
@@ -122,14 +122,9 @@ nav .container {
     padding-left: 25px !important;
 }
 
-/* .navbar-dropdown-bg .first {
-    padding-top: 20px !important;
-}
-
-.navbar-dropdown-bg .last {
-    padding-bottom: 20px !important;
-}
- */
+.navbar-container {
+    width: 100% !important;
+} 
 
 /* import bootstrap style at the bottom */
 @import '~bootstrap/scss/bootstrap.scss';

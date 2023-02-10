@@ -39,12 +39,6 @@
 
   
   /* MEDIA QUERYS */
-@media (max-width: 1500px) {
-  /*  HEADER */
-  .header-img img {
-    width: 450px;
-  }
-}
 
 @media (max-width: 1400px) {
   .spa-container {
@@ -67,28 +61,11 @@
   }
 }
 
-@media (max-width: 1260px) {
-  /*  HEADER */
-  .header-img img {
-    width: 400px;
-  }
-}
+
 
 
 @media (max-width: 1200px) {
-  /*  HEADER */
-  .header-img img {
-    width: 400px;
-  }
-
-  .p-bottom-60 {
-    padding-bottom: 30px;
-  }
-
-  .btn-container {
-    padding-right: 30px;
-  }
-
+  
   /* ABOUT MAIN PAGE */
   .about-cont {
     flex-direction: row-reverse !important;
@@ -109,118 +86,11 @@
     flex-direction: column;
     align-items:center;
   }
-  /* MASAJES MAIN PAGE */
-  .masajes-mainpage-img img {
-    width: 400px;
-    padding-top: 10px;
-  }
-
-  .masajes-mainpage-content {
-    width: 90%;
-  }
 }
 
-@media (max-width: 1150px) {
-  .header-img img {
-    width: 380px;
-  }
 
-  /* .msj-img img {
-     width: 400px; 
-    width: 100%;
-  }
-  
-  .msj-text {
-    width: 50%;
-    font-size: 22px;
-  } */
-}
-
-@media (max-width: 1070px) {
-  .header .btn-container {
-    padding-right: 10px;
-  }
-  .header-img img {
-    width: 370px;
-  }
-}
 
 @media (max-width: 992px) {
-
-  /* NAVBAR */
-  .navbar-collapse-bg {
-    background-color:rgba(84, 84, 84,.8) !important;
-    border-radius: 4%;
-  }
-
-  .navbar-dropdown-bg .first {
-    padding-top: 20px !important;
-  }
-
-  .navbar-dropdown-bg .last {
-      padding-bottom: 20px !important;
-  }
-
-  /*  HEADER */
-  
-  .header-btns {
-    /* display: none !important; */
-    width: 100% !important;
-    justify-content: space-between;
-  }
-
-  .header-btns .btn {
-    font-size: 13px !important;
-  }
-
-
-  .header .btn-container {
-    padding: 10px;
-    padding-bottom: 0px;
-  }
-
-  .header {
-    height: 102vh !important;
-  }
-  #tsparticles {
-    height: 102vh !important;
-  }
-  .header .content {
-    width: 70% !important;
-    flex-direction: column !important;
-    text-align: center;
-  }
-
-  .header .title {
-    padding-bottom: 15px !important;
-    padding-top: 20px !important;
-  }
-
-  .header .text {
-    width: 80%;
-    margin: auto;
-    font-size: 22px !important;
-  }
-
-  .header-img {
-    align-items: center;
-    margin:auto;
-  }
-
-  .header .container {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    max-width: 800px;
-    width: 80%;
-  }
-
-  .header .p-bottom-60 {
-    padding-bottom: 10px;
-  }
-
-  .header .btn-container {
-    padding-right: 10px;
-  }
 
   /*  ABOUT MAIN PAGE */
   .about-cont {
@@ -244,107 +114,5 @@
   .aboutBtns-container-1200 {
     margin-top: 25px;
     margin-bottom: 25px;
-  }
-
-  /* MASAJES MAIN PAGE */
-  .masajes-mainpage-content {
-    flex-direction: column-reverse;
-    align-items: center;
-    padding-top: 10px !important;
-  }
-
-  .spa-container {
-    right: 37%;
-  }
-
-  .masajes-mainpage-img img {
-    width: 350px;
-  }
-
-  /*MASAJES PAGE */
-  .masajes-container .flex-row {
-    flex-direction: column !important;
-    align-items: center;
-    height: 100% !important;
-  }
-
-  .msj-img {
-    /* width: 400px; */
-    width: 80% !important; 
-    /* height: 300px; */
-    margin-bottom: 30px !important;
-  }
-
-  .msj-text {
-    width: 80% !important;;
-    font-size: 22px;
-  }
-
-  .masajes-container .flex-row-reverse {
-    flex-direction: column !important;
-    align-items: center;
-    height: 100% !important;
-  }
-
-  /* TERAPIAS PAGE */
-  .text-list ol{
-    width: 100% !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .header .text {
-    width: 90%;
-    font-size: 20px !important;
-  }
-
-  .header-img {
-    padding-top: 10px;
-  }
-
-  /* ABOUT */
-  .about-img {
-    width: initial;
-  }
-
-  /* MASAJES MAIN PAGE */
-  .spa-container {
-    right: 30%;
-  }
-}
-
-@media (max-width: 670px) {
-  .header .text {
-    width: 100%;
-  }
-  .header {
-    height: 103vh !important;
-  }
-  #tsparticles {
-    height: 103vh !important;
-  }
-  .header-img {
-    padding-top: 20px;
-  }
-  .content {
-    padding-top: 20px !important;
-  }
-}
-
-@media (max-width: 617px) {
-  .header-img img {
-    width: 350px;
-  }
-}
-
-@media (max-width: 537px) {
-  .header-img img {
-    width: 320px;
-  }
-  .header {
-    height: 102vh !important;
-  }
-  #tsparticles {
-    height: 102vh !important;
   }
 }

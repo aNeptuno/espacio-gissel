@@ -10,7 +10,7 @@ import healy from '../../img/healycircle.png';
 
 function WppBtn() {
     return (
-        <div>
+        <div className='w-100'>
             <Button className="btn-wsp">
                     <FontAwesomeIcon icon={ faWhatsapp } />
             </Button>

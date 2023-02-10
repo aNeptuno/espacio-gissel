@@ -29,10 +29,10 @@ function NavbarComponent() {
   return (
         <div className='container'>
           <Navbar fixed="top" expand="lg" className={color ? 'navbar navbar-bg' : 'navbar navbar-dropdown-bg'}>
-            <Container>
+            <Container className='navbar-container'>
               <Navbar.Brand>
                 <Nav.Link as={NavLink} to="/">
-                  <img src={logoImg} alt="Espacio Gissel Logo" width="62px"/>
+                  <img src={logoImg} alt="Espacio Gissel Logo" width="62px" className='navbar-img'/>
                 </Nav.Link>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />

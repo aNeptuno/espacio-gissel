@@ -17,10 +17,10 @@ function Header() {
             <Navbar />
             <div className="container content d-flex flex-row justify-content-between pt-5">
                 <div className="z-999">
-                    <Fade direction='up' cascade damping={0.3}>
-                        <h1 className="title pt-5 pb-5 text-left">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
+                   <Fade direction='up' cascade damping={0.3}> 
+                        <h1 className="title pt-5 pb-5 text-left header-title">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
 
-                        <p className="text p-bottom-60 text-left">
+                        <p className="text p-bottom-60 text-left header-text">
                             Las terapias de medicina holística despiertan el potencial de sanación interior,
                             trabajan la mente, el cuerpo y el espíritu para lograr bienestar y salud.
                         </p>
@@ -37,7 +37,7 @@ function Header() {
 
 
                         </div>
-                    </Fade>
+                    </Fade> 
 
                 </div>
 

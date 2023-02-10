@@ -22,7 +22,7 @@ export const Masajes = () => {
             <div>
                 <div>
                     <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})` }} >
-                        <NavbarComponent />
+                        <NavbarComponent /> 
                         <div className="caption-left">
                             <ul>
                                 <li>
@@ -47,7 +47,7 @@ export const Masajes = () => {
 
                 <div id="Reflexologia"></div>
                 <h2 className="masajes-title text-center pb-5 pt-5">REFLEXOLOGIA</h2>
-                <div className="container d-flex flex-row pb-5 justify-content-between">
+                <div className="container d-flex flex-row pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={reflexologia} alt="reflexologia" width="400px" />
                     </div>
@@ -65,7 +65,7 @@ export const Masajes = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">PIEDRAS CALIENTES</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
+                <div className="container d-flex flex-row-reverse pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={piedras} alt="piedras calientes" width="400px" />
                     </div>
@@ -81,7 +81,7 @@ export const Masajes = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5 ">DESCONTRACTURANTES</h2>
-                <div className="container d-flex flex-row pb-5 justify-content-between">
+                <div className="container d-flex flex-row pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={descontracturante} alt="descontracturante" width="400px" />
                     </div>
@@ -99,7 +99,7 @@ export const Masajes = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">MADEROTERAPIA</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
+                <div className="container d-flex flex-row-reverse pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={madera} alt="maderoterapia" width="400px" />
                     </div>
@@ -114,7 +114,7 @@ export const Masajes = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">TERAPÉUTICOS</h2>
-                <div className="container d-flex flex-row pb-5 justify-content-between">
+                <div className="container d-flex flex-row pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={terapeuticos} alt="terapeuticos" width="400px" />
                     </div>
@@ -128,7 +128,7 @@ export const Masajes = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">DIGITOPUNTURA</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
+                <div className="container d-flex flex-row-reverse pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={digitopuntura} alt="digitopuntura" width="400px" />
                     </div>
@@ -145,7 +145,7 @@ export const Masajes = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">ESTÉTICOS CON ULTRASONIDO</h2>
-                <div className="container d-flex flex-row pb-5 justify-content-between">
+                <div className="container d-flex flex-row pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={esteticos} alt="esteticos" width="400px" />
                     </div>
@@ -160,7 +160,7 @@ export const Masajes = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">REAFIRMANTES CON ELECTRODOS</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
+                <div className="container d-flex flex-row-reverse pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={reafirmantes} alt="reafirmantes" width="400px" />
                     </div>
@@ -178,7 +178,7 @@ export const Masajes = () => {
             </div>
 
 
-            <Footer />
+            <Footer /> 
 
         </>
     )

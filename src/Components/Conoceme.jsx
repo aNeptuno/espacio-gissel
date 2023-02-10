@@ -1,4 +1,4 @@
-import './Conoceme.css';
+import './Conoceme.css'; 
 
 import about from '../img/presentacion.png';
 
