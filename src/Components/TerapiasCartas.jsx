@@ -8,7 +8,7 @@ import bg from "../img/astral.jpg";
 /* import img1 from "../img/healyresonador.jpg"
 import img2 from "../img/beneficios.jpg" */
 
-import img1 from "../img/astralcut.jpg";
+import img1 from "../img/astral2.jpg";
 
 export const TerapiasCartas = () => {
     return (
@@ -34,7 +34,7 @@ export const TerapiasCartas = () => {
             <div className="masajes-container pt-5 ">
 
                 <h2 className="masajes-title text-center pb-5 pt-5">CONOCE TU CARTA NATAL...</h2>
-                <div className="container d-flex flex-row-reverse pb-0 justify-content-between">
+                <div className="container d-flex flex-row pb-0 justify-content-between">
                     <div className="msj-img">
                         <img src={img1} alt="aromaterapia" width="400px" />
                     </div>
