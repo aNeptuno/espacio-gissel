@@ -108,6 +108,53 @@ export const Masajes = () => {
                     <div className="msj-text text">
                         Este tratamiento consiste en aplicar un masaje empleando diferentes utensilios de madera especialmente diseñados para equilibrar la energía del paciente, remodelar y tonificar su cuerpo, y combatir la celulitis. La maderoterapia aplicada a muslos y glúteos es de gran ayuda para remodelar la figura.Los resultados dependerán de cada persona y también de la frecuencia. El empleo de estos implementos de madera se ha popularizado en su combate contra la celulitis, pero también se le puede dar otros usos.
                         Y alejándose del plano estético puede mejorar dolencias de espalda y articulares, así como ahuyentar el estrés.
+                        <span id="Digitopuntura"></span>
+                    </div>
+
+                </div> 
+
+                <hr />
+
+                <h2 className="masajes-title text-center pb-5 pt-5">DIGITOPUNTURA</h2>
+                <div className="container d-flex flex-row pb-5 justify-content-between p-0">
+                    <div className="msj-img">
+                        <img src={digitopuntura} alt="digitopuntura" width="400px" />
+                    </div>
+                    <div className="msj-text text">
+                        La digitopuntura es una técnica ancestral, se cree por pinturas encontradas, que su práctica comenzó en la India hace más de 5000 años.
+                        Según la medicina tradicional china, el cuerpo humano contiene energía, esta se denomina chi o ki, es transportada por unos vasos conductores llamados meridianos que, entrelazados entre sí, conectan todos los órganos del cuerpo. En estos meridianos hay diferentes puntos, son como una especie de nódulos o bultos, en donde por diferentes razones puede quedar la energía bloqueada.
+
+                        Utilizando la digitopuntura, una vez ubicada la zona en la que se encuentran los puntos, utilizando dedos o nudillos se ejerce presión por unos segundos sobre ellos, para restablecer de nuevo la circulación del chi a través del cuerpo, aliviando de esta manera distintas enfermedades o dolencias que afectan al paciente.
+                        <span id="Esteticos"></span>
+                    </div>
+
+                </div>
+
+                <hr />
+
+                <h2 className="masajes-title text-center pb-5 pt-5">ESTÉTICOS CON ULTRASONIDO</h2>
+                <div className="container d-flex flex-row-reverse pb-5 justify-content-between p-0">
+                    <div className="msj-img">
+                        <img src={esteticos} alt="esteticos" width="400px" />
+                    </div>
+                    <div className="msj-text text">
+                        Es una técnica que permite llegar a todos los contornos corporales y entre sus beneficios se encuentran además, una mejora de la circulación o mayor elasticidad en la piel.
+                        Como se trata de un masaje suave muy específico, proporciona una relajación física que ayuda a fluir la energía de nuestro cuerpo.
+                        <span id="Reafirmantes"></span>
+                    </div>
+
+                </div>
+
+                <hr />
+
+                <h2 className="masajes-title text-center pb-5 pt-5">REAFIRMANTES CON ELECTRODOS</h2>
+                <div className="container d-flex flex-row pb-5 justify-content-between p-0">
+                    <div className="msj-img">
+                        <img src={reafirmantes} alt="reafirmantes" width="400px" />
+                    </div>
+                    <div className="msj-text text">
+                        La electro estimulación muscular utiliza la corriente eléctrica para simular los impulsos que contraen la musculatura del organismo. En Espacio Gissel utilizamos electrodos de ondas rusas y cuadradas.
+                        Estas te ayudan a tener una estimulación profunda del músculo con la menor sensación.
                         <span id="Terapeuticos"></span>
                     </div>
 
@@ -116,7 +163,7 @@ export const Masajes = () => {
                 <hr />
 
                 <h2 className="masajes-title text-center pb-5 pt-5">TERAPÉUTICOS</h2>
-                <div className="container d-flex flex-row pb-5 justify-content-between p-0">
+                <div className="container d-flex flex-row-reverse  pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={terapeuticos} alt="terapeuticos" width="400px" />
                     </div>
@@ -135,53 +182,6 @@ export const Masajes = () => {
                             <li>
                                 <a href="/Terapias/Frecuencias"> Terapia de frecuencias</a>
                             </li> 
-                        <span id="Digitopuntura"></span>
-                    </div>
-
-                </div>
-
-                <hr />
-
-                <h2 className="masajes-title text-center pb-5 pt-5">DIGITOPUNTURA</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between p-0">
-                    <div className="msj-img">
-                        <img src={digitopuntura} alt="digitopuntura" width="400px" />
-                    </div>
-                    <div className="msj-text text">
-                        La digitopuntura es una técnica ancestral, se cree por pinturas encontradas, que su práctica comenzó en la India hace más de 5000 años.
-                        Según la medicina tradicional china, el cuerpo humano contiene energía, esta se denomina chi o ki, es transportada por unos vasos conductores llamados meridianos que, entrelazados entre sí, conectan todos los órganos del cuerpo. En estos meridianos hay diferentes puntos, son como una especie de nódulos o bultos, en donde por diferentes razones puede quedar la energía bloqueada.
-
-                        Utilizando la digitopuntura, una vez ubicada la zona en la que se encuentran los puntos, utilizando dedos o nudillos se ejerce presión por unos segundos sobre ellos, para restablecer de nuevo la circulación del chi a través del cuerpo, aliviando de esta manera distintas enfermedades o dolencias que afectan al paciente.
-                        <span id="Esteticos"></span>
-                    </div>
-
-                </div>
-
-                <hr />
-
-                <h2 className="masajes-title text-center pb-5 pt-5">ESTÉTICOS CON ULTRASONIDO</h2>
-                <div className="container d-flex flex-row pb-5 justify-content-between p-0">
-                    <div className="msj-img">
-                        <img src={esteticos} alt="esteticos" width="400px" />
-                    </div>
-                    <div className="msj-text text">
-                        Es una técnica que permite llegar a todos los contornos corporales y entre sus beneficios se encuentran además, una mejora de la circulación o mayor elasticidad en la piel.
-                        Como se trata de un masaje suave muy específico, proporciona una relajación física que ayuda a fluir la energía de nuestro cuerpo.
-                        <span id="Reafirmantes"></span>
-                    </div>
-
-                </div>
-
-                <hr />
-
-                <h2 className="masajes-title text-center pb-5 pt-5">REAFIRMANTES CON ELECTRODOS</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between p-0">
-                    <div className="msj-img">
-                        <img src={reafirmantes} alt="reafirmantes" width="400px" />
-                    </div>
-                    <div className="msj-text text">
-                        La electro estimulación muscular utiliza la corriente eléctrica para simular los impulsos que contraen la musculatura del organismo. En Espacio Gissel utilizamos electrodos de ondas rusas y cuadradas.
-                        Estas te ayudan a tener una estimulación profunda del músculo con la menor sensación.
                         <span id="Digitopuntura"></span>
                     </div>
 

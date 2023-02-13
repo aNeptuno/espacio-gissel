@@ -17,19 +17,21 @@ function Masajescomponent() {
         <div className="bg-orange">
             <div className="container pt-5 pb-4">
                 <div className="d-flex flex-column masajes-mainpage pb-4">
-                    <Fade direction='down' fraction={0.2}>
+                    
                         <div className='masajes-mainpage-welcome'>
 
+                        <Fade direction='right' fraction={0.2} triggerOnce={true}>
                             <h1 className="title title-orange pt-4 pb-4">Masajes para el bienestar</h1>
+                            
                             <h2 className="subtitle subtitle-orange pt-2 pb-2">Conoce la amplia variedad de masajes, uno de ellos es para ti</h2>
+                            </Fade>
                             <div className="spa-container">
                                 <FontAwesomeIcon icon={faSpa} color="rgba(236, 75, 25, .2)" />
                             </div>
 
                         </div>
-                    </Fade>
                     <div className='masajes-mainpage-content pt-5 '>
-                        <Fade direction='left' cascade damping={0.15}>
+                        <Fade direction='left' cascade damping={0.4} triggerOnce={true}>
                             <ul>
                                 <li className="text text-orange">
                                     <Button variant="outline-danger" className="btn-msj">
@@ -65,12 +67,6 @@ function Masajescomponent() {
                                     <Button variant="outline-danger" className="btn-msj">
                                         <FontAwesomeIcon icon={faCheck} color="rgb(236, 75, 25, .6)" />
                                     </Button>
-                                    <span>Terapéuticos</span>
-                                </li>
-                                <li className="text text-orange">
-                                    <Button variant="outline-danger" className="btn-msj">
-                                        <FontAwesomeIcon icon={faCheck} color="rgb(236, 75, 25, .6)" />
-                                    </Button>
                                     <span>Digitopuntura</span>
                                 </li>
                                 <li className="text text-orange">
@@ -85,9 +81,15 @@ function Masajescomponent() {
                                     </Button>
                                     <span>Reafirmantes con electrodos</span>
                                 </li>
+                                <li className="text text-orange">
+                                    <Button variant="outline-danger" className="btn-msj">
+                                        <FontAwesomeIcon icon={faCheck} color="rgb(236, 75, 25, .6)" />
+                                    </Button>
+                                    <span>Terapéuticos</span>
+                                </li>
                             </ul>
                         </Fade>
-                        <Fade direction="right">
+                        <Fade direction="right" triggerOnce={true}>
                             <div className='masajes-mainpage-img'>
                                 <img src={masaje} alt="Digitopuntura" />
                             </div>
@@ -96,7 +98,7 @@ function Masajescomponent() {
 
 
                     <div className='masajes-mainpage-button'>
-                        <Fade direction='up'>
+                        <Fade direction='up' fraction={0.2} triggerOnce={true}>
                             <Button variant="danger" as={HashLink} to="/Masajes"> LEER MÁS </Button>
                         </Fade>
                     </div>

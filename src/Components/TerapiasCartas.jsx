@@ -3,11 +3,12 @@ import './Masajes.css';
 import NavbarComponent from "./General/Navbar";
 import Footer from "./General/Footer";
 
-import bg from "../img/astral.jpg"
+import bg from "../img/astral.jpg";
 
 /* import img1 from "../img/healyresonador.jpg"
 import img2 from "../img/beneficios.jpg" */
 
+import img1 from "../img/astralcut.jpg";
 
 export const TerapiasCartas = () => {
     return (
@@ -32,14 +33,17 @@ export const TerapiasCartas = () => {
 
             <div className="masajes-container pt-5 ">
 
-                <h2 className="masajes-title text-center pb-5 pt-5">CONOCE TU CARTA NATAL</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
+                <h2 className="masajes-title text-center pb-5 pt-5">CONOCE TU CARTA NATAL...</h2>
+                <div className="container d-flex flex-row-reverse pb-0 justify-content-between">
                     <div className="msj-img">
-                        <img src={bg} alt="aromaterapia" width="400px" />
+                        <img src={img1} alt="aromaterapia" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Me gusta nombrar a las piedras calientes como lo que son: piedras volcánicas que fueron creadas hace mucho tiempo en el volcán, con todo el poder de la tierra, surgen de el choque de la  roca líquida y su enfriamiento con los iones .Al calentarla en el gabinete, estas abuelas de la tierra recuerdan su fuerza energética, sus minerales y su sabiduría.
-                        Con su calor alivian el espasmo muscular y las contracturas que están por debajo. Ademas de ser una caricia y conexión de la tierra con nosotros.
+                        Para hacer una carta natal, se utiliza la fecha y hora exacta de tu nacimiento, para revelar 
+                        la posición de los astros en el cielo. Esto permite conocer aspectos de tu personalidad, 
+                        lo que más te representa como persona, el cómo te expresas y cómo se expresan tus emociones, 
+                        para que puedas conectar con tu verdadera identidad, encontrar respuestas sobre tu vida, y descubrir 
+                        aspectos de tí mismo que quizás permanecen ocultos.
                     </div>
 
                 </div>
@@ -48,10 +52,11 @@ export const TerapiasCartas = () => {
 
             <div className="masajes-container pb-5">
 
+                <h2 className="masajes-title text-center pb-5 pt-5">...Y QUÉ TE ESPERA EN EL FUTURO</h2>
                 <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
                     <div className=" text">
-                        Me gusta nombrar a las piedras calientes como lo que son: piedras volcánicas que fueron creadas hace mucho tiempo en el volcán, con todo el poder de la tierra, surgen de el choque de la  roca líquida y su enfriamiento con los iones .Al calentarla en el gabinete, estas abuelas de la tierra recuerdan su fuerza energética, sus minerales y su sabiduría.
-                        Con su calor alivian el espasmo muscular y las contracturas que están por debajo. Ademas de ser una caricia y conexión de la tierra con nosotros.
+                        A demás de revelar aspectos personales, también es posible saber cómo te afectan los astros hoy, y cómo te afectarán en el futuro, revelando tendencias, 
+                        posibilidades y oportunidades, para orientarnos sobre cómo actuar en los distintos aspectos de la vida, tanto en el presente, como en el futuro.
                     </div>
 
                 </div>

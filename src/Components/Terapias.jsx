@@ -16,9 +16,9 @@ import { HashLink } from 'react-router-hash-link';
 export const Terapias = () => {
     return (
         <div className="container p-4 pt-5 pb-5">
-            <Fade direction='up' cascade damping={0.2}>
+            <Fade direction='up' cascade damping={0.01}>
                 <h1 className="title text-center pb-2 pt-5">Terapias y tratamientos</h1>
-                <h2 className="text text-center pt-4 pb-4">Texto corto introductorio a los distintos tipos de terapias y tratamientos que ofrece el espacio.</h2>
+                <h2 className="text text-center pt-4 pb-4">Herramientas para que ayudarte a sanar conectando con tu poder interior y energía..</h2>
             </Fade>
             <div class="row row-cols-1 row-cols-lg-3 g-5 cards-container">
                 <div class="col">
@@ -27,7 +27,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faWind} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Aromaterapia</Card.Title>
                             <Card.Text className="text card-component">
-                                Medicina alternativa basada en el uso de materiales aromáticos.
+                                Medicina alternativa basada en el uso de distintos aceites esenciales y compuestos aromáticos para ayudar con los problemas del cuerpo y de la mente.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -42,7 +42,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faEyeDropper} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Flores de Bach y Mediterráneo</Card.Title>
                             <Card.Text className="text card-component">
-                                Se utilizan esencias florales para ayudar a generar cambios en las emociones y los sentimientos.
+                                Se utilizan esencias florales específicas para ayudar a generar los cambios emocionales y sentimentales que precises en tu vida.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -57,7 +57,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faHandsHoldingCircle} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Barras de Access</Card.Title>
                             <Card.Text className="text card-component">
-                                Técnica de aplicación manual energética que trabaja con el inconsciente generando cambios en las emociones y pensamientos limitantes.
+                                Técnica de aplicación manual que trabaja energéticamente con el inconsciente para generar cambios psicológicos y emocionales, eliminando los pensamientos limitantes.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -87,8 +87,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faMoon} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Cartas natales</Card.Title>
                             <Card.Text className="text card-component">
-                                PLACEHOLDER: La astrología es un lenguaje que nos permite, a través de la lectura de la carta natal,
-                                acceder a un mapa de posibilidades acerca de nuestra vida.
+                                Es una lectura de tu personaliadad, emociones y tu identidad a través de cómo te marcaron los astros, para poder conectar más con lo que realmente eres.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -103,7 +102,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={fa7} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Cartas numerológicas</Card.Title>
                             <Card.Text className="text card-component">
-                                Descubrí tu misión en esta vida, los karmas que cumples, tu vibración anual y los mejores meses del año para ti.
+                                Descubrí tu misión de vida y las tendencias que tendrás en tu futuro a través de las vibraciones que crean tus números.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

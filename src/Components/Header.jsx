@@ -27,7 +27,7 @@ function Header() {
             <Navbar />
             <div className="container content d-flex flex-row justify-content-between pt-5">
                 <div className="z-999">
-                   <Fade direction='up' cascade damping={0.3}> 
+                   <Fade direction='up' cascade damping={0.3} triggerOnce={true}> 
                         <h1 className="title pt-5 pb-5 text-left header-title">Espacio Gissel es un lugar para sanar con nuevas herramientas</h1>
 
                         <p className="text p-bottom-60 text-left header-text">
@@ -53,14 +53,14 @@ function Header() {
 
 
                 <div className="z-999 header-img">
-                    <Fade>
+                    {/* <Fade triggerOnce={true}> */}
                         <img
                             className="d-block"
                             src={header1}
                             alt="Logo"
                             width="500px"
                         />
-                    </Fade>
+                    {/* </Fade> */}
                 </div>
             </div>
 
