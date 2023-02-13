@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/espacio-gissel/static/css/main.ee8b3e92.css",
-    "main.js": "/espacio-gissel/static/js/main.3cdb3d12.js",
+    "main.js": "/espacio-gissel/static/js/main.b24cb5ee.js",
     "static/js/787.b1be6193.chunk.js": "/espacio-gissel/static/js/787.b1be6193.chunk.js",
     "static/media/header1.png": "/espacio-gissel/static/media/header1.e0bcfc1ba938b6fa092b.png",
     "static/media/presentacion.png": "/espacio-gissel/static/media/presentacion.e76b66ee595d3ed973a4.png",
@@ -21,7 +21,7 @@
     "static/media/flores.jpg": "/espacio-gissel/static/media/flores.06d926ebbf98abf6462a.jpg",
     "static/media/testimonios.jpg": "/espacio-gissel/static/media/testimonios.207842071a46923d4137.jpg",
     "static/media/aromaterapia2.jpg": "/espacio-gissel/static/media/aromaterapia2.ad1d6b82899bbf6c3ca8.jpg",
-    "static/media/descontracturante.jpg": "/espacio-gissel/static/media/descontracturante.51f5fdd07490d9636c63.jpg",
+    "static/media/descontracturante.jpg": "/espacio-gissel/static/media/descontracturante.3cc8192f270288194457.jpg",
     "static/media/flores2.jpg": "/espacio-gissel/static/media/flores2.e713f68e7599996dbec7.jpg",
     "static/media/just.jpg": "/espacio-gissel/static/media/just.cd466ae31d69db7985e6.jpg",
     "static/media/frecuenciasbg3.jpg": "/espacio-gissel/static/media/frecuenciasbg3.ad6498ce725df4b0471b.jpg",
@@ -30,6 +30,7 @@
     "static/media/astral.jpg": "/espacio-gissel/static/media/astral.62a5c276b0041705e4d3.jpg",
     "static/media/GisselFlores.jpg": "/espacio-gissel/static/media/GisselFlores.31d62d3ba8373b08fc97.jpg",
     "static/media/reafirmantes.jpg": "/espacio-gissel/static/media/reafirmantes.fdf2f5b8439e2af3c4d0.jpg",
+    "static/media/astralcut.jpg": "/espacio-gissel/static/media/astralcut.604476a5344368ddd9a4.jpg",
     "static/media/accessbar.jpg": "/espacio-gissel/static/media/accessbar.387c4cdb30ea1b55d8cc.jpg",
     "static/media/frecuenciasbg.jpg": "/espacio-gissel/static/media/frecuenciasbg.fd42dfcbb69923f2a86f.jpg",
     "static/media/barrasbg2.jpg": "/espacio-gissel/static/media/barrasbg2.e36aba32d8ba55aba4a7.jpg",
@@ -39,14 +40,16 @@
     "static/media/reflexologia.jpg": "/espacio-gissel/static/media/reflexologia.5524f9d0bb75b2e55ccb.jpg",
     "static/media/digitopuntura.jpg": "/espacio-gissel/static/media/digitopuntura.b9c0866f884349d94a7d.jpg",
     "static/media/healyresonador.jpg": "/espacio-gissel/static/media/healyresonador.834db4d69bd9e506bf49.jpg",
+    "static/media/estela.jpg": "/espacio-gissel/static/media/estela.27ed726b2c4ac63b721c.jpg",
+    "static/media/lucia.jpg": "/espacio-gissel/static/media/lucia.dc610b568470e1ad56c6.jpg",
     "static/media/logo-gissel-clean.svg": "/espacio-gissel/static/media/logo-gissel-clean.4b40f799c2bce53d7e82087ca5b97f02.svg",
     "index.html": "/espacio-gissel/index.html",
     "main.ee8b3e92.css.map": "/espacio-gissel/static/css/main.ee8b3e92.css.map",
-    "main.3cdb3d12.js.map": "/espacio-gissel/static/js/main.3cdb3d12.js.map",
+    "main.b24cb5ee.js.map": "/espacio-gissel/static/js/main.b24cb5ee.js.map",
     "787.b1be6193.chunk.js.map": "/espacio-gissel/static/js/787.b1be6193.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee8b3e92.css",
-    "static/js/main.3cdb3d12.js"
+    "static/js/main.b24cb5ee.js"
   ]
 }
