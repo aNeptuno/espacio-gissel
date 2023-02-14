@@ -16,7 +16,7 @@ import { HashLink } from 'react-router-hash-link';
 export const Terapias = () => {
     return (
         <div className="container p-4 pt-5 pb-5">
-            <Fade direction='up' cascade damping={0.01}>
+            <Fade direction='left' cascade damping={0.1} triggerOnce={true}>
                 <h1 className="title text-center pb-2 pt-5">Terapias y tratamientos</h1>
                 <h2 className="text text-center pt-4 pb-4">Herramientas para que ayudarte a sanar conectando con tu poder interior y energía..</h2>
             </Fade>

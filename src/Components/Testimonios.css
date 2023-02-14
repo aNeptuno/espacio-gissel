@@ -44,7 +44,7 @@
   }
   .carousel-control-prev,
   .carousel-control-next {
-    background-color: #e1e1e1;
+    background-color:  rgba(40, 40, 40, .8);
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
