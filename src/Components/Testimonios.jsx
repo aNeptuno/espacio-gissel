@@ -37,7 +37,7 @@ function Testimonios() {
             </div>
             <div className='testimonios-carousel-container position-absolute'>
 
-                <Carousel activeIndex={index} onSelect={handleSelect} className="d-none d-md-block" interval={20000000}>
+                <Carousel activeIndex={index} onSelect={handleSelect} className="d-none d-md-block first-carousel" interval={20000000}>
                     <Carousel.Item>
                         <div class="row row-cols-2 cards-wrapper d-flex justify-content-around">
                             <div class="col d-flex justify-content-center">
@@ -140,7 +140,7 @@ function Testimonios() {
                 </Carousel>
 
 
-                <Carousel activeIndex={index} onSelect={handleSelect} className="d-md-none">
+                <Carousel activeIndex={index} onSelect={handleSelect} className="d-md-none second-carousel" interval={20000000}>
                     <Carousel.Item>
                         <Card style={{ width: '24rem' }} className="h-100">
                             <div class="row g-1 d-flex align-items-center">
@@ -154,9 +154,9 @@ function Testimonios() {
 
                                 </div>
                             </div>
-                            <Card.Text className='p-4'>
+                            <Card.Text className='p-4 pt-1 p-carousel'>
                                 <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                <span className="text">
+                                <span className="text text-second">
                                     Es increíble como me ha cambiado la vida, el estado de ánimo, la forma de relacionarme. Elegí este espacio con Gissel porque es una persona que me transmitió y me dio una visión de todo lo que podía llegar a cambiar. 
                                     La elegí a ella porque sentí esa confianza y esa conexión, y estoy aquí, y de aquí no me voy!
                                 </span>
@@ -177,9 +177,9 @@ function Testimonios() {
 
                                         </div>
                                     </div>
-                                    <Card.Text className='p-4'>
+                                    <Card.Text className='p-4 pt-1'>
                                         <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                        <span className="text">
+                                        <span className="text text-second">
                                             Es una persona muy confiable, transmite mucha seguridad, tranquilidad. Es un espacio donde hay un intercambio de energía, haciendo las cosas con el corazón, que produce un enriquecimiento personal. 
                                         </span>
                                     </Card.Text>
@@ -199,9 +199,9 @@ function Testimonios() {
 
                                         </div>
                                     </div>
-                                    <Card.Text className='p-4'>
+                                    <Card.Text className='p-4 pt-1 p-carousel'>
                                         <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                        <span className="text">
+                                        <span className="text text-second">
                                             Gissel maneja las herramientas que te permiten aumentar las posibilidades. Siento que la vida nos conectó, y a partir de que nos conocimos hay un montón de cosas que en mi vida cambiaron. Nos elegimos las dos por un montón de cosas, por su forma de ser, la sensibilidad, la seriedad, el amor que le pone a las cosas.
                                         </span>
                                     </Card.Text>
@@ -220,9 +220,9 @@ function Testimonios() {
 
                                         </div>
                                     </div>
-                                    <Card.Text className='p-4'>
+                                    <Card.Text className='p-4 pt-1 p-carousel'>
                                         <FontAwesomeIcon icon={faQuoteLeft} className="icon-color fa-lg me-2" />
-                                        <span className="text">
+                                        <span className="text text-second">
                                             Te da mas confianza, alegría, y te permite encontrar otros espacios, 
                                             que no son los convencionales, para poder desarrollarte y tener una vida más digna y alegre.
 

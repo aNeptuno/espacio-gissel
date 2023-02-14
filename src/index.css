@@ -235,7 +235,7 @@ b, strong {
 }
 
 .masajes-container {
-  width: 80%;
+  width: 80%; 
   margin: auto;
 }
 
@@ -372,7 +372,7 @@ b, strong {
   }
 
   .navbar-container {
-    width: 90% !important;
+   /* width: 90% !important;   */
   } 
 
   /*  HEADER */
@@ -642,13 +642,42 @@ b, strong {
   }
 
   .spa-container {
-    right: 20% !important; 
+    right: 24% !important; 
   }
 
-  
+  /* MASAJES MAIN PAGE */
+  .masajes-mainpage-img img {
+    width: 260px;
+  }
+
+  /* TERAPIAS PAGES */
+  .masajes-container {
+    width: 90%; 
+  }
+
+  /* MASAJES PAGE */
+  .masajes-container-masajes {
+    width: 80% !important; 
+  }
 }
 
+  
+
 @media (max-width: 375px) { 
+
+  * GENERAL */
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 19px;
+  }
+
   /* ABOUT */
   .about-img img {
     width: 260px;
@@ -657,5 +686,9 @@ b, strong {
   /* MASAJES MAIN PAGE */
   .masajes-mainpage-img img {
     width: 260px;
+  }
+
+  .masajes-mainpage-content ul {
+    padding-left: 0rem !important;
   }
 }
