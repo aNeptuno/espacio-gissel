@@ -22,7 +22,7 @@ function App() {
     <WppBtn />
     <Routes>
       <Route path='/' element={ <Home />}></Route>
-      <Route path="*" element={ <NoMatch />}></Route>
+      <Route path="*" element={ <Home />}></Route>
       <Route path="/Terapias" element={ <TerapiasAromaterapia />}></Route>
       <Route path='/Conoceme' element={ <About />}></Route>
       <Route path='/Masajes' element={ <Masajes />}></Route>
