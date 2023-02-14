@@ -7,6 +7,8 @@ import Button from 'react-bootstrap/Button';
 
 import healy from '../../img/healycircle.png';
 
+import { HashLink } from 'react-router-hash-link';
+
 
 function WppBtn() {
     return (
@@ -14,7 +16,7 @@ function WppBtn() {
             <Button className="btn-wsp">
                     <FontAwesomeIcon icon={ faWhatsapp } />
             </Button>
-            <Button className="btn-healy">
+            <Button className="btn-healy" as={HashLink} to="/Terapias/Frecuencias">
                 <img src={healy} alt="terapia-frecuencias" className="btn-healy p-0"/>
             </Button>
         </div>
