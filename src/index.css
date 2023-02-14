@@ -665,7 +665,7 @@ b, strong {
 
 @media (max-width: 375px) { 
 
-  * GENERAL */
+  /* GENERAL */
   .subtitle {
     font-size: 18px;
   }
