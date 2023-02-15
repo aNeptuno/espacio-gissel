@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/espacio-gissel/static/css/main.b1077c08.css",
-    "main.js": "/espacio-gissel/static/js/main.eeeedc8b.js",
+    "main.css": "/espacio-gissel/static/css/main.149405d8.css",
+    "main.js": "/espacio-gissel/static/js/main.b21449ce.js",
     "static/js/787.b1be6193.chunk.js": "/espacio-gissel/static/js/787.b1be6193.chunk.js",
     "static/media/header1.png": "/espacio-gissel/static/media/header1.e0bcfc1ba938b6fa092b.png",
     "static/media/presentacion.png": "/espacio-gissel/static/media/presentacion.e76b66ee595d3ed973a4.png",
@@ -42,12 +42,12 @@
     "static/media/lucia.jpg": "/espacio-gissel/static/media/lucia.dc610b568470e1ad56c6.jpg",
     "static/media/logo-gissel-clean.svg": "/espacio-gissel/static/media/logo-gissel-clean.4b40f799c2bce53d7e82087ca5b97f02.svg",
     "index.html": "/espacio-gissel/index.html",
-    "main.b1077c08.css.map": "/espacio-gissel/static/css/main.b1077c08.css.map",
-    "main.eeeedc8b.js.map": "/espacio-gissel/static/js/main.eeeedc8b.js.map",
+    "main.149405d8.css.map": "/espacio-gissel/static/css/main.149405d8.css.map",
+    "main.b21449ce.js.map": "/espacio-gissel/static/js/main.b21449ce.js.map",
     "787.b1be6193.chunk.js.map": "/espacio-gissel/static/js/787.b1be6193.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1077c08.css",
-    "static/js/main.eeeedc8b.js"
+    "static/css/main.149405d8.css",
+    "static/js/main.b21449ce.js"
   ]
 }
