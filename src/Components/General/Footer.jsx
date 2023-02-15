@@ -12,6 +12,7 @@ import Mapa from './Mapa';
 
 function Footer () {
     return(
+        <>
         <div className="contacto" id="Contacto">
             <div className="d-flex flex-row pt-4 contacto-welcome">
                 <h1 className="title">Espacio</h1>
@@ -36,6 +37,12 @@ function Footer () {
                 </ul>
             </div>
         </div>
+        <div className='footer-info text-center p-1 bg-dark'>
+            <span className='footer-info-text text'>
+                modernoweb11@gmail.com - Diseño y desarrollo de sitios web
+            </span>
+        </div>
+        </>
        
     ) 
 }
