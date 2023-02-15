@@ -18,7 +18,7 @@ export const Terapias = () => {
         <div className="container p-4 pt-5 pb-5">
             <Fade direction='left' cascade damping={0.1} triggerOnce={true}>
                 <h1 className="title text-center pb-2 pt-5">Terapias y tratamientos</h1>
-                <h2 className="text text-center pt-4 pb-4">Herramientas para que ayudarte a sanar conectando con tu poder interior y energía..</h2>
+                <h2 className="text text-center pt-4 pb-4">Herramientas para que ayudarte a sanar conectando con tu poder interior y energía.</h2>
             </Fade>
             <div class="row row-cols-1 row-cols-lg-3 g-5 cards-container">
                 <div class="col">
@@ -87,7 +87,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faMoon} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Cartas natales</Card.Title>
                             <Card.Text className="text card-component">
-                                Es una lectura de tu personaliadad, emociones y tu identidad a través de cómo te marcaron los astros, para poder conectar más con lo que realmente eres.
+                                Es una lectura de tu personalidad, emociones y tu identidad a través de cómo te marcaron los astros, para poder conectar más con lo que realmente eres.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
