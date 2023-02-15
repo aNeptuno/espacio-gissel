@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/espacio-gissel/static/css/main.b1077c08.css",
-    "main.js": "/espacio-gissel/static/js/main.7078d33c.js",
+    "main.js": "/espacio-gissel/static/js/main.eeeedc8b.js",
     "static/js/787.b1be6193.chunk.js": "/espacio-gissel/static/js/787.b1be6193.chunk.js",
     "static/media/header1.png": "/espacio-gissel/static/media/header1.e0bcfc1ba938b6fa092b.png",
     "static/media/presentacion.png": "/espacio-gissel/static/media/presentacion.e76b66ee595d3ed973a4.png",
@@ -20,8 +20,8 @@
     "static/media/flores.jpg": "/espacio-gissel/static/media/flores.06d926ebbf98abf6462a.jpg",
     "static/media/testimonios.jpg": "/espacio-gissel/static/media/testimonios.207842071a46923d4137.jpg",
     "static/media/aromaterapia2.jpg": "/espacio-gissel/static/media/aromaterapia2.ad1d6b82899bbf6c3ca8.jpg",
-    "static/media/descontracturante.jpg": "/espacio-gissel/static/media/descontracturante.3cc8192f270288194457.jpg",
     "static/media/flores2.jpg": "/espacio-gissel/static/media/flores2.e713f68e7599996dbec7.jpg",
+    "static/media/descontracturante.jpg": "/espacio-gissel/static/media/descontracturante.d440222e3d08c276e119.jpg",
     "static/media/just.jpg": "/espacio-gissel/static/media/just.cd466ae31d69db7985e6.jpg",
     "static/media/frecuenciasbg3.jpg": "/espacio-gissel/static/media/frecuenciasbg3.ad6498ce725df4b0471b.jpg",
     "static/media/masajesbg1.jpg": "/espacio-gissel/static/media/masajesbg1.ff795ac1b6683da77fca.jpg",
@@ -43,11 +43,11 @@
     "static/media/logo-gissel-clean.svg": "/espacio-gissel/static/media/logo-gissel-clean.4b40f799c2bce53d7e82087ca5b97f02.svg",
     "index.html": "/espacio-gissel/index.html",
     "main.b1077c08.css.map": "/espacio-gissel/static/css/main.b1077c08.css.map",
-    "main.7078d33c.js.map": "/espacio-gissel/static/js/main.7078d33c.js.map",
+    "main.eeeedc8b.js.map": "/espacio-gissel/static/js/main.eeeedc8b.js.map",
     "787.b1be6193.chunk.js.map": "/espacio-gissel/static/js/787.b1be6193.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1077c08.css",
-    "static/js/main.7078d33c.js"
+    "static/js/main.eeeedc8b.js"
   ]
 }
