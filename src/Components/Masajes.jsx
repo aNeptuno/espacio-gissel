@@ -132,14 +132,14 @@ export const Masajes = () => {
 
                 <hr />
 
-                <h2 className="masajes-title text-center pb-5 pt-5">ESTÉTICOS CON ULTRASONIDO</h2>
+                <h2 className="masajes-title text-center pb-5 pt-5">ESTÉTICOS CON PRESOTERAPIA</h2>
                 <div className="container d-flex flex-row-reverse pb-5 justify-content-between p-0">
                     <div className="msj-img">
                         <img src={esteticos} alt="esteticos" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Es una técnica que permite llegar a todos los contornos corporales y entre sus beneficios se encuentran además, una mejora de la circulación o mayor elasticidad en la piel.
-                        Como se trata de un masaje suave muy específico, proporciona una relajación física que ayuda a fluir la energía de nuestro cuerpo.
+                        La presoterapia permite mejorar el retorno venoso y todos sus síntomas, como la hinchazón de piernas y el dolor, entre otros. 
+                        Para ello, se utiliza un equipo con botas que aplican presión a tiempo constante, yendo de distal a aproximal, favoreciendo la eliminación de las toxinas de la linfa.
                         <span id="Reafirmantes"></span>
                     </div>
 

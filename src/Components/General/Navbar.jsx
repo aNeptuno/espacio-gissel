@@ -46,7 +46,7 @@ function NavbarComponent() {
                     <NavDropdown.Item as={HashLink} to="/Masajes#Descontracturantes">Descontracturantes</NavDropdown.Item>
                     <NavDropdown.Item as={HashLink} to="/Masajes#Maderoterapia">Maderoterapia</NavDropdown.Item> 
                     <NavDropdown.Item as={HashLink} to="/Masajes#Digitopuntura">Digitopuntura</NavDropdown.Item>
-                    <NavDropdown.Item as={HashLink} to="/Masajes#Esteticos">Estéticos con ultrasonido</NavDropdown.Item>
+                    <NavDropdown.Item as={HashLink} to="/Masajes#Esteticos">Estéticos con presoterapia</NavDropdown.Item>
                     <NavDropdown.Item as={HashLink} to="/Masajes#Reafirmantes">Reafirmantes con electrodos</NavDropdown.Item>
                     <NavDropdown.Item as={HashLink} to="/Masajes#Terapeuticos">Terapéuticos</NavDropdown.Item>
                   </NavDropdown>

@@ -73,7 +73,7 @@ function Masajescomponent() {
                                     <Button variant="outline-danger" className="btn-msj">
                                         <FontAwesomeIcon icon={faCheck} color="rgb(236, 75, 25, .6)" />
                                     </Button>
-                                    <span>Estéticos con ultrasonido</span>
+                                    <span>Estéticos con presoterapia</span>
                                 </li>
                                 <li className="text text-orange">
                                     <Button variant="outline-danger" className="btn-msj">
