@@ -30,7 +30,7 @@ export const Conoceme = () => {
                     <p className="text">
                         Gissel es pionera en pensar la belleza como un concepto holístico.
                         De larga trayectoria profesional y de reconocido prestigio en Montevideo.
-                        En 2006 abre su propio centro dedicado exclusivamente a la belleza, la salud y el bienestar.
+                        En 2006 abre su propio centro dedicado exclusivamente a la belleza y la sanación como un todo.
                     </p>
                     </Fade>
                     <div className="hand-container">

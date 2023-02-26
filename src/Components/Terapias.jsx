@@ -21,6 +21,22 @@ export const Terapias = () => {
                 <h2 className="text text-center pt-4 pb-4">Herramientas para que ayudarte a sanar conectando con tu poder interior y energía.</h2>
             </Fade>
             <div class="row row-cols-1 row-cols-lg-3 g-5 cards-container">
+
+            <div class="col">
+                    <Card className="card-elem text-center h-100">
+                        <Card.Body>
+                            <FontAwesomeIcon icon={faWaveSquare} className="card-component icon-color" />
+                            <Card.Title className="subtitle card-component">Terapia con frecuencias</Card.Title>
+                            <Card.Text className="text card-component">
+                                Resonador holistico que emplea frecuencias de alta vibración cuántica para ayudarte al equilibrio.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <Card.Link as={HashLink} to="/Terapias/Frecuencias" className='text card-component'>Leer más</Card.Link>
+                        </Card.Footer>
+                    </Card>
+                </div>
+                
                 <div class="col">
                     <Card className="card-elem d-flex text-center h-100">
                         <Card.Body>
@@ -66,20 +82,6 @@ export const Terapias = () => {
                     </Card>
                 </div>
 
-                <div class="col">
-                    <Card className="card-elem text-center h-100">
-                        <Card.Body>
-                            <FontAwesomeIcon icon={faWaveSquare} className="card-component icon-color" />
-                            <Card.Title className="subtitle card-component">Terapia con frecuencias</Card.Title>
-                            <Card.Text className="text card-component">
-                                Resonador holistico que emplea frecuencias de alta vibración cuántica para ayudarte al equilibrio.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <Card.Link as={HashLink} to="/Terapias/Frecuencias" className='text card-component'>Leer más</Card.Link>
-                        </Card.Footer>
-                    </Card>
-                </div>
 
                 <div class="col">
                     <Card className="card-elem text-center h-100">
@@ -87,7 +89,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faMoon} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Cartas natales</Card.Title>
                             <Card.Text className="text card-component">
-                                Es una lectura de tu personalidad, emociones y tu identidad a través de cómo te marcaron los astros, para poder conectar más con lo que realmente eres.
+                                Es una lectura del dibujo del cielo en la tierra en tu momento de nacimiento, y cómo los astros te ayudan a trascender obstáculos y lograr propósitos de vida.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
