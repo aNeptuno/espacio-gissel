@@ -12,7 +12,7 @@ import madera from "../img/madera.jpg"
 
 import terapeuticos from "../img/terapeuticos.jpg"
 import digitopuntura from "../img/digitopuntura.jpg"
-import esteticos from "../img/esteticos.jpg"
+import esteticos from "../img/presoterapia.jpg"
 import reafirmantes from "../img/reafirmantes.jpg"
 
 
@@ -91,7 +91,8 @@ export const Masajes = () => {
                         masaje relajante, en este se aplican técnicas manuales de una mayor intensidad para lograr 
                         disolver las contracturas, que se generan por el estrés las malas posturas, la falta de descanso o el sedentarismo. 
                         La eliminación de tensiones en los músculos contribuye al correcto funcionamiento muscular y articular, y ayuda a 
-                        corregir aquellos desequilibrios que están causando el malestar. 
+                        corregir aquellos desequilibrios que están causando el malestar. <br></br>
+                        Dejate consentir y viví los beneficios del masaje regular.
 
                         <span id="Maderoterapia"></span>
                     </div>

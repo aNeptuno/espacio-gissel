@@ -12,6 +12,8 @@ import Button from 'react-bootstrap/Button';
 import { HashLink } from 'react-router-hash-link';
 import { Fade } from 'react-awesome-reveal';
 
+import { NavLink } from "react-router-dom"; 
+
 export const Conoceme = () => {
     return (
         <div className="container">
@@ -41,15 +43,22 @@ export const Conoceme = () => {
                             <Button variant="primary" className="aboutBtns" as={HashLink} to="/Conoceme">CONOCEME</Button>
                         </div>
                         <div className='d-flex flex-row justify-content-between pt-3 pe-3 aboutBtns text-center'>
-                            <Button variant="outline-primary" className="btn-circle">
-                                <FontAwesomeIcon icon={faInstagram} />
-                            </Button>
+                           <a href="https://www.instagram.com/espaciogissel.uy/"  target="_blank" className='about-a'>
+                                <Button variant="outline-primary" className="btn-circle">
+                                    <FontAwesomeIcon icon={faInstagram} />
+                                </Button>
+                            </a>
+
                             <Button variant="outline-primary" className="btn-circle">
                                 <FontAwesomeIcon icon={faWhatsapp} />
                             </Button>
-                            <Button variant="outline-primary" className="btn-circle">
-                                <FontAwesomeIcon icon={faYoutube} />
-                            </Button>
+
+                            <a href="https://www.youtube.com/@gisselolivera6756"  target="_blank" className='about-a'>
+                                <Button variant="outline-primary" className="btn-circle">
+                                    <FontAwesomeIcon icon={faYoutube} />
+                                </Button>
+                            </a>
+                            
                         </div>
                     </div>
 
