@@ -133,7 +133,7 @@ export const TerapiasFlores = () => {
                         Las Esencias Florales del Mediterráneo o las nuevas esencias, como se denominan, surgieron en los años noventa como una alternativa nueva en el mundo de la terapéutica floral.
                         Una terapia nueva, para tratar los requisitos del nuevo mundo. Son creadas y elaboradas bajo las estrictas normas de Bach, por el Dr Pedro Lopez Clemente (Investigador Geobiologo, Naturópata y Virólogo Español), 
                         creando varios sistemas de Flores de Nueva Generación que actúan más como onda que como particulas. 
-                        Estos sistemas van profundizando los niveles de cura o sanación de acuerdo albornoces de cada individuo.
+                        Estos sistemas van profundizando los niveles de cura o sanación de acuerdo al proceso de cada persona.
         
                     </div>
 
