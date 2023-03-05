@@ -43,7 +43,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faWind} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Aromaterapia</Card.Title>
                             <Card.Text className="text card-component">
-                                Medicina alternativa basada en el uso de distintos aceites esenciales y compuestos aromáticos para ayudar con los problemas del cuerpo y de la mente.
+                                Medicina Alternativa basada en el uso de distintos aceites esenciales de la naturaleza para el beneficio del cuerpo y de las emociones asociadas. En mi espacio uso los aceites Just®.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -89,7 +89,7 @@ export const Terapias = () => {
                             <FontAwesomeIcon icon={faMoon} className="card-component icon-color" />
                             <Card.Title className="subtitle card-component">Cartas natales</Card.Title>
                             <Card.Text className="text card-component">
-                                Es una lectura del dibujo del cielo en la tierra en tu momento de nacimiento, y cómo los astros te ayudan a trascender obstáculos y lograr propósitos de vida.
+                                Es una lectura del dibujo del cielo en la tierra en el momento de tu nacimiento, que permite saber como los astros te ayudan a trascender obstáculos y lograr propósitos de vida.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

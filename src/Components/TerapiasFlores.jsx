@@ -131,13 +131,28 @@ export const TerapiasFlores = () => {
                     </div>
                     <div className="msj-text text">
                         Las Esencias Florales del Mediterráneo o las nuevas esencias, como se denominan, surgieron en los años noventa como una alternativa nueva en el mundo de la terapéutica floral.
-                        Una terapia nueva, para tratar los requisitos del nuevo mundo. Fueron creadas por Pedro López Clemente, investigador, naturópata
-                        y geobiólogo español, y la mayoría de ellas fueron obtenidas de flores típicas de la cuenca mediterránea en Europa.
+                        Una terapia nueva, para tratar los requisitos del nuevo mundo. Son creadas y elaboradas bajo las estrictas normas de Bach, por el Dr Pedro Lopez Clemente (Investigador Geobiologo, Naturópata y Virólogo Español), 
+                        creando varios sistemas de Flores de Nueva Generación que actúan más como onda que como particulas. 
+                        Estos sistemas van profundizando los niveles de cura o sanación de acuerdo albornoces de cada individuo.
+        
                     </div>
 
                 </div>
+
                 <div className="container msj-text text w-100">
-                    <p>Las Esencias Florales del Mediterráneo constituyen un set de 40 esencias distintas que conforman un sistema cerrado completo cubriendo
+                    <p className='pt-1 pb-1'>Las esencias del Mediterráneo son flores más específicas y adecuadas para estos tiempos donde existen otros cambios como:</p>
+
+                    <li>Niños con TDH y afecciones de la expresión oral ( habla ), oído (escucha ,) y visión.</li> 
+                    <li>Cambios en la sexualidad y roles Masculino/Femenino.</li>
+                    <li>Adicciones:ayuda en el estado de abstinencia y comportamiento   compulsivo como "Árnica y Don Diego de Día."</li>
+                    <li>Reducción de Hipnosis y Linealidad con los abusos de la informática, TV, y redes sociales como "Copa de los Ángeles"</li>
+                    <li>Desbalances Hormonales.</li>
+                    <li>Ayuda a pacientes que estén en procesos de Constelaciones o biodecodificacion a conectar con memorias del inconciente y 
+                        trabajar la  mirada inadecuada de madre o padre por apego o abandono entre tantas más.</li>
+                </div>
+
+                <div className="container msj-text text w-100 pt-5">
+                    <p>Las Esencias Florales del Mediterráneo fueron obtenidas de flores típicas de la cuenca mediterránea en Europa, constituyen un set de 40 esencias distintas que conforman un sistema cerrado completo cubriendo
                         la mayor parte de las necesidades en el alivio de las alteraciones emocionales más frecuentes en el ser humano.</p>
                         
                     <div className="d-flex flex-row text-list">

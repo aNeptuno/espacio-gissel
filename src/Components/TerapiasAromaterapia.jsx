@@ -69,13 +69,18 @@ export const TerapiasAromaterapia = () => {
 
                 <hr />
 
-                <h2 className="masajes-title text-center pb-5 pt-5 ">ESENCIAS JUST®</h2>
+                <h2 className="masajes-title text-center pb-5 pt-5 ">POR QUÉ USO ESENCIAS JUST®</h2>
                 <div className="container d-flex flex-row pb-5 justify-content-between">
                     <div className="msj-img">
                         <img src={just} alt="descontracturante" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        En espacio Gissel contamos con aromas esenciales Just®, que a diferencia de... que tienen el beneficio de... que son mejores porque... 
+                        Los aceites esenciales y extractos naturales son el alma de una planta y poseen una 
+                        enorme carga de energía siendo una gran syuda para nuestra armonía y bienestar. 
+                        A diferencia de otros aceites esenciales, los de JUST son 100% puros (lo que los hace versátiles para mezclar). 
+                        No son testeados en animales y tienen los más altos estándares de calidad ISO y Gestión Ambiental. 
+                        Son creados con la colaboración de un equipo en una constante investigación basada en los principios de 
+                        Aromaterapia y los procesos de formulación Galénica.
                     </div>
 
                 </div>

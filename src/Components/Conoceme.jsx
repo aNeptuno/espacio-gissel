@@ -30,9 +30,7 @@ export const Conoceme = () => {
                     <h2 className="subtitle pt-2 pb-2">Bienvenidas y bienvenidos</h2>
                     <h1 className="title pt-2 pb-4">Unas palabras sobre mi</h1>
                     <p className="text">
-                        Gissel es pionera en pensar la belleza como un concepto holístico.
-                        De larga trayectoria profesional y de reconocido prestigio en Montevideo.
-                        En 2006 abre su propio centro dedicado exclusivamente a la belleza y la sanación como un todo.
+                        Soy pionera en pensar la belleza como concepto holistico. Tengo larga trayectoria profesional y reconocido prestigio en Montevideo. En 2006 abrí mi propio centro dedicado exclusivamente a la belleza y la sanación como un todo.
                     </p>
                     </Fade>
                     <div className="hand-container">

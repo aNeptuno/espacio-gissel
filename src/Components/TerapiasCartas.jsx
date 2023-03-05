@@ -39,11 +39,7 @@ export const TerapiasCartas = () => {
                         <img src={img1} alt="aromaterapia" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Para hacer una carta natal, se utiliza la fecha y hora exacta de tu nacimiento, para revelar 
-                        la posición de los astros en el cielo. Esto permite conocer aspectos de tu personalidad, 
-                        lo que más te representa como persona, el cómo te expresas y cómo se expresan tus emociones, 
-                        para que puedas conectar con tu verdadera identidad, encontrar respuestas sobre tu vida, y descubrir 
-                        aspectos de tí mismo que quizás permanecen ocultos.
+                        Para hacer tu carta se utiliza la fecha y hora exacta de tu nacimiento. Ese es un momento único que forma ese mandala en el cielo, con la posición de los Astros que te regala dones únicos para llegar a brillar en tu Sol. Caminando por tu Ascendente charlaremos sobre tus aspectos, que son los caminos tensos (que vinimos a trascender) y los más relajados para aprovechar tus habilidades de guerrera/o, creativa/o, y con el amor, dinero, familia, trabajo, salud, sexualidad, curación y propósito entre otros.
                     </div>
 
                 </div>

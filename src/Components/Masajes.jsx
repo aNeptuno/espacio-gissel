@@ -52,10 +52,9 @@ export const Masajes = () => {
                         <img src={reflexologia} alt="reflexologia" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        La Reflexología es un tratamiento holístico basado en la medicina china de que hay zonas y puntos en los pies,
-                        las manos y las orejas que están unidos a través del sistema nervioso a otras partes del cuerpo.
-                        Con la estimulación de estos puntos se consigue corregir la circulación local y por lo tanto eliminar
-                        las acumulaciones de toxinas y otras sustancias no deseables, mejorando el estado de salud del paciente.
+                        Es una de disciplina que sustenta sus bases en el principio de que en los pies y en las manos hay puntos o zonas 
+                        reflejas que se corresponden a distintas estructuras del cuerpo humano (sistemas, órganos, glándulas, etc). 
+                        Esta terapia permite a través de una serie de técnicas y presiones precisas efectuadas en estas zonas, ejercer una acción terapeutica o preventiva de diferentes transtornos de nuestra salud. Su historia es muy antigua desde 2300 A.C en el antiguo Egipto se encontraron inscripciones en tumbas donde se observa la práctica de esta actividad.
 
                         <span id="PiedrasCalientes"></span>
                     </div>
