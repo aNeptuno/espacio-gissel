@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/espacio-gissel/static/css/main.51f43625.css",
-    "main.js": "/espacio-gissel/static/js/main.52227fcb.js",
+    "main.js": "/espacio-gissel/static/js/main.344f7453.js",
     "static/js/787.b1be6193.chunk.js": "/espacio-gissel/static/js/787.b1be6193.chunk.js",
     "static/media/header1.png": "/espacio-gissel/static/media/header1.e0bcfc1ba938b6fa092b.png",
     "static/media/flores2.jpg": "/espacio-gissel/static/media/flores2.d169667214100ee1f75c.jpg",
@@ -16,7 +16,7 @@
     "static/media/aromaterapia1.jpg": "/espacio-gissel/static/media/aromaterapia1.fbd756e8594514d8995a.jpg",
     "static/media/astral2.jpg": "/espacio-gissel/static/media/astral2.c17d68e00d8e65789be8.jpg",
     "static/media/madera.jpg": "/espacio-gissel/static/media/madera.f079dd1863db4cfc7c3a.jpg",
-    "static/media/aboutbg1.jpg": "/espacio-gissel/static/media/aboutbg1.7fde424339aaf2dd2458.jpg",
+    "static/media/aboutbg1.jpg": "/espacio-gissel/static/media/aboutbg1.0e9ceeacbd1d4c973017.jpg",
     "static/media/aromaterapia3.jpg": "/espacio-gissel/static/media/aromaterapia3.0dcc448d79c3ed1c4720.jpg",
     "static/media/flores.jpg": "/espacio-gissel/static/media/flores.06d926ebbf98abf6462a.jpg",
     "static/media/testimonios.jpg": "/espacio-gissel/static/media/testimonios.207842071a46923d4137.jpg",
@@ -43,11 +43,11 @@
     "static/media/logo-gissel-clean.svg": "/espacio-gissel/static/media/logo-gissel-clean.4b40f799c2bce53d7e82087ca5b97f02.svg",
     "index.html": "/espacio-gissel/index.html",
     "main.51f43625.css.map": "/espacio-gissel/static/css/main.51f43625.css.map",
-    "main.52227fcb.js.map": "/espacio-gissel/static/js/main.52227fcb.js.map",
+    "main.344f7453.js.map": "/espacio-gissel/static/js/main.344f7453.js.map",
     "787.b1be6193.chunk.js.map": "/espacio-gissel/static/js/787.b1be6193.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51f43625.css",
-    "static/js/main.52227fcb.js"
+    "static/js/main.344f7453.js"
   ]
 }
