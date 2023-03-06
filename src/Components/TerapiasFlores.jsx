@@ -142,13 +142,13 @@ export const TerapiasFlores = () => {
                 <div className="container msj-text text w-100">
                     <p className='pt-1 pb-1'>Las esencias del Mediterráneo son flores más específicas y adecuadas para estos tiempos donde existen otros cambios como:</p>
 
-                    <li>Niños con TDH y afecciones de la expresión oral ( habla ), oído (escucha ,) y visión.</li> 
+                    <li>Niños con TDH y afecciones de la expresión oral (habla), oído (escucha) y visión.</li> 
                     <li>Cambios en la sexualidad y roles Masculino/Femenino.</li>
-                    <li>Adicciones:ayuda en el estado de abstinencia y comportamiento   compulsivo como "Árnica y Don Diego de Día."</li>
-                    <li>Reducción de Hipnosis y Linealidad con los abusos de la informática, TV, y redes sociales como "Copa de los Ángeles"</li>
+                    <li>Adicciones: ayuda en el estado de abstinencia y comportamiento compulsivo, con Árnica y Don Diego de Día.</li>
+                    <li>Reducción de Hipnosis y Linealidad con los abusos de la informática, TV, y redes sociales con el uso de "Copa de los Angeles".</li>
                     <li>Desbalances Hormonales.</li>
-                    <li>Ayuda a pacientes que estén en procesos de Constelaciones o biodecodificacion a conectar con memorias del inconciente y 
-                        trabajar la  mirada inadecuada de madre o padre por apego o abandono entre tantas más.</li>
+                    <li>Ayuda a pacientes que estén en procesos de Constelaciones o biodecodificacion a conectar con memorias del 
+                        inconciente y trabajar la  mirada inadecuada de madre o padre por apego o abandono entre tantas más.</li>
                 </div>
 
                 <div className="container msj-text text w-100 pt-5">

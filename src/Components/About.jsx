@@ -44,27 +44,14 @@ export const About = () => {
                         </div> 
 
                         <p className="text d-inline-block about-page-p1">
-                            Desde mi niñez tengo un contacto muy cercano a la tierra 
-                            ya que mis padres plantaban y mi abuela curaba con plantas y 
-                            preparados los empachos y algunos malestares. Sin saber, más tarde en mi vida, 
-                            cuando entré a trabajar a la homeopatía Abies, se me abrió todo un mundo de conexión 
-                            entre los padecimientos y su cura a través de las tinturas madre de los principios de Hanneman y 
-                            comencé a usar las flores de bach en mis hijos y en mí, siendo de gran ayuda en nuestros procesos. 
-                            Al mismo tiempo estudiaba enfermería, lo que me despertó la capacidad de servicio y asistencia desde la salud, 
-                            pero con mi mirada, que va más allá del síntoma, y entendiendo, como en la vida misma, que somos un todo: Cuerpo, 
-                            Mente y Espíritu. 
+                            Desde mi niñez tengo un contacto muy cercano a la tierra ya que mis padres plantaban y mi abuela curaba con plantas y preparados los empachos y algunos malestares. Sin saber, más tarde en mi vida, cuando entré a trabajar a la homeopatía Abies, se me abrió todo un mundo de conexión entre los padecimientos y su cura a través de las tinturas madre de los principios de Hanneman, y comencé a usar las flores de bach en mis hijos y en mí, siendo de gran ayuda en nuestros procesos. Al mismo tiempo estudiaba enfermería, lo que me despertó la capacidad de servicio y asistencia en la salud, pero con mi mirada, que va más allá del síntoma, y entendiendo que somos un todo: Cuerpo, Mente y Espíritu.
                         </p>
                     </div>
 
                     <p className="text about-content-text">
-                        Estamos conectados: nuestros hábitos, lo que sentimos, lo que padcemos y queremos cambiar, están 
-                        unidos a la familia que elijo y de la que vengo. También nos atraviesan nuestras creencias conscientes e inconscientes, 
-                        las colectivas y todo lo que nos rodea, por lo que si tratamos un solo aspecto, no hallaremos la curación de nuestro "ser". 
-                        Por eso este es un "Espacio" donde abordo los tratamientos tanto de dolencias corporales, emocionales, mentales y 
-                        espirituales desde distintas técnicas y herramientas de manera personalizada.
+                        Estamos conectados: nuestros hábitos, lo que sentimos, lo que padcemos y queremos cambiar, están unidos a la familia que elijo y de la que vengo. También nos atraviesan nuestras creencias conscientes e inconscientes, las colectivas y todo lo que nos rodea, por lo que si tratamos un solo aspecto, no hallaremos la curación de nuestro <b>Ser</b>. Por eso este es un <b>Espacio</b> donde abordo los tratamientos tanto de dolencias corporales, emocionales, mentales y espirituales desde distintas técnicas y herramientas de manera personalizada.
 
-                        Buscando y encontrando también sanar y sanarme en las heridas de mi arbol gracias a grandes maestros que me han guiado es que 
-                        comparto gozosa este camino con ustedes. Soy una enamorada de mi trabajo y agradecida por lo que recibo día a día. 
+                        Buscando y encontrando sanar y sanarme en las heridas de mi arbol, de la mano de grandes maestros que me han guiado es que comparto gozosa este camino con ustedes. Soy una enamorada de mi trabajo y agradecida por lo que recibo día a día.
                         Como dice Fito Paez <i><quote>‟No cuento el vuelto,siempre es de más”.</quote></i>
                     </p>
                     <p className="text about-content-text">   
