@@ -26,7 +26,7 @@ export const Conoceme = () => {
                 </Fade>
 
                 <div className="d-flex flex-column p-50 p-top-0 about-text p-m-bottom-0">
-                    <Fade fraction={0.3} cascade damping={0.2}>
+                    <Fade fraction={0.3} cascade damping={0.2} triggerOnce={true}>
                     <h2 className="subtitle pt-2 pb-2">Bienvenidas y bienvenidos</h2>
                     <h1 className="title pt-2 pb-4">Unas palabras sobre mi</h1>
                     <p className="text">
