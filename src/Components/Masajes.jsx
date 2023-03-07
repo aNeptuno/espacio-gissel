@@ -15,10 +15,22 @@ import digitopuntura from "../img/digitopuntura.jpg"
 import esteticos from "../img/presoterapia.jpg"
 import reafirmantes from "../img/reafirmantes.jpg"
 
+import { Helmet } from 'react-helmet';
 
 export const Masajes = () => {
     return (
         <>
+            <Helmet>
+                <title>Espacio Gissel - Masajes</title>
+                <meta 
+                name="description"
+                content="Experimenta las modalidades de masaje adecuadas para ti, en el momento y contexto de tu curación global."
+                />
+                <meta 
+                    name="keywords"
+                    content="Masajes, Masajes terapéuticos, Reflexología, Piedras calientes, Masajes Descontracturantes, Maderoterapia, Digitopuntura, Masajes Estéticos con presoterapia, Masajes Reafirmantes con electrodos."
+                />
+            </Helmet>
             <div>
                 <div>
                     <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})` }} >

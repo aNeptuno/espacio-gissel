@@ -9,10 +9,23 @@ import bg from "../img/astral.jpg";
 import img2 from "../img/beneficios.jpg" */
 
 import img1 from "../img/astral2.jpg";
+import { Helmet } from 'react-helmet';
 
 export const TerapiasCartas = () => {
     return (
+        
         <>
+        <Helmet>
+            <title>Espacio Gissel - Cartas Natales</title>
+            <meta 
+                name="description"
+                content="Conoce tu carta natal. Para hacer tu carta se utiliza la fecha y hora exacta de tu nacimiento. Ese es un momento único que forma ese mandala en el cielo, con la posición de los Astros que te regala dones únicos para llegar a brillar en tu Sol. Caminando por tu Ascendente charlaremos sobre tus aspectos, que son los caminos tensos (que vinimos a trascender) y los más relajados para aprovechar tus habilidades de guerrera/o, creativa/o, y con el amor, dinero, familia, trabajo, salud, sexualidad, curación y propósito entre otros."
+            />
+            <meta 
+                name="keywords"
+                content="Carta natal, Astrología, Carta Natal Montevideo"
+            />
+        </Helmet>
             <div>
                 <div>
                     <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})` }} >

@@ -9,10 +9,22 @@ import logo from '../img/header1.png';
 import { Slide } from "react-awesome-reveal";
 
 import bg from "../img/aboutbg1.jpg"
+import { Helmet } from 'react-helmet';
 
 export const About = () => {
     return(
         <>
+        <Helmet>
+            <title>Espacio Gissel - Conoceme</title>
+            <meta 
+            name="description"
+            content="Mi nombre es Gissel Olivera, desde mi niñez tengo un contacto muy cercano a la tierra ya que mis padres plantaban y mi abuela curaba con plantas y preparados los empachos y algunos malestares. Estudié enfermería, lo que me despertó la capacidad de servicio y asistencia en la salud, pero con mi mirada, que va más allá del síntoma, y entendiendo que somos un todo: Cuerpo, Mente y Espíritu."
+            />
+            <meta 
+                name="keywords"
+                content="Gissel Olivera, Conoceme, Historia del Logo"
+            />
+        </Helmet>
         <div>
             <div>
                 <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})`}} >
@@ -44,7 +56,7 @@ export const About = () => {
                         </div> 
 
                         <p className="text d-inline-block about-page-p1">
-                            Desde mi niñez tengo un contacto muy cercano a la tierra ya que mis padres plantaban y mi abuela curaba con plantas y preparados los empachos y algunos malestares. Sin saber, más tarde en mi vida, cuando entré a trabajar a la homeopatía Abies, se me abrió todo un mundo de conexión entre los padecimientos y su cura a través de las tinturas madre de los principios de Hanneman, y comencé a usar las flores de bach en mis hijos y en mí, siendo de gran ayuda en nuestros procesos. Al mismo tiempo estudiaba enfermería, lo que me despertó la capacidad de servicio y asistencia en la salud, pero con mi mirada, que va más allá del síntoma, y entendiendo que somos un todo: Cuerpo, Mente y Espíritu.
+                            Mi nombre es Gissel Olivera, desde mi niñez tengo un contacto muy cercano a la tierra ya que mis padres plantaban y mi abuela curaba con plantas y preparados los empachos y algunos malestares. Sin saber, más tarde en mi vida, cuando entré a trabajar a la homeopatía Abies, se me abrió todo un mundo de conexión entre los padecimientos y su cura a través de las tinturas madre de los principios de Hanneman, y comencé a usar las flores de bach en mis hijos y en mí, siendo de gran ayuda en nuestros procesos. Al mismo tiempo estudiaba enfermería, lo que me despertó la capacidad de servicio y asistencia en la salud, pero con mi mirada, que va más allá del síntoma, y entendiendo que somos un todo: Cuerpo, Mente y Espíritu.
                         </p>
                     </div>
 

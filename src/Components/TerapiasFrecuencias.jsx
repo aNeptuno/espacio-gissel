@@ -6,11 +6,23 @@ import bg from "../img/frecuenciasbg.jpg"
 
 import img1 from "../img/healyresonador.jpg"
 import img2 from "../img/frecuenciasbg3.jpg"
+import { Helmet } from 'react-helmet';
 
 
 export const TerapiasFrecuencias = () => {
     return (
         <>
+        <Helmet>
+            <title>Espacio Gissel - Terapia de Frecuencias</title>
+            <meta 
+                name="description"
+                content="El resonador Healy® es un dispositivo que utiliza programas de Frecuencia de Microcorriente Individualizada (IMF) para la armonización de su Campo Bioenergético."
+            />
+            <meta 
+                name="keywords"
+                content="Healy, Resonador, Terapia de frecuencia, Microcorriente, Healy Montevideo"
+            />
+        </Helmet>
             <div>
                 <div>
                     <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})` }} >

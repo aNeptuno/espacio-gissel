@@ -3,6 +3,7 @@ import NavbarComponent from "./General/Navbar";
 import Footer from "./General/Footer";
 
 import bg from "../img/numerologiabg.jpg"
+import { Helmet } from 'react-helmet';
 
 /* import img1 from "../img/healyresonador.jpg"
 import img2 from "../img/beneficios.jpg"
@@ -11,6 +12,17 @@ import img2 from "../img/beneficios.jpg"
 export const TerapiasNumerologia = () => {
     return (
         <>
+            <Helmet>
+                <title>Espacio Gissel - Numerologia</title>
+                <meta 
+                    name="description"
+                    content="En una carta numerológica, se precisa saber tu fecha de nacimiento y tu nombre y apellido, ya que éstos, y los números que generan tienen distintas vibraciones en el universo, y marcan los aspectos más importantes de tu vida."
+                />
+                <meta 
+                    name="keywords"
+                    content="Numerología, Numerologia Montevideo"
+                />
+            </Helmet>
             <div>
                 <div>
                     <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})` }} >

@@ -9,9 +9,23 @@ import img1 from "../img/aromaterapia1.jpg"
 import img2 from "../img/aromaterapia2.jpg"
 import just from "../img/just.jpg"
 
+import { Helmet } from 'react-helmet';
+
 export const TerapiasAromaterapia = () => {
     return (
         <>
+        <Helmet>
+            <title>Espacio Gissel - Aromaterapia</title>
+            <meta 
+                name="description"
+                content="La aromaterapia es una forma de medicina alternativa basada en el uso de aceites esenciales, o esencias aromáticas con el objetivo de mejorar el bienestar físico y psicológico, tratando distintos síntomas o afecciones.
+                Se puede aplicar en forma de masaje, y en combinación con otras terapias, como también a través de la respiración, ya que son los olores de las esencias los que generan efectos relajantes, estimulantes o revitalizantes."
+            />
+            <meta 
+                name="keywords"
+                content="Aromaterapia, Medicina Alternativa, Masaje con aromaterapia, Esencias Just, Just aromas, Aromaterapia con Just"
+            />
+        </Helmet>
             <div>
                 <div>
                     <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})` }} >

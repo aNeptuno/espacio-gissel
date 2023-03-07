@@ -7,10 +7,22 @@ import bg from "../img/barrasbg2.jpg"
 
 import img1 from "../img/barrasImg.jpg"
 import img2 from "../img/accessbar.jpg"
+import { Helmet } from 'react-helmet';
 
 export const TerapiasBarras = () => {
     return (
         <>
+        <Helmet>
+            <title>Espacio Gissel - Barras de Access®</title>
+            <meta 
+                name="description"
+                content="Las barras son 32 puntos en la cabeza y estos representan cosas como: tu cuerpo, dinero, sanación, creatividad, gozo, paz y calma, solo por nombrar unos pocos. Las barras son toques ligeramente suaves que dejan ir los pensamientos, sentimientos, emociones y consideraciones que hayas guardado en cualquier vida. Cuando estos puntos se tocan ligeramente con los dedos, tu cuerpo empieza a sentir una relajación tan profunda que dejas ir las cosas que te han mantenido atascado en esta vida y vidas pasadas también."
+            />
+            <meta 
+                name="keywords"
+                content="Barras de Access, Barras de Access Montevideo, Terapia de barras, Sanación "
+            />
+        </Helmet>
             <div>
                 <div>
                     <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})` }} >

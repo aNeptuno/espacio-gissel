@@ -11,10 +11,22 @@ import img3 from "../img/mediterraneo.jpg" /* esta esta buena */
 import img4 from "../img/flores2.jpg"
 import img5 from "../img/lavanda.jpg"
 import img6 from "../img/GisselFlores.jpg"
+import { Helmet } from 'react-helmet';
 
 export const TerapiasFlores = () => {
     return (
         <>
+        <Helmet>
+            <title>Espacio Gissel - Flores</title>
+            <meta 
+                name="description"
+                content="Flores de Bach y del Mediterráneo. Su actuación más evidente o evaluable es de incidencia emocional y por lo tanto, son de utilidad contrastada en los procesos de estado de ánimo asociados a todo tipo de desequilibrios de los seres vivos. Las esencias florales potencian las virtudes opuestas a estados emocionales disarmónicos, que causan sufrimiento (stress, miedo, incertidumbre), permitiendo equilibrar y mantener una apreciación más armónica en un medio de vida cambiante como el actual. Actúan en las causas profundas y sutiles de los conflictos humanos. Desde el punto de vista de la terapia floral lo importante a observar, en un proceso de enfermedad, no radica en los síntomas que la persona experimenta físicamente. La importancia está en la valoración de la globalidad emocional de la persona y la relación que mantiene consigo misma y con su entorno; siendo prioritario considerar que no existen enfermedades sino enfermos. Para lo cual, será fundamental tener en cuenta la apreciación subjetiva del individuo respecto a su existencia y sentimientos, esto es, valorar lo más posible la “vivencia interior” del sujeto."
+            />
+            <meta 
+                name="keywords"
+                content="Flores de Bach. Flores del Mediterraneo. Flores de Bach Montevideo. Flores del Mediterraneo Montevideo"
+            />
+        </Helmet>
             <div>
                 <div>
                     <section className="parallax img-p-1" style={{ backgroundImage: `url(${bg})` }} >
