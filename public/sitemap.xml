@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://testcoop2.site/</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://testcoop2.site/Conoceme</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://testcoop2.site/Masajes</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+<url>
+  <loc>https://testcoop2.site/Terapias</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://testcoop2.site/Terapias/Frecuencias</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://testcoop2.site/Terapias/Aromaterapia</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://testcoop2.site/Terapias/Flores</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://testcoop2.site/Terapias/Barras</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://testcoop2.site/Terapias/CartasNatales</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://testcoop2.site/Terapias/Numerologia</loc>
+  <lastmod>2023-03-07T17:40:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+</urlset>
