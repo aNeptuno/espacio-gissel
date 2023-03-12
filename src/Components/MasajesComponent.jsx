@@ -17,21 +17,21 @@ function Masajescomponent() {
         <div className="bg-orange">
             <div className="container pt-5 pb-4">
                 <div className="d-flex flex-column masajes-mainpage pb-4">
-                    
-                        <div className='masajes-mainpage-welcome'>
 
-                        <Fade direction='right' fraction={0.3} triggerOnce={true}>
+                    <div className='masajes-mainpage-welcome'>
+
+                        <Fade direction='right' fraction={1} duration={1300} triggerOnce={true}>
                             <h1 className="title title-orange pt-4 pb-4">Masajes para el bienestar</h1>
-                            
-                            <h2 className="subtitle subtitle-orange pt-2 pb-2">Conoce la amplia variedad de masajes, uno de ellos es para ti</h2>
-                            </Fade>
-                            <div className="spa-container">
-                                <FontAwesomeIcon icon={faSpa} color="rgba(236, 75, 25, .2)" />
-                            </div>
 
+                            <h2 className="subtitle subtitle-orange pt-2 pb-2">Conoce la amplia variedad de masajes, uno de ellos es para ti</h2>
+                        </Fade>
+                        <div className="spa-container">
+                            <FontAwesomeIcon icon={faSpa} color="rgba(236, 75, 25, .2)" />
                         </div>
+
+                    </div>
                     <div className='masajes-mainpage-content pt-5 '>
-                        <Fade direction='left' fraction={0.3} cascade damping={0.4} triggerOnce={true}>
+                        <Fade direction='left' fraction={0.3} cascade damping={0.5} triggerOnce={true}>
                             <ul>
                                 <li className="text text-orange">
                                     <Button variant="outline-danger" className="btn-msj">
