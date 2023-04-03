@@ -49,7 +49,9 @@ export const TerapiasFrecuencias = () => {
                         <img src={img1} alt="aromaterapia" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        El resonador Healy® es un dispositivo que utiliza programas de Frecuencia de Microcorriente Individualizada (IMF) para la armonización de su Campo Bioenergético.
+                    El resonador Healy® es un dispositivo portátil que utiliza programas de Frecuencias de Microcorriente Individualizada (IMF) para la armonización de su Campo Bioenergético, el tratamiento del <b>dolor</b>; así como para <b>apoyar</b> el tratamiento de enfermedades y afecciones mentales como la depresión, la ansiedad o los transtornos del sueño. También sirve para <b>reforzar</b> tu sistema inmune, mejorar el rendimiento deportivo y también con fines estéticos sobre la <b>piel</b>, y de <b>belleza</b> en general.
+                    Healy no vino a curar sino a restablecer el equilibrio electrolítico y eléctrico de nuestro organismo con diversas técnicas, tales como <b>biorresonancia cuántica, microcorrientes, frecuencias y análisis de aura. </b>
+                     Healy es ciencia y conciencia, y está hecho en base a la experiencia de cientos de terapeutas con el uso de la tecnología tesla.
                     </div>
 
                 </div>
@@ -62,8 +64,19 @@ export const TerapiasFrecuencias = () => {
                         <img src={img2} alt="aromaterapia" width="400px" />
                     </div>
                     <div className="msj-text text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, earum est. 
-                        Quis, autem dolor voluptas itaque cum reiciendis ipsa quisquam impedit provident deleniti. Delectus temporibus non, voluptatem ipsam soluta explicabo?
+                    Sus campos de aplicación son los siguientes:
+                    <li>Afecciones bioenergéticas locales, agudas o crónicas</li>
+                    <li>Para numerosos trastornos y órganos, apoyo a través del equilibrio bioenergético</li>
+                    <li>Ayuda y equilibrio en la ansiedad y la depresión</li>
+                    <li>Un mejor descanso y mejora del sueño</li>
+                    <li>Ayuda a alcanzar metas deportivas</li>
+                    <li>Ayuda a la preparación para exámenes y pruebas, mejorando el enfoque mental</li>
+                    <li>Relajación más rápida y una mejor gestión del estrés</li>
+                    <li>Mejora el flujo de energía vital</li>
+                    <li>Ayuda a activar y armonizar los centros energéticos</li>
+                    <li>Apoyo en los tratamientos de belleza interior y exterior</li>
+                    <br></br>
+                    También en mi espacio gestionamos que otros profesionales de la salud incluyan en sus terapias este dispositivo con tanto éxito como yo. <b>Te esperamos!</b>
                     </div>
 
                 </div>
