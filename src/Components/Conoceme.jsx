@@ -19,11 +19,11 @@ export const Conoceme = () => {
         <div className="container">
             <div className="d-flex flex-row mb-3 p-50 about-cont p-m-bottom-0">
 
-                <Fade fraction={1} duration={1200} triggerOnce={true}>
+                
                     <div className="about-img">
                         <img src={about} alt="Espacio Gissel" />
                     </div>
-                </Fade>
+                
 
                 <div className="d-flex flex-column p-50 p-top-0 about-text p-m-bottom-0">
                     <Fade fraction={1} cascade damping={0.2} triggerOnce={true}>
