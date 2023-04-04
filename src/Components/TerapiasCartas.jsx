@@ -5,11 +5,12 @@ import Footer from "./General/Footer";
 
 import bg from "../img/astral.jpg";
 
-/* import img1 from "../img/healyresonador.jpg"
-import img2 from "../img/beneficios.jpg" */
+/* import img1 from "../img/healyresonador.jpg"*/
+
 
 import img1 from "../img/astral2.jpg";
 import { Helmet } from 'react-helmet';
+import img2 from "../img/tarotegipcio.jpg";
 
 export const TerapiasCartas = () => {
     return (
@@ -62,10 +63,25 @@ export const TerapiasCartas = () => {
             <div className="masajes-container pb-5">
 
                 <h2 className="masajes-title text-center pb-5 pt-5">...Y QUÉ TE ESPERA EN EL FUTURO</h2>
-                <div className="container d-flex flex-row-reverse pb-5 justify-content-between">
+                <div className="container d-flex flex-row-reverse pb-2 justify-content-between">
                     <div className=" text">
                         A demás de revelar aspectos personales, también es posible saber cómo te afectan los astros hoy, y cómo te afectarán en el futuro, revelando tendencias, 
                         posibilidades y oportunidades, para orientarnos sobre cómo actuar en los distintos aspectos de la vida, tanto en el presente, como en el futuro.
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className="masajes-container pt-5 ">
+
+                <h2 className="masajes-title text-center pb-5 pt-2">TAROT EGIPCIO</h2>
+                <div className="container d-flex flex-row-reverse pb-0 justify-content-between">
+                    <div className="msj-img">
+                        <img src={img2} alt="aromaterapia" width="400px" />
+                    </div>
+                    <div className="msj-text text">
+                    El tarot egipcio nos da una guía muy completa, ya que además de utilizar la sabiduría de la numerologia y los símbolos, nos conecta con todo el cielo a través de los planetas y los signos. La tirada astrologica en forma de rueda nos permite acercarnos a una mirada más concreta en cada una las casas, como trabajo, dinero, salud, relaciones, hogar y propósito entre otras.
                     </div>
 
                 </div>

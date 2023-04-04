@@ -64,7 +64,7 @@ export const About = () => {
                         Estamos conectados: nuestros hábitos, lo que sentimos, lo que padcemos y queremos cambiar, están unidos a la familia que elijo y de la que vengo. También nos atraviesan nuestras creencias conscientes e inconscientes, las colectivas y todo lo que nos rodea, por lo que si tratamos un solo aspecto, no hallaremos la curación de nuestro <b>Ser</b>. Por eso este es un <b>Espacio</b> donde abordo los tratamientos tanto de dolencias corporales, emocionales, mentales y espirituales desde distintas técnicas y herramientas de manera personalizada.
 
                         Buscando y encontrando sanar y sanarme en las heridas de mi arbol, de la mano de grandes maestros que me han guiado es que comparto gozosa este camino con ustedes. Soy una enamorada de mi trabajo y agradecida por lo que recibo día a día.
-                        Como dice Fito Paez <i><quote>‟No cuento el vuelto,siempre es de más”.</quote></i>
+                        Como dice Fito Paez <i><b><quote>‟No cuento el vuelto, siempre es de más”.</quote></b></i>
                     </p>
                     <p className="text about-content-text">   
                         <p className='pt-1 pb-1'>Estoy formada en disciplinas como: </p>
@@ -101,18 +101,10 @@ export const About = () => {
                 <h1 className="title text-center pb-3">Historia del logo</h1>
                 
                 <div className="about-content">
-                    <div className="about-content-welcome welcome-2 pt-3">
+                    <div className="about-content-welcome welcome-2 pt-2">
                         <p className="text d-inline-block about-page-p2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                            eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                            eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                            eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                            eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                            eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
+                        <i><b><quote>‟Nada es casualidad, todo es causalidad”</quote></b></i><br></br>
+                        En el 2009 fui invitada a un evento en el teatro Astral sobre el homenaje a una autora uruguaya de poesía. Cuando llegué, en el escenario, como parte del homenaje, estaba la artista Sandra Moizo pintando descalza un óleo, donde se podía ver un rostro, mitad felino mitad mujer, y de inmediato quedé deslumbrada con su obra. Al terminar me acerqué a conocerla y le pedí si podía hacer un óleo en forma de mandala, con una mujer que estuviera conectada a través del pelo con el cielo y a través de los pies con la tierra. <b>Ella es un ser de una sensibilidad que me conmueve.</b> Me contestó que no pinta nada por encargue, y sólo si iba a mi espacio y se conectaba con lo que sentía en el lugar podía pintarlo.
                         </p>
 
                         <div className="about-page-img about-img-logo">
@@ -121,16 +113,8 @@ export const About = () => {
                     </div>
 
                     <p className="text about-content-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                        eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                        eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                        eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                        eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos minima, 
-                        eaque quibusdam iusto ut perferendis aliquam. Neque deleniti voluptatum placeat commodi nam, reprehenderit tempora, sit esse quo in qui.
+                    Y así fue. Pasó una tarde, y sin saber de las técnicas que hacía me entregó su obra, que fue mucho más de lo que imaginé, porque representa justamente el todo: el sol, la luna, el cielo, la tierra, la sanación de las raíces a través del árbol, la protección y todas las maravillosas interpretaciones que cada paciente conecta cuando lo ve. 
+                    De más está decirles que <a href="https://www.instagram.com/moizosandra/" target="_blank">les invito a conocerla</a>, o a aprender en su escuela de todas las disciplinas de su arte. 
                     </p>
                 </div>
             </div>
