@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.51f43625.css",
-    "main.js": "/static/js/main.4353952a.js",
+    "main.js": "/static/js/main.1e6e15a3.js",
     "static/js/787.b1be6193.chunk.js": "/static/js/787.b1be6193.chunk.js",
     "static/media/header1.png": "/static/media/header1.e0bcfc1ba938b6fa092b.png",
     "static/media/flores2.jpg": "/static/media/flores2.d169667214100ee1f75c.jpg",
@@ -18,6 +18,7 @@
     "static/media/madera.jpg": "/static/media/madera.f079dd1863db4cfc7c3a.jpg",
     "static/media/aboutbg1.jpg": "/static/media/aboutbg1.0e9ceeacbd1d4c973017.jpg",
     "static/media/aromaterapia3.jpg": "/static/media/aromaterapia3.0dcc448d79c3ed1c4720.jpg",
+    "static/media/tarotegipcio.jpg": "/static/media/tarotegipcio.fa431994a42f94dd9330.jpg",
     "static/media/flores.jpg": "/static/media/flores.06d926ebbf98abf6462a.jpg",
     "static/media/testimonios.jpg": "/static/media/testimonios.207842071a46923d4137.jpg",
     "static/media/aromaterapia2.jpg": "/static/media/aromaterapia2.ad1d6b82899bbf6c3ca8.jpg",
@@ -43,11 +44,11 @@
     "static/media/logo-gissel-clean.svg": "/static/media/logo-gissel-clean.4b40f799c2bce53d7e82087ca5b97f02.svg",
     "index.html": "/index.html",
     "main.51f43625.css.map": "/static/css/main.51f43625.css.map",
-    "main.4353952a.js.map": "/static/js/main.4353952a.js.map",
+    "main.1e6e15a3.js.map": "/static/js/main.1e6e15a3.js.map",
     "787.b1be6193.chunk.js.map": "/static/js/787.b1be6193.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51f43625.css",
-    "static/js/main.4353952a.js"
+    "static/js/main.1e6e15a3.js"
   ]
 }
